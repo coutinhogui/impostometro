@@ -1,66 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Impostômetro — Linha do Tempo (1950–2025)</title>
-  <meta name="description" content="Linha do tempo dos tributos no Brasil desde 1950, com aumentos, reduções e novas taxas." />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Impostômetro — Linha do Tempo Completa de Tributos Brasileiros (1925–2025)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .timeline:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;background:rgba(15,23,42,.15)}
+    .dot{position:absolute;top:1rem;left:50%;transform:translate(-50%,-50%);height:12px;width:12px;border-radius:9999px;background:#16a34a;border:2px solid white;box-shadow:0 0 0 2px rgba(16,185,129,.35)}
+    .sideL{width:50%;padding-right:1.25rem;text-align:right}
+    .sideR{width:50%;padding-left:1.25rem;text-align:left}
+    @media (max-width:1024px){.sideL,.sideR{width:100%;padding:0;text-align:left}}
+  </style>
 </head>
-<body>
-  <header class="site-header">
-    <h1>Impostômetro</h1>
-    <p class="subtitle">Linha do tempo dos tributos no Brasil (1950–2025)</p>
+<body class="bg-slate-50 text-slate-800">
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between">
+      <div>
+        <h1 class="text-2xl font-bold">🇧🇷 Linha do Tempo de Tributos no Brasil (1925–2025)</h1>
+        <p class="text-xs text-slate-500">Criações, aumentos, reduções e extinções com indicação de impacto.</p>
+      </div>
+      <div class="flex flex-wrap gap-2 items-center text-xs">
+        <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-emerald-100 text-emerald-700">🔻 Benéfico (redução/extinção)</span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-rose-100 text-rose-700">🔺 Prejudicial (aumento/criação)</span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-indigo-100 text-indigo-700">🔷 Ajuste/Neutro</span>
+        <span id="contador" class="ml-2 text-slate-500"></span>
+      </div>
+    </div>
   </header>
 
-  <section class="controls">
-    <div class="search">
-      <label for="q">Buscar</label>
-      <input id="q" type="search" placeholder="Ex.: ICMS, IOF, COFINS..." />
+  <main class="max-w-7xl mx-auto px-4 py-10">
+    <div class="timeline relative">
+      <div id="timeline" class="space-y-10"></div>
     </div>
+  </main>
 
-    <div class="filters">
-      <div class="filter">
-        <label for="nivel">Esfera</label>
-        <select id="nivel">
-          <option value="">Todas</option>
-          <option value="Federal">Federal</option>
-          <option value="Estadual">Estadual</option>
-          <option value="Municipal">Municipal</option>
-        </select>
-      </div>
-      <div class="filter">
-        <label for="status">Status</label>
-        <select id="status">
-          <option value="">Todos</option>
-          <option value="Vigente">Vigente</option>
-          <option value="Extinto">Extinto</option>
-          <option value="Temporário">Temporário</option>
-        </select>
-      </div>
-      <div class="filter">
-        <label for="decada">Década</label>
-        <select id="decada">
-          <option value="">Todas</option>
-        </select>
-      </div>
-    </div>
-  </section>
+  <script>
+    // impact: 'increase' (🔺), 'new' (🔺), 'decrease' (🔻), 'end' (🔻), 'adjust' (🔷), 'info' (no badge)
+    let DATA = [
+      // ====== FUNDADORES E BASE LEGAL ======
+      {year:1922, title:"IRPF — Imposto de Renda Pessoa Física", desc:"Instituição do IRPF no Brasil.", president:"Epitácio Pessoa", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/institucional/memoria/imposto-de-renda"},
+      {year:1934, title:"Imposto Único sobre Combustíveis e Lubrificantes", desc:"Primeira forma de tributação nacional sobre combustíveis.", president:"Getúlio Vargas", impact:"new", sphere:"Federal", type:"Imposto Único", source:"https://pt.wikipedia.org/wiki/Impostos_%C3%9Anicos_no_Brasil"},
+      {year:1940, title:"Contribuição Sindical", desc:"Custeio sindical (facultativa desde 2017).", president:"Getúlio Vargas", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://pt.wikipedia.org/wiki/Contribui%C3%A7%C3%A3o_sindical"},
+      {year:1942, title:"SENAI (Sistema S) — contribuição", desc:"Formação profissional industrial.", president:"Getúlio Vargas", impact:"new", sphere:"Federal", type:"Contribuição parafiscal", source:"https://pt.wikipedia.org/wiki/Servi%C3%A7o_Nacional_de_Aprendizagem_Industrial"},
+      {year:1943, title:"IRPJ — Imposto de Renda Pessoa Jurídica", desc:"Imposto sobre lucros das empresas.", president:"Getúlio Vargas", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www.gov.br/receitafederal/pt-br/assuntos/educacao-fiscal/irpj"},
+      {year:1946, title:"SESI/SESC/SENAC — contribuições", desc:"Bem-estar e formação profissional.", president:"Eurico Dutra", impact:"new", sphere:"Federal", type:"Contribuição parafiscal", source:"https://pt.wikipedia.org/wiki/Sistema_S"},
+      {year:1954, title:"IUEE — Imposto Único sobre Energia Elétrica", desc:"Lei 2.308/1954; depois absorvido pelo ICMS (CF/88).", president:"Getúlio Vargas", impact:"new", sphere:"Federal", type:"Imposto Único", source:"https://pt.wikipedia.org/wiki/Impostos_%C3%9Anicos_no_Brasil"},
+      {year:1957, title:"II — Imposto de Importação (reforma JK)", desc:"Marco de modernização do II; consolidado no DL 37/1966.", president:"Juscelino Kubitschek", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-37-18-novembro-1966-375637-publicacaooriginal-1-pe.html"},
+      {year:1960, title:"RGPS/INSS — contribuições previdenciárias", desc:"Custeio do regime geral de previdência (empregadores e segurados).", president:"Juscelino Kubitschek", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.gov.br/inss/pt-br"},
+      {year:1964, title:"IPI — Imposto sobre Produtos Industrializados", desc:"Lei 4.502/1964 reestrutura o tributo.", president:"Castelo Branco", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www.planalto.gov.br/ccivil_03/decreto-lei/del4502.htm"},
+      {year:1966, title:"CTN — Código Tributário Nacional", desc:"Lei 5.172/1966: normas gerais e sistema tributário.", president:"Castelo Branco", impact:"info", sphere:"Federal", type:"Lei Geral", source:"https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"},
+      {year:1966, title:"IOF — Imposto sobre Operações Financeiras", desc:"Crédito, câmbio, seguros, títulos.", president:"Castelo Branco", impact:"new", sphere:"Federal", type:"Imposto", source:"https://pt.wikipedia.org/wiki/Imposto_sobre_Opera%C3%A7%C3%B5es_Financeiras"},
+      {year:1966, title:"II — reorganização moderna (DL 37/1966)", desc:"Dispõe sobre o II e reorganiza serviços aduaneiros.", president:"Castelo Branco", impact:"adjust", sphere:"Federal", type:"Imposto", source:"https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-37-18-novembro-1966-375637-publicacaooriginal-1-pe.html"},
+      {year:1966, title:"FGTS — contribuição", desc:"Lei 5.107/1966 cria o FGTS.", president:"Castelo Branco", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5107-13-setembro-1966-368498-publicacaooriginal-1-pl.html"},
+      {year:1968, title:"DL 406/1968 — normas gerais de ICM/ISS", desc:"Base histórica (pré-CF/88).", president:"Costa e Silva", impact:"info", sphere:"Geral", type:"Lei Complementar", source:"https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-406-31-dezembro-1968-376809-publicacaooriginal-1-pe.html"},
+      {year:1970, title:"PIS/PASEP — contribuição", desc:"LC 7/1970: abono salarial e seguro-desemprego.", president:"Emílio Médici", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp07.htm"},
+      {year:1970, title:"INPI — taxas de serviços", desc:"Marcas, patentes e DI.", president:"Emílio Médici", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.gov.br/inpi/pt-br"},
+      {year:1976, title:"CVM — taxa de fiscalização", desc:"Lei 6.385/1976.", president:"Ernesto Geisel", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.planalto.gov.br/ccivil_03/leis/L6385.htm"},
+      {year:1977, title:"IE — Imposto de Exportação (DL 1.578/1977)", desc:"Define fato gerador e regras.", president:"Ernesto Geisel", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www2.camara.leg.br/legin/fed/declei/1970-1979/decreto-lei-1578-11-outubro-1977-370523-norma-pe.html"},
 
-  <section id="stats" class="stats"></section>
+      // ====== CF/88 E REORDENAÇÃO ======
+      {year:1985, title:"IPVA — EC 27/1985", desc:"Substitui TRU; imposto estadual sobre veículos.", president:"José Sarney", impact:"new", sphere:"Estadual", type:"Imposto", source:"https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-27-28-novembro-1985-364973-publicacaooriginal-1-pl.html"},
+      {year:1988, title:"CF/88 — competências (ICMS/IPTU/ITBI/ITCMD)", desc:"Reestruturação do sistema tributário.", president:"José Sarney", impact:"new", sphere:"Geral", type:"Constituição", source:"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
+      {year:1988, title:"CSLL — contribuição", desc:"Lei 7.689/1988.", president:"José Sarney", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/leis/L7689.htm"},
+      {year:1988, title:"IGF — previsto (não regulamentado)", desc:"Art. 153, VII, CF/88.", president:"José Sarney", impact:"info", sphere:"Federal", type:"Imposto (previsto)", source:"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
+      {year:1988, title:"ILL — Imposto sobre Lucros Líquidos", desc:"Lei 7.713/1988 (extinto no início dos anos 1990).", president:"José Sarney", impact:"new", sphere:"Federal", type:"Imposto (extinto)", source:"https://pt.wikipedia.org/wiki/Imposto_sobre_lucros_l%C3%ADquidos"},
+      {year:1989, title:"IBAMA — taxa de fiscalização", desc:"Licenças e controle ambiental.", president:"José Sarney", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.ibama.gov.br/"},
 
-  <main id="timeline" class="timeline" aria-live="polite"></main>
+      // ====== 1990s ======
+      {year:1991, title:"COFINS — contribuição", desc:"LC 70/1991.", president:"Fernando Collor", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp70.htm"},
+      {year:1991, title:"SENAR — contribuição", desc:"Formação rural.", president:"Fernando Collor", impact:"new", sphere:"Federal", type:"Contribuição parafiscal", source:"https://pt.wikipedia.org/wiki/Servi%C3%A7o_Nacional_de_Aprendizagem_Rural"},
+      {year:1993, title:"SEST/SENAT — contribuições", desc:"Setor de transporte.", president:"Itamar Franco", impact:"new", sphere:"Federal", type:"Contribuição parafiscal", source:"https://www.sestsenat.org.br/"},
+      {year:1993, title:"IPMF — imposto provisório (extinto)", desc:"EC 3/1993; vigorou em 1994.", president:"Itamar Franco", impact:"new", sphere:"Federal", type:"Imposto (extinto)", source:"https://pt.wikipedia.org/wiki/Imposto_sobre_movimenta%C3%A7%C3%B5es_financeiras"},
+      {year:1996, title:"ITR — Lei 9.393/1996", desc:"Regulamentação atual.", president:"FHC", impact:"new", sphere:"Federal", type:"Imposto", source:"https://www.planalto.gov.br/ccivil_03/leis/l9393.htm"},
+      {year:1996, title:"CPMF — criação", desc:"Lei 9.311/1996 (vigência 1997–2007).", president:"FHC", impact:"new", sphere:"Federal", type:"Contribuição (extinta)", source:"https://www.planalto.gov.br/ccivil_03/leis/l9311.htm"},
+      {year:1997, title:"ANATEL — taxa de fiscalização", desc:"Lei 9.472/1997.", president:"FHC", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.planalto.gov.br/ccivil_03/leis/L9472.htm"},
+      {year:1998, title:"SESCOOP — contribuição", desc:"Aprendizagem do cooperativismo.", president:"FHC", impact:"new", sphere:"Federal", type:"Contribuição parafiscal", source:"https://www.bcb.gov.br/estabilidadefinancial/cooperativas_sescoop"},
+      {year:1999, title:"ANVISA — taxa de fiscalização", desc:"Lei 9.782/1999.", president:"FHC", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.planalto.gov.br/ccivil_03/leis/L9782.htm"},
+      {year:2000, title:"Exército — Taxa de Produtos Controlados", desc:"Armas, munições e explosivos.", president:"FHC", impact:"new", sphere:"Federal", type:"Taxa", source:"https://www.gov.br/pt-br/servicos/emitir-guia-de-recolhimento-de-taxas-de-fiscalizacao-de-produtos-controlados"},
+      {year:2000, title:"EC 31/2000 — Fundos Estaduais de Combate à Pobreza", desc:"Adicionais do ICMS (FECP).", president:"FHC", impact:"new", sphere:"Estadual", type:"Adicional/Contribuição", source:"https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc31.htm"},
+      {year:2001, title:"CIDE-Combustíveis — criação", desc:"Lei 10.336/2001.", president:"FHC", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10336.htm"},
+      {year:2001, title:"CONDECINE — contribuição", desc:"MP 2.228-1/2001 (audiovisual).", president:"FHC", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/mpv/Antigas_2001/2228-1.htm"},
+      {year:2002, title:"EC 39/2002 — COSIP (iluminação pública)", desc:"Art. 149-A CF/88.", president:"FHC", impact:"new", sphere:"Municipal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc39.htm"},
 
-  <footer class="site-footer">
-    <p><strong>Legenda:</strong> <span class="badge up">Aumento (🔺)</span> <span class="badge down">Redução (🔻)</span> <span class="badge new">Nova taxa (🆕)</span></p>
-    <p>Dados resumidos para fins informativos. Edite <code>assets/js/data.js</code> e <code>assets/js/data-ajustes-2023-2025.js</code> para ampliar.</p>
-  </footer>
+      // ====== 2003+ ======
+      {year:2003, title:"ISS — LC 116/2003 (regras atuais)", desc:"Lista de serviços e regras do ISS.", president:"Lula", impact:"adjust", sphere:"Municipal", type:"Imposto", source:"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm"},
+      {year:2004, title:"AFRMM — adicional ao frete (Lei 10.893/2004)", desc:"Marinha mercante.", president:"Lula", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/L10.893.htm"},
+      {year:2004, title:"PIS/COFINS-Importação — Lei 10.865/2004", desc:"Contribuições sobre importação.", president:"Lula", impact:"new", sphere:"Federal", type:"Contribuição", source:"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/L10.865.htm"},
+      {year:2007, title:"CPMF — extinção", desc:"Rejeição no Senado; fim em 31/12/2007.", president:"Lula", impact:"end", sphere:"Federal", type:"Contribuição (extinta)", source:"https://www12.senado.leg.br/noticias/entenda-o-assunto/cpmf"},
+      {year:2007, title:"IOF — Decreto 6.306/2007 (regulamento)", desc:"Consolidação do IOF.", president:"Lula", impact:"adjust", sphere:"Federal", type:"Decreto/Regulamento", source:"https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/Decreto/D6306.htm"},
+      {year:2010, title:"Regulamento do IPI — Decreto 7.212/2010", desc:"Consolidação do IPI.", president:"Lula", impact:"adjust", sphere:"Federal", type:"Decreto/Regulamento", source:"https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/decreto/d7212.htm"},
+      {year:2013, title:"Desoneração de folha — ampliação", desc:"Amplia setores beneficiados.", president:"Dilma Rousseff", impact:"decrease", sphere:"Federal", type:"Contribuição/Política", source:"https://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Lei/L12844.htm"},
+      {year:2015, title:"PIS/COFINS combustíveis — reoneração", desc:"Ajuste de alíquotas.", president:"Dilma Rousseff", impact:"increase", sphere:"Federal", type:"Contribuição", source:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2015/fevereiro/receita-informa-sobre-reducao-de-credito-de-piscofins-e-reoneracao"},
+      {year:2017, title:"Reoneração de combustíveis — PIS/COFINS", desc:"Elevação nas alíquotas.", president:"Michel Temer", impact:"increase", sphere:"Federal", type:"Contribuição", source:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2017/julho/governo-eleva-aliquota-do-pis-cofins-sobre-combustiveis"},
 
-  <script>window.CURRENT_YEAR = 2025;</script>
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/data-ajustes-2023-2025.js"></script>
-  <script src="assets/js/app.js"></script>
+      // ====== 2019–2022 (Bolsonaro) ======
+      {year:2020, title:"IOF-crédito — isenção na pandemia", desc:"Zerado temporariamente.", president:"Jair Bolsonaro", impact:"decrease", sphere:"Federal", type:"Imposto", source:"https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-951-de-15-de-abril-de-2020-252295412"},
+      {year:2022, title:"IPI — redução (Decreto 10.979/2022)", desc:"Redução de alíquotas IPI.", president:"Jair Bolsonaro", impact:"decrease", sphere:"Federal", type:"Imposto", source:"https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10979.htm"},
+      {year:2022, title:"IPI — redução ampliada (35%)", desc:"Ampliação da redução geral.", president:"Jair Bolsonaro", impact:"decrease", sphere:"Federal", type:"Imposto", source:"https://www.gov.br/casacivil/pt-br/assuntos/noticias/2022/agosto/decreto-garante-a-reducao-de-35-no-ipi-sobre-produtos-industrializados"},
+      {year:2022, title:"LC 194/2022 — teto ICMS combustíveis/energia", desc:"Limita ICMS; reduz carga.", president:"Jair Bolsonaro", impact:"decrease", sphere:"Estadual", type:"Imposto", source:"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp194.htm"},
+
+      // ====== 2023–2025 (Lula III) ======
+      {year:2023, title:"Reoneração federal de combustíveis", desc:"Volta de PIS/COFINS/CIDE (gasolina/etanol).", president:"Lula", impact:"increase", sphere:"Federal", type:"Contribuição", source:"https://www.camara.leg.br/noticias/941708-entra-em-vigor-medida-provisoria-que-altera-tributacao-da-gasolina-e-do-alcool/"},
+      {year:2023, title:"Lei 14.790/2023 — apostas (bets)", desc:"IRPF 15% prêmios; GGR 12% operador.", president:"Lula", impact:"new", sphere:"Federal", type:"Imposto/Contribuição", source:"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"},
+      {year:2024, title:"IN RFB 2.191/2024 — prêmios de bets", desc:"Regulamenta IRPF 15% em prêmios.", president:"Lula", impact:"increase", sphere:"Federal", type:"Regulamentação", source:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2024/maio/receita-regulamenta-tributacao-de-apostas-de-quota-fixa"},
+      {year:2024, title:"Lei 14.902/2024 — remessas até US$ 50 (II 20%)", desc:"Taxação de e-commerce internacional de pequeno valor.", president:"Lula", impact:"increase", sphere:"Federal", type:"Imposto", source:"https://www12.senado.leg.br/noticias/materias/2024/06/28/lula-sanciona-taxacao-de-compra-internacional-e-criacao-do-programa-mover"},
+      {year:2025, title:"IOF — aumento sustado pelo Congresso", desc:"Decreto elevou IOF; Congresso sustou e voltou ao patamar anterior.", president:"Lula", impact:"end", sphere:"Federal", type:"Imposto", source:"https://www.reuters.com/world/americas/brazil-lower-house-nixes-lulas-financial-transactions-tax-hike-2025-06-25/"}
+    ];
+
+    function badge(impact){
+      if(impact==='decrease' || impact==='end') return {emoji:'🔻', cls:'bg-emerald-100 text-emerald-700', label: impact==='end' ? 'Extinção/Desativação' : 'Redução'};
+      if(impact==='increase' || impact==='new') return {emoji:'🔺', cls:'bg-rose-100 text-rose-700', label: impact==='new' ? 'Criação' : 'Aumento'};
+      if(impact==='adjust') return {emoji:'🔷', cls:'bg-indigo-100 text-indigo-700', label:'Ajuste'};
+      return {emoji:'', cls:'bg-slate-100 text-slate-600', label:'Info'};
+    }
+
+    function renderTimeline(){
+      const el = document.getElementById('timeline');
+      const items = [...DATA].sort((a,b)=>a.year-b.year);
+      el.innerHTML = '';
+      items.forEach((it,i)=>{
+        const sideClass = (i%2===0)?'sideL':'sideR';
+        const b = badge(it.impact);
+        const card = document.createElement('div');
+        card.className = `relative ${sideClass}`;
+        card.innerHTML = `
+          <span class="dot"></span>
+          <div class="bg-white rounded-2xl border border-slate-200 shadow hover:shadow-lg transition">
+            <div class="p-5">
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <div class="text-2xl font-bold text-emerald-700">${it.year}</div>
+                  <h3 class="text-lg font-semibold text-slate-900 mt-1">${it.title}</h3>
+                </div>
+                <span class="text-[11px] px-2 py-1 rounded-full ${b.cls}">${b.emoji} ${b.label}</span>
+              </div>
+              <p class="text-sm text-slate-700 mt-2">${it.desc}</p>
+              <div class="mt-3 text-xs text-slate-500 flex flex-wrap gap-3">
+                <span><strong>Presidente:</strong> ${it.president || '—'}</span>
+                <span><strong>Esfera:</strong> ${it.sphere || '—'}</span>
+                <span><strong>Tipo:</strong> ${it.type || '—'}</span>
+                ${it.source?`<a href="${it.source}" target="_blank" class="underline text-slate-600 hover:text-slate-900">Fonte</a>`:''}
+              </div>
+            </div>
+          </div>`;
+        el.appendChild(card);
+      });
+      document.getElementById('contador').textContent = `Total de itens: ${items.length}`;
+    }
+
+    renderTimeline();
+  </script>
 </body>
 </html>
