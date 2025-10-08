@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impostômetro — Linha do Tempo (1950–2025)</title>
+  <meta name="description" content="Linha do tempo dos tributos no Brasil desde 1950, com aumentos, reduções e novas taxas." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Impostômetro</h1>
+    <p class="subtitle">Linha do tempo dos tributos no Brasil (1950–2025)</p>
+  </header>
+
+  <section class="controls">
+    <div class="search">
+      <label for="q">Buscar</label>
+      <input id="q" type="search" placeholder="Ex.: ICMS, IOF, COFINS..." />
+    </div>
+
+    <div class="filters">
+      <div class="filter">
+        <label for="nivel">Esfera</label>
+        <select id="nivel">
+          <option value="">Todas</option>
+          <option value="Federal">Federal</option>
+          <option value="Estadual">Estadual</option>
+          <option value="Municipal">Municipal</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="status">Status</label>
+        <select id="status">
+          <option value="">Todos</option>
+          <option value="Vigente">Vigente</option>
+          <option value="Extinto">Extinto</option>
+          <option value="Temporário">Temporário</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="decada">Década</label>
+        <select id="decada">
+          <option value="">Todas</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats" class="stats"></section>
+
+  <main id="timeline" class="timeline" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p><strong>Legenda:</strong> <span class="badge up">Aumento (🔺)</span> <span class="badge down">Redução (🔻)</span> <span class="badge new">Nova taxa (🆕)</span></p>
+    <p>Dados resumidos para fins informativos. Edite <code>assets/js/data.js</code> e <code>assets/js/data-ajustes-2023-2025.js</code> para ampliar.</p>
+  </footer>
+
+  <script>window.CURRENT_YEAR = 2025;</script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/data-ajustes-2023-2025.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
