@@ -7,11 +7,10 @@
   <meta name="description" content="Timeline interativa de tributos brasileiros (impostos, taxas, contribuições), com filtros, busca, badges de Aumento/Redução/Nova taxa e agrupamento por ano."/>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* scrollbars sutis */
     * { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
     *::-webkit-scrollbar { height: 8px; width: 8px; }
     *::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
-    .badge { @apply inline-flex items-center gap-1 rounded-2xl px-2.5 py-1 text-xs font-semibold; }
+    .badge { display: inline-flex; align-items: center; gap: 0.25rem; border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.75rem; font-weight: 600; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
@@ -22,10 +21,10 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-emerald-600"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/></svg>
         <div>
           <h1 class="text-xl font-bold">Impostômetro — Timeline de Tributos</h1>
-          <p class="text-sm text-slate-500">1950 até hoje • filtros, busca e marcadores de alteração</p>
+          <p class="text-sm text-slate-500">1922 até hoje • filtros, busca e marcadores de alteração</p>
         </div>
       </div>
-      <!-- Controles principais -->
+
       <div class="flex flex-wrap gap-2 items-center">
         <input id="q" type="search" placeholder="Buscar por nome, descrição, presidente…" class="w-64 max-w-[70vw] rounded-xl border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
         <select id="f-esfera" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
@@ -33,19 +32,25 @@
           <option>Federal</option>
           <option>Estadual</option>
           <option>Municipal</option>
+          <option>Parafiscal</option>
         </select>
         <select id="f-tipo" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
           <option value="">Todos os tipos</option>
           <option>Imposto</option>
           <option>Taxa</option>
           <option>Contribuição</option>
-          <option>Empréstimo compulsório</option>
+          <option>Lei</option>
+          <option>Decreto</option>
+          <option>Lei Complementar</option>
+          <option>Emenda Constitucional</option>
         </select>
         <select id="f-status" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
           <option value="">Todos os status</option>
-          <option value="Aumento">Aumento (🔺)</option>
-          <option value="Redução">Redução (🔻)</option>
-          <option value="Nova taxa">Nova taxa (🆕)</option>
+          <option value="increase">Aumento (🔺)</option>
+          <option value="decrease">Redução (🔻)</option>
+          <option value="new">Nova taxa (🆕)</option>
+          <option value="end">Extinção (🧹)</option>
+          <option value="adjust">Reforma/Regulamentação (⚙️)</option>
         </select>
         <select id="f-ordenar" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
           <option value="desc">Mais recente → antigo</option>
@@ -56,305 +61,97 @@
     </div>
   </header>
 
-  <!-- Legend / Infos -->
+  <!-- Legenda -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-    <div class="grid md:grid-cols-3 gap-3">
-      <div class="flex items-center gap-2 text-sm">
-        <span class="badge bg-rose-100 text-rose-700">🔺 Aumento</span>
-        <span class="badge bg-sky-100 text-sky-700">🔻 Redução</span>
-        <span class="badge bg-emerald-100 text-emerald-700">🆕 Nova taxa</span>
-      </div>
-      <p class="text-sm text-slate-600 md:col-span-2">Dica: clique em um ano na margem para recolher/expandir o grupo. Use a busca para filtrar por presidente, autoridade, nome do tributo, etc.</p>
+    <div class="flex flex-wrap items-center gap-2 text-sm">
+      <span class="badge bg-rose-100 text-rose-700">🔺 Aumento</span>
+      <span class="badge bg-sky-100 text-sky-700">🔻 Redução</span>
+      <span class="badge bg-emerald-100 text-emerald-700">🆕 Nova taxa</span>
+      <span class="badge bg-amber-100 text-amber-700">⚙️ Reforma</span>
+      <span class="badge bg-slate-100 text-slate-700">🧹 Extinção</span>
     </div>
   </section>
 
-  <!-- Importador opcional de CSV (cliente) -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-    <details class="group border border-slate-200 rounded-xl bg-white p-4">
-      <summary class="cursor-pointer font-semibold text-sm text-slate-700 flex items-center gap-2">
-        <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path d="M10 3a1 1 0 011 1v6.586l2.293-2.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4A1 1 0 116.707 8.293L9 10.586V4a1 1 0 011-1z"/></svg>
-        Importar/atualizar dados via CSV (opcional)
-      </summary>
-      <div class="mt-3 text-sm text-slate-600">
-        <p>Formato esperado das colunas (com cabeçalho): <code>date,name,type,sphere,status,president,authority,description,source</code>. O campo <code>date</code> aceita <code>YYYY</code> ou <code>YYYY-MM-DD</code>.</p>
-        <div class="mt-2 flex items-center gap-2">
-          <input id="csvFile" type="file" accept=".csv" class="text-sm" />
-          <button id="btnLoadCsv" class="rounded-lg bg-emerald-600 text-white px-3 py-2 text-sm hover:bg-emerald-700">Carregar CSV</button>
-          <button id="btnExportCsv" class="rounded-lg bg-slate-700 text-white px-3 py-2 text-sm hover:bg-slate-800">Baixar CSV atual</button>
-        </div>
-      </div>
-    </details>
-  </section>
-
-  <!-- Timeline -->
-  <main id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-24">
-    <!-- itens renderizados por JS -->
-  </main>
+  <main id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-24"></main>
 
   <footer class="fixed bottom-3 right-3">
     <a href="#" id="backToTop" class="hidden sm:flex items-center gap-2 rounded-full bg-white border border-slate-200 shadow px-3 py-2 text-sm hover:bg-slate-50">⬆️ Topo</a>
   </footer>
 
   <script>
-    // ========================= DADOS =========================
-    // ⚠️ Substitua/complete este array com dados reais. Exemplos abaixo são ilustrativos.
-    // Campos: date (YYYY ou YYYY-MM-DD), name, type, sphere, status ("Aumento"|"Redução"|"Nova taxa"|""),
-    // president, authority (quem aplicou/órgão), description, source (URL opcional)
-    let DATA = [
-      { date: "1950", name: "Exemplo — Taxa de Serviços Municipais", type: "Taxa", sphere: "Municipal", status: "Nova taxa", president: "—", authority: "Prefeitura (genérica)", description: "Item fictício para demonstrar o layout.", source: "" },
-      { date: "1966-12-25", name: "IOF — Imposto sobre Operações Financeiras", type: "Imposto", sphere: "Federal", status: "", president: "—", authority: "Ministério da Fazenda", description: "Criação do IOF (exemplo). Substitua por fonte/detalhe reais.", source: "" },
-      { date: "1988-10-05", name: "ICMS — Imposto sobre Circulação de Mercadorias e Serviços", type: "Imposto", sphere: "Estadual", status: "", president: "—", authority: "Secretarias de Fazenda Estaduais", description: "ICMS estruturado pela CF/88 (exemplo).", source: "" },
-      { date: "1991", name: "CIP/COSIP — Contribuição de Iluminação Pública", type: "Contribuição", sphere: "Municipal", status: "Nova taxa", president: "—", authority: "Câmaras Municipais", description: "Exemplo de contribuição municipal.", source: "" },
-      { date: "2023-01-02", name: "Exemplo — Ajuste de alíquotas (genérico)", type: "Imposto", sphere: "Federal", status: "Aumento", president: "—", authority: "Receita Federal", description: "Use este slot para registrar aumentos/voltas de tributos com data e ato normativo.", source: "" },
-      { date: "2025-06-01", name: "Exemplo — Redução de alíquota setorial (genérico)", type: "Imposto", sphere: "Estadual", status: "Redução", president: "—", authority: "Governo Estadual (genérico)", description: "Item fictício de redução.", source: "" },
-    ];
+    async function carregar() {
+      const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
+      let dados = await res.json();
+      render(dados);
 
-    // ========================= UTIL =========================
-    const $ = (sel, el=document) => el.querySelector(sel);
-    const $$ = (sel, el=document) => Array.from(el.querySelectorAll(sel));
-    const by = (k) => (a,b) => (a[k] > b[k]) ? 1 : (a[k] < b[k]) ? -1 : 0;
-    const toYear = (d) => String(d).slice(0,4);
+      // Filtros
+      const q = document.getElementById('q');
+      const esfera = document.getElementById('f-esfera');
+      const tipo = document.getElementById('f-tipo');
+      const status = document.getElementById('f-status');
+      const ordenar = document.getElementById('f-ordenar');
+      const reset = document.getElementById('btnReset');
 
-    function normalize(item){
-      return {
-        ...item,
-        date: String(item.date || ""),
-        name: String(item.name || "").trim(),
-        type: String(item.type || "").trim(),
-        sphere: String(item.sphere || "").trim(),
-        status: String(item.status || "").trim(),
-        president: String(item.president || "").trim(),
-        authority: String(item.authority || "").trim(),
-        description: String(item.description || "").trim(),
-        source: String(item.source || "").trim(),
-      };
-    }
-
-    function badgeForStatus(status){
-      const map = {
-        "Aumento": { text: "🔺 Aumento", cls: "bg-rose-100 text-rose-700" },
-        "Redução": { text: "🔻 Redução", cls: "bg-sky-100 text-sky-700" },
-        "Nova taxa": { text: "🆕 Nova taxa", cls: "bg-emerald-100 text-emerald-700" },
-      };
-      return map[status] || null;
-    }
-
-    function badgeForType(type){
-      const map = {
-        "Imposto": "bg-amber-100 text-amber-800",
-        "Taxa": "bg-indigo-100 text-indigo-800",
-        "Contribuição": "bg-fuchsia-100 text-fuchsia-800",
-        "Empréstimo compulsório": "bg-slate-100 text-slate-700",
-      };
-      return map[type] || "bg-slate-100 text-slate-700";
-    }
-
-    function badgeForSphere(sphere){
-      const map = {
-        "Federal": "bg-emerald-50 text-emerald-700",
-        "Estadual": "bg-blue-50 text-blue-700",
-        "Municipal": "bg-teal-50 text-teal-700",
-      };
-      return map[sphere] || "bg-slate-50 text-slate-700";
-    }
-
-    // ========================= RENDER =========================
-    function render(){
-      const q = $('#q').value.toLowerCase();
-      const esf = $('#f-esfera').value;
-      const tipo = $('#f-tipo').value;
-      const stat = $('#f-status').value;
-      const ord = $('#f-ordenar').value; // asc/desc
-
-      let items = DATA.map(normalize).filter(it => it.name);
-
-      // filtros
-      items = items.filter(it => !esf || it.sphere === esf);
-      items = items.filter(it => !tipo || it.type === tipo);
-      items = items.filter(it => !stat || it.status === stat);
-      items = items.filter(it => !q || (
-        it.name.toLowerCase().includes(q) ||
-        it.description.toLowerCase().includes(q) ||
-        it.president.toLowerCase().includes(q) ||
-        it.authority.toLowerCase().includes(q)
-      ));
-
-      // ordenação por data
-      items.sort(by('date'));
-      if (ord === 'desc') items.reverse();
-
-      // agrupar por ano
-      const groups = {};
-      for(const it of items){
-        const y = toYear(it.date || "");
-        groups[y] = groups[y] || [];
-        groups[y].push(it);
+      function aplicar() {
+        let f = dados.filter(x =>
+          (!q.value || (x.title + x.desc + x.president).toLowerCase().includes(q.value.toLowerCase())) &&
+          (!esfera.value || x.sphere.includes(esfera.value)) &&
+          (!tipo.value || x.type === tipo.value) &&
+          (!status.value || x.impact === status.value)
+        );
+        if (ordenar.value === 'desc') f.sort((a,b)=>b.year - a.year);
+        else f.sort((a,b)=>a.year - b.year);
+        render(f);
       }
 
-      const years = Object.keys(groups).sort();
-      if (ord === 'desc') years.reverse();
+      [q, esfera, tipo, status, ordenar].forEach(e => e.addEventListener('input', aplicar));
+      reset.onclick = () => { q.value = esfera.value = tipo.value = status.value = ''; ordenar.value = 'desc'; aplicar(); };
+    }
 
-      const container = document.createDocumentFragment();
-
-      for (const y of years){
-        const g = groups[y];
-        const section = document.createElement('section');
-        section.className = "group/year mb-8";
-        section.innerHTML = `
-          <div class="flex items-center gap-3">
-            <button class="year-toggle text-left text-2xl font-bold text-slate-800 hover:text-emerald-700 transition" data-year="${y}">${y || 'Sem data'}</button>
-            <span class="text-xs text-slate-500">${g.length} registro(s)</span>
-          </div>
-          <ol class="mt-4 relative border-s-l border-dashed border-slate-300 ms-4 ps-6 space-y-4" id="list-${y}"></ol>
-        `;
-        container.appendChild(section);
-
-        const ol = section.querySelector(`#list-${y}`);
-        for (const it of g){
-          const st = badgeForStatus(it.status);
-          const li = document.createElement('li');
-          li.className = "timeline-item";
-          li.innerHTML = `
-            <div class="absolute -start-1 -ms-2 mt-1 w-3 h-3 rounded-full bg-emerald-500"></div>
-            <article class="bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md transition p-4">
-              <div class="flex flex-wrap items-center gap-2 justify-between">
-                <div class="flex items-center gap-2">
-                  <span class="text-xs text-slate-500 font-mono">${it.date || ''}</span>
-                  <h3 class="text-base font-semibold">${it.name}</h3>
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span class="badge ${badgeForType(it.type)}">${it.type}</span>
-                  <span class="badge ${badgeForSphere(it.sphere)}">${it.sphere}</span>
-                  ${st ? `<span class="badge ${st.cls}">${st.text}</span>` : ''}
-                </div>
+    function render(data) {
+      const container = document.getElementById('timeline');
+      container.innerHTML = '';
+      const grouped = Object.groupBy ? Object.groupBy(data, i => i.year) :
+        data.reduce((acc,i)=>(acc[i.year]=acc[i.year]||[],acc[i.year].push(i),acc),{});
+      Object.keys(grouped).sort((a,b)=>b - a).forEach(year => {
+        const group = document.createElement('section');
+        group.className = "mb-6";
+        group.innerHTML = `<h2 class="text-lg font-bold mb-2 border-b border-slate-200 pb-1 cursor-pointer">${year}</h2>`;
+        const list = document.createElement('div');
+        list.className = "space-y-2";
+        grouped[year].forEach(item => {
+          const badgeMap = {
+            increase: '🔺 Aumento',
+            decrease: '🔻 Redução',
+            new: '🆕 Nova taxa',
+            end: '🧹 Extinção',
+            adjust: '⚙️ Reforma'
+          };
+          const badgeColor = {
+            increase: 'bg-rose-100 text-rose-700',
+            decrease: 'bg-sky-100 text-sky-700',
+            new: 'bg-emerald-100 text-emerald-700',
+            end: 'bg-slate-100 text-slate-700',
+            adjust: 'bg-amber-100 text-amber-700'
+          };
+          list.innerHTML += `
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+              <div class="flex flex-wrap justify-between items-start">
+                <h3 class="font-semibold">${item.title}</h3>
+                <span class="badge ${badgeColor[item.impact] || ''}">${badgeMap[item.impact] || ''}</span>
               </div>
-              <p class="mt-2 text-sm text-slate-700">${it.description || ''}</p>
-              <div class="mt-3 grid sm:grid-cols-3 gap-2 text-sm">
-                <div><span class="text-slate-500">Presidente:</span> <span class="font-medium">${it.president || '—'}</span></div>
-                <div><span class="text-slate-500">Autoridade/Órgão:</span> <span class="font-medium">${it.authority || '—'}</span></div>
-                <div class="truncate"><span class="text-slate-500">Fonte:</span> ${it.source ? `<a class="text-emerald-700 hover:underline" href="${it.source}" target="_blank" rel="noopener">${it.source}</a>` : '—'}</div>
-              </div>
-            </article>
-          `;
-          ol.appendChild(li);
-        }
-      }
-
-      const root = document.getElementById('timeline');
-      root.innerHTML = "";
-      root.appendChild(container);
-
-      // botões de recolher anos
-      $$('.year-toggle').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const y = btn.dataset.year;
-          const list = document.getElementById(`list-${y}`);
-          list.classList.toggle('hidden');
+              <p class="text-sm text-slate-600 mt-1">${item.desc}</p>
+              <p class="text-xs text-slate-500 mt-2">Presidente: ${item.president} • ${item.sphere} • ${item.type}</p>
+              <a href="${item.source}" target="_blank" class="text-xs text-emerald-600 hover:underline mt-1 inline-block">Fonte ↗</a>
+            </div>`;
         });
+        group.appendChild(list);
+        container.appendChild(group);
+        group.querySelector('h2').onclick = () => list.classList.toggle('hidden');
       });
-
-      // voltar ao topo
-      const btt = document.getElementById('backToTop');
-      window.addEventListener('scroll', () => {
-        btt.classList.toggle('hidden', window.scrollY < 400);
-      });
-      btt.addEventListener('click', (e)=>{ e.preventDefault(); window.scrollTo({top:0, behavior:'smooth'}); });
     }
 
-    // ========================= CSV =========================
-    function toCsv(rows){
-      const header = ['date','name','type','sphere','status','president','authority','description','source'];
-      const escape = (v) => '"' + String(v ?? '').replaceAll('"','""') + '"';
-      const lines = [header.join(',')];
-      for(const it of rows){
-        const row = header.map(k => escape(it[k] ?? ''));
-        lines.push(row.join(','));
-      }
-      return lines.join('\n');
-    }
-
-    function parseCsv(text){
-      // parser simples (suporta vírgula em aspas)
-      const lines = text.split(/\r?\n/).filter(Boolean);
-      const header = lines.shift().split(',').map(h=>h.trim());
-      const out = [];
-      for(const line of lines){
-        const cells = [];
-        let cur = '', inside = false;
-        for(let i=0;i<line.length;i++){
-          const ch = line[i];
-          if(ch === '"'){
-            if(inside && line[i+1] === '"'){ cur += '"'; i++; }
-            else { inside = !inside; }
-          } else if(ch === ',' && !inside){
-            cells.push(cur); cur='';
-          } else {
-            cur += ch;
-          }
-        }
-        cells.push(cur);
-        const obj = {};
-        header.forEach((h,idx)=> obj[h] = (cells[idx] || '').trim());
-        out.push(obj);
-      }
-      return out;
-    }
-
-    // ========================= HANDLERS =========================
-    $('#q').addEventListener('input', render);
-    $('#f-esfera').addEventListener('change', render);
-    $('#f-tipo').addEventListener('change', render);
-    $('#f-status').addEventListener('change', render);
-    $('#f-ordenar').addEventListener('change', render);
-    $('#btnReset').addEventListener('click', () => {
-      $('#q').value = '';
-      $('#f-esfera').value = '';
-      $('#f-tipo').value = '';
-      $('#f-status').value = '';
-      $('#f-ordenar').value = 'desc';
-      render();
-    });
-
-    $('#btnLoadCsv').addEventListener('click', () => {
-      const file = $('#csvFile').files?.[0];
-      if(!file){ alert('Selecione um arquivo .csv'); return; }
-      const reader = new FileReader();
-      reader.onload = () => {
-        const text = String(reader.result||'');
-        const rows = parseCsv(text);
-        DATA = rows.map(normalize);
-        render();
-      };
-      reader.readAsText(file, 'utf-8');
-    });
-
-    $('#btnExportCsv').addEventListener('click', () => {
-      const csv = toCsv(DATA.map(normalize));
-      const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url; a.download = 'impostometro_timeline.csv';
-      a.click();
-      URL.revokeObjectURL(url);
-    });
-
-    // init
-    render();
+    document.addEventListener('DOMContentLoaded', carregar);
   </script>
-
-  <!--
-  =================== COMO EDITAR OS DADOS ===================
-  1) Edite o array DATA acima, adicionando registros reais com: date, name, type, sphere, status,
-     president, authority, description, source.
-  2) OU clique em "Importar/atualizar dados via CSV" e carregue um .csv com cabeçalho:
-     date,name,type,sphere,status,president,authority,description,source
-  3) Para publicar no GitHub Pages: salve este arquivo como index.html em um repositório
-     público. Nas configurações do repositório, ative GitHub Pages apontando para a branch
-     principal (/root). O site ficará disponível no endereço do seu GitHub.
-  4) Badges suportados: Status -> "Aumento" (🔺), "Redução" (🔻), "Nova taxa" (🆕).
-  5) Esferas: "Federal", "Estadual", "Municipal". Tipos: "Imposto", "Taxa", "Contribuição",
-     "Empréstimo compulsório".
-  ============================================================
-  -->
 </body>
 </html>

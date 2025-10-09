@@ -1,0 +1,742 @@
+[
+  {
+    "year": 1922,
+    "title": "Imposto Geral sobre a Renda (IR)",
+    "desc": "Institui o imposto geral sobre a renda no Brasil (art. 31).",
+    "president": "Epitácio Pessoa",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Imposto",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/1901-1929/l4625.htm"
+  },
+  {
+    "year": 1924,
+    "title": "Regulamento do Imposto de Renda",
+    "desc": "Aprova regulamento do IR após a instituição do tributo.",
+    "president": "Artur Bernardes",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Decreto",
+    "source": "https://www2.camara.leg.br/legin/fed/decret/1920-1929/decreto-16581-4-setembro-1924-512544-publicacaooriginal-1-pe.html"
+  },
+  {
+    "year": 1934,
+    "title": "Constituição de 1934 – Sistema Tributário",
+    "desc": "Reorganiza competências tributárias, introduzindo princípios modernos de finanças públicas.",
+    "president": "Getúlio Vargas",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Constituição",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm"
+  },
+  {
+    "year": 1946,
+    "title": "Constituição de 1946 – Sistema Tributário",
+    "desc": "Redefine competências tributárias e limites, marco do pós-guerra.",
+    "president": "Eurico Gaspar Dutra",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Constituição",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm"
+  },
+  {
+    "year": 1964,
+    "title": "Lei 4.502/1964 – IPI",
+    "desc": "Reforma do imposto de consumo e estruturação do IPI.",
+    "president": "Humberto Castelo Branco",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Imposto",
+    "source": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4502-30-novembro-1964-376851-normaatualizada-pl.pdf"
+  },
+  {
+    "year": 1965,
+    "title": "EC 18/1965 – Reforma Tributária",
+    "desc": "Reestrutura o Sistema Tributário Nacional; base para IPI e ICM e normas gerais por lei complementar.",
+    "president": "Humberto Castelo Branco",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc18-65.htm"
+  },
+  {
+    "year": 1966,
+    "title": "Lei 5.107/1966 – FGTS",
+    "desc": "Cria o Fundo de Garantia do Tempo de Serviço com contribuições específicas.",
+    "president": "Humberto Castelo Branco",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Fundo",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/L5107.htm"
+  },
+  {
+    "year": 1966,
+    "title": "Lei 5.172/1966 – Código Tributário Nacional (CTN)",
+    "desc": "Institui normas gerais de direito tributário aplicáveis à União, Estados e Municípios.",
+    "president": "Humberto Castelo Branco",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+  },
+  {
+    "year": 1967,
+    "title": "Decreto-Lei 288/1967 – Zona Franca de Manaus",
+    "desc": "Define incentivos fiscais (II, IPI) e regime especial para a ZFM.",
+    "president": "Humberto Castelo Branco",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Decreto-Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0288.htm"
+  },
+  {
+    "year": 1968,
+    "title": "Decreto-Lei 406/1968 – Normas gerais do ICM e ISS",
+    "desc": "Estabelece normas gerais para o ICM (antecessor do ICMS) e o ISS.",
+    "president": "Artur da Costa e Silva",
+    "impact": "adjust",
+    "sphere": "Estadual/Municipal",
+    "type": "Decreto-Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0406.htm"
+  },
+  {
+    "year": 1970,
+    "title": "LC 7/1970 – PIS",
+    "desc": "Institui o Programa de Integração Social (PIS) e sua contribuição.",
+    "president": "Emílio Garrastazu Médici",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp07.htm"
+  },
+  {
+    "year": 1970,
+    "title": "LC 8/1970 – PASEP",
+    "desc": "Institui o Programa de Formação do Patrimônio do Servidor Público (PASEP).",
+    "president": "Emílio Garrastazu Médici",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp08.htm"
+  },
+  {
+    "year": 1985,
+    "title": "EC 27/1985 – IPVA",
+    "desc": "Cria o IPVA na competência dos Estados e DF, em substituição à TRU.",
+    "president": "José Sarney",
+    "impact": "new",
+    "sphere": "Estadual",
+    "type": "Emenda Constitucional",
+    "source": "https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-27-28-novembro-1985-364973-publicacaooriginal-1-pl.html"
+  },
+  {
+    "year": 1988,
+    "title": "Constituição Federal de 1988 – Sistema Tributário (arts. 145–162)",
+    "desc": "Define competências tributárias, regula ICMS, ISS, ITR e contribuições sociais.",
+    "president": "José Sarney",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Constituição",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  {
+    "year": 1988,
+    "title": "Convênio ICMS 66/1988 – Normas gerais transitórias do ICMS",
+    "desc": "Estabelece normas transitórias do ICMS na transição pós-CF/88.",
+    "president": "José Sarney",
+    "impact": "adjust",
+    "sphere": "Estadual",
+    "type": "Convênio",
+    "source": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1988/CV066_88"
+  },
+  {
+    "year": 1988,
+    "title": "Lei 7.689/1988 – CSLL",
+    "desc": "Cria a Contribuição Social sobre o Lucro Líquido para financiar a seguridade.",
+    "president": "José Sarney",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/L7689.htm"
+  },
+  {
+    "year": 1989,
+    "title": "Lei 7.940/1989 – Taxa de Fiscalização CVM",
+    "desc": "Institui a taxa de fiscalização dos mercados de valores mobiliários (CVM).",
+    "president": "José Sarney",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l7940.htm"
+  },
+  {
+    "year": 1990,
+    "title": "Lei 8.036/1990 – FGTS (novo marco)",
+    "desc": "Reorganiza o FGTS e o regime de contribuições ao fundo.",
+    "president": "Fernando Collor",
+    "impact": "adjust",
+    "sphere": "Parafiscal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l8036compilado.htm"
+  },
+  {
+    "year": 1991,
+    "title": "LC 70/1991 – COFINS",
+    "desc": "Institui a COFINS sobre o faturamento para a seguridade social.",
+    "president": "Fernando Collor",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp70.htm"
+  },
+  {
+    "year": 1991,
+    "title": "Leis 8.212 e 8.213/1991 – Contribuições Previdenciárias",
+    "desc": "Estruturam o financiamento da Previdência (empresas, empregados, produtor rural etc.).",
+    "president": "Fernando Collor",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+  },
+  {
+    "year": 1993,
+    "title": "EC 3/1993 – Autoriza o IPMF",
+    "desc": "Autoriza a União a instituir o IPMF (imposto sobre movimentação financeira).",
+    "president": "Itamar Franco",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc03.htm"
+  },
+  {
+    "year": 1993,
+    "title": "LC 77/1993 – IPMF",
+    "desc": "Institui o IPMF com destinação à saúde; vigência temporária.",
+    "president": "Itamar Franco",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp77.htm"
+  },
+  {
+    "year": 1995,
+    "title": "Lei 9.249/1995 – IRPJ/CSLL (lucro presumido e isenção de lucros/dividendos)",
+    "desc": "Altera IRPJ e CSLL, cria o lucro presumido moderno e isenta distribuição de lucros/dividendos.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm"
+  },
+  {
+    "year": 1996,
+    "title": "EC 12/1996 – CPMF no ADCT",
+    "desc": "Autoriza a instituição e cobrança da CPMF via ADCT.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc12.htm"
+  },
+  {
+    "year": 1996,
+    "title": "LC 87/1996 – Lei Kandir (ICMS)",
+    "desc": "Normas gerais do ICMS; desonera exportações de produtos primários e semielaborados.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Estadual",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm"
+  },
+  {
+    "year": 1996,
+    "title": "Lei 9.311/1996 – CPMF",
+    "desc": "Institui a CPMF, posteriormente prorrogada até extinção em 2007.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9311.htm"
+  },
+  {
+    "year": 1996,
+    "title": "Lei 9.393/1996 – ITR (novo marco)",
+    "desc": "Dispõe sobre o ITR e transfere parte da arrecadação aos Municípios conveniados.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Federal/Municipal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9393.htm"
+  },
+  {
+    "year": 1996,
+    "title": "Lei 9.427/1996 – ANEEL (TFSEE)",
+    "desc": "Cria a ANEEL e institui a Taxa de Fiscalização de Serviços de Energia Elétrica.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9427.htm"
+  },
+  {
+    "year": 1996,
+    "title": "Lei 9.430/1996 – IRPJ/CSLL (ajustes, multas e preços de transferência)",
+    "desc": "Reforma administrativa tributária e cria regras de preços de transferência.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9430.htm"
+  },
+  {
+    "year": 1997,
+    "title": "Lei 9.472/1997 – LGT/ANATEL (TFI/TFF)",
+    "desc": "Lei Geral de Telecomunicações; institui as taxas de fiscalização (TFI e TFF).",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9472.htm"
+  },
+  {
+    "year": 1997,
+    "title": "Lei 9.478/1997 – ANP (Taxas de Fiscalização)",
+    "desc": "Cria a ANP e dispõe sobre taxas de fiscalização no setor de petróleo e gás.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9478.htm"
+  },
+  {
+    "year": 1998,
+    "title": "Lei 9.718/1998 – Base de cálculo do PIS/COFINS",
+    "desc": "Amplia conceito de faturamento; posterior limitação por decisões do STF.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm"
+  },
+  {
+    "year": 2000,
+    "title": "Lei 10.165/2000 – TCFA (IBAMA)",
+    "desc": "Cria a Taxa de Controle e Fiscalização Ambiental para atividades potencialmente poluidoras.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l10165.htm"
+  },
+  {
+    "year": 2000,
+    "title": "Lei 10.168/2000 – CIDE-Royalties",
+    "desc": "Cria contribuição para programas de desenvolvimento tecnológico (remessas ao exterior).",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l10168.htm"
+  },
+  {
+    "year": 2000,
+    "title": "Lei 9.961/2000 – ANS (Taxa de Saúde Suplementar)",
+    "desc": "Cria a ANS e institui a Taxa de Saúde Suplementar (TSS).",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9961.htm"
+  },
+  {
+    "year": 2000,
+    "title": "Lei 9.964/2000 – REFIS",
+    "desc": "Institui o Programa de Recuperação Fiscal (parcelamento de débitos federais).",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/l9964.htm"
+  },
+  {
+    "year": 2001,
+    "title": "Lei 10.233/2001 – ANTT/ANTAQ (Taxas de Fiscalização)",
+    "desc": "Reestrutura transportes terrestres e aquaviários e institui taxas de fiscalização para agências setoriais.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Parafiscal",
+    "type": "Taxa",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10233.htm"
+  },
+  {
+    "year": 2001,
+    "title": "Lei 10.336/2001 – CIDE-Combustíveis",
+    "desc": "Contribuição sobre importação/comercialização de combustíveis para infraestrutura de transportes.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Contribuição",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10336.htm"
+  },
+  {
+    "year": 2002,
+    "title": "EC 39/2002 – COSIP/CIP",
+    "desc": "Autoriza Municípios e DF a instituírem contribuição para custeio da iluminação pública (art. 149-A).",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "new",
+    "sphere": "Municipal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc39.htm"
+  },
+  {
+    "year": 2002,
+    "title": "Lei 10.637/2002 – PIS não cumulativo",
+    "desc": "Institui regime não cumulativo do PIS para empresas do lucro real.",
+    "president": "Fernando Henrique Cardoso",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm"
+  },
+  {
+    "year": 2002,
+    "title": "Lei 10.684/2003 – PAES/Parcelamentos e PIS/COFINS",
+    "desc": "Institui parcelamento (PAES) e traz ajustes que impactam PIS/Cofins e IRPJ/CSLL.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/2003/L10.684.htm"
+  },
+  {
+    "year": 2003,
+    "title": "LC 116/2003 – ISS (lista de serviços)",
+    "desc": "Atualiza a lista de serviços e regras gerais do ISS.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Municipal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm"
+  },
+  {
+    "year": 2003,
+    "title": "Lei 10.833/2003 – COFINS não cumulativa",
+    "desc": "Institui regime não cumulativo da COFINS para lucro real.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm"
+  },
+  {
+    "year": 2004,
+    "title": "Lei 10.865/2004 – PIS/COFINS-Importação",
+    "desc": "Institui PIS-Importação e COFINS-Importação sobre bens e serviços importados.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.865.htm"
+  },
+  {
+    "year": 2005,
+    "title": "Lei 11.250/2005 – Delegação de fiscalização do ITR a Municípios",
+    "desc": "Autoriza a União a celebrar convênios com municípios para fiscalização e cobrança do ITR.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Municipal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Lei/L11250.htm"
+  },
+  {
+    "year": 2006,
+    "title": "Convênios ICMS – Substituição Tributária (ST) ampliada",
+    "desc": "Expansão de ST por convênios CONFAZ em diversos setores (ex.: autopeças, bebidas, eletrônicos).",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Estadual",
+    "type": "Convênio",
+    "source": "https://www.confaz.fazenda.gov.br/legislacao/convenios"
+  },
+  {
+    "year": 2006,
+    "title": "LC 123/2006 – Simples Nacional (Supersimples)",
+    "desc": "Cria regime unificado de arrecadação para MEs e EPPs, envolvendo União, Estados e Municípios.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+  },
+  {
+    "year": 2007,
+    "title": "Fim da CPMF (não prorrogação)",
+    "desc": "Sem nova emenda, a CPMF deixa de ser cobrada a partir de 2008.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "end",
+    "sphere": "Federal",
+    "type": "Outro",
+    "source": "https://www12.senado.leg.br/noticias/materias/2007/12/13/senado-rejeita-prorrogacao-da-cpmf"
+  },
+  {
+    "year": 2008,
+    "title": "ICMS – Protocolos/Convênios (eletrônicos, bebidas, autopeças)",
+    "desc": "Ampliação do uso de ST e protocolos interestaduais, impactando arrecadação e cadeia.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Estadual",
+    "type": "Convênio/Protocolo",
+    "source": "https://www.confaz.fazenda.gov.br/legislacao"
+  },
+  {
+    "year": 2008,
+    "title": "LC 128/2008 – MEI",
+    "desc": "Inclui o Microempreendedor Individual no Simples Nacional, com tributação simplificada.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm"
+  },
+  {
+    "year": 2009,
+    "title": "Lei 11.907/2009 – Taxas ANTT/ANTAQ (ajustes)",
+    "desc": "Reestrutura carreiras e ajusta cobranças/taxas vinculadas às agências.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Parafiscal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_Ato2007-2010/2009/Lei/L11907.htm"
+  },
+  {
+    "year": 2011,
+    "title": "Lei 12.546/2011 – Desoneração/CPRB",
+    "desc": "Cria a Contribuição Previdenciária sobre a Receita Bruta para setores específicos, em substituição à folha.",
+    "president": "Dilma Rousseff",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12546.htm"
+  },
+  {
+    "year": 2011,
+    "title": "Lei 12.741/2012 – Transparência (‘de olho no imposto’)",
+    "desc": "Obriga destaque dos tributos na nota fiscal para melhorar a transparência ao consumidor.",
+    "president": "Dilma Rousseff",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/L12741.htm"
+  },
+  {
+    "year": 2014,
+    "title": "Lei 12.973/2014 – IRPJ/CSLL (fim do RTT)",
+    "desc": "Altera regras de IRPJ e CSLL; encerra o Regime Tributário de Transição (RTT).",
+    "president": "Dilma Rousseff",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12973.htm"
+  },
+  {
+    "year": 2014,
+    "title": "Lei 13.137/2015 – PIS/COFINS (retenções e base)",
+    "desc": "Altera dispositivos referentes à incidência/retensão de PIS/Cofins e tributos federais.",
+    "president": "Dilma Rousseff",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13137.htm"
+  },
+  {
+    "year": 2015,
+    "title": "Convênio ICMS 93/2015 – DIFAL e-commerce",
+    "desc": "Estabelece regras para o ICMS do comércio eletrônico para consumidor final em outra UF (DIFAL).",
+    "president": "Dilma Rousseff",
+    "impact": "adjust",
+    "sphere": "Estadual",
+    "type": "Convênio",
+    "source": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2015/CV093_15"
+  },
+  {
+    "year": 2016,
+    "title": "LC 157/2016 – ISS (anti-guerra fiscal)",
+    "desc": "Altera a LC 116/2003, amplia lista de serviços e combate benefícios irregulares.",
+    "president": "Michel Temer",
+    "impact": "adjust",
+    "sphere": "Municipal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp157.htm"
+  },
+  {
+    "year": 2017,
+    "title": "Decreto 9.101/2017 – PIS/COFINS sobre combustíveis",
+    "desc": "Reajusta as alíquotas de PIS/Cofins sobre combustíveis.",
+    "president": "Michel Temer",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Decreto",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9101.htm"
+  },
+  {
+    "year": 2018,
+    "title": "Lei 13.670/2018 – Compensação tributária/PIS-COFINS",
+    "desc": "Restringe hipóteses de compensação para contribuições previdenciárias e PIS/Cofins.",
+    "president": "Michel Temer",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13670.htm"
+  },
+  {
+    "year": 2018,
+    "title": "Lei 13.756/2018 – Apostas de quota fixa (esportivas)",
+    "desc": "Legaliza as apostas esportivas de quota fixa; base para regulação posterior.",
+    "president": "Michel Temer",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13756.htm"
+  },
+  {
+    "year": 2019,
+    "title": "LC 160/2017 e Convênio 190/2017 – Benefícios fiscais do ICMS (convalidação)",
+    "desc": "Convalida incentivos e define prazos de fruição para diversos setores no ICMS.",
+    "president": "Jair Bolsonaro",
+    "impact": "adjust",
+    "sphere": "Estadual",
+    "type": "Lei Complementar/Convênio",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp160.htm"
+  },
+  {
+    "year": 2019,
+    "title": "Lei 13.848/2019 – Lei das Agências Reguladoras",
+    "desc": "Marco geral de governança; reflexos sobre taxas e fiscalização setorial.",
+    "president": "Jair Bolsonaro",
+    "impact": "adjust",
+    "sphere": "Parafiscal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13848.htm"
+  },
+  {
+    "year": 2020,
+    "title": "LC 175/2020 – Local de incidência do ISS (cartões/planos/consórcios)",
+    "desc": "Redefine critérios de partilha e local de incidência do ISS para serviços específicos.",
+    "president": "Jair Bolsonaro",
+    "impact": "adjust",
+    "sphere": "Municipal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp175.htm"
+  },
+  {
+    "year": 2022,
+    "title": "Decreto 10.997/2022 – Cronograma de redução do IOF-câmbio",
+    "desc": "Estabelece redução gradual do IOF em operações cambiais até 2028/2029.",
+    "president": "Jair Bolsonaro",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Decreto",
+    "source": "https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2022/Decreto/D10997.htm"
+  },
+  {
+    "year": 2022,
+    "title": "LC 190/2022 – DIFAL pós-EC 87/2015",
+    "desc": "Institui normas gerais para cobrança do DIFAL do ICMS nas vendas interestaduais a consumidor final.",
+    "president": "Jair Bolsonaro",
+    "impact": "adjust",
+    "sphere": "Estadual",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp190.htm"
+  },
+  {
+    "year": 2022,
+    "title": "LC 192/2022 – Combustíveis (monofasia e essencialidade)",
+    "desc": "Altera regime de tributação de combustíveis (PIS/Cofins monofásicos) e zera alíquotas temporariamente.",
+    "president": "Jair Bolsonaro",
+    "impact": "decrease",
+    "sphere": "Federal/Estadual",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp192.htm"
+  },
+  {
+    "year": 2022,
+    "title": "LC 194/2022 – Essencialidade (energia, telecom, combustíveis)",
+    "desc": "Define bens e serviços essenciais com limite de ICMS, reduzindo alíquotas máximas.",
+    "president": "Jair Bolsonaro",
+    "impact": "decrease",
+    "sphere": "Estadual",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp194.htm"
+  },
+  {
+    "year": 2023,
+    "title": "Combustíveis – desoneração/reoneração (MPs de 2023)",
+    "desc": "Ajustes temporários de PIS/Cofins e Cide em combustíveis ao longo de 2023, com fases de desoneração e reoneração.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Medida Provisória",
+    "source": "https://www12.senado.leg.br/noticias/assuntos/combustiveis"
+  },
+  {
+    "year": 2023,
+    "title": "EC 132/2023 – Reforma Tributária (IVA dual)",
+    "desc": "Cria o IBS (estadual/municipal) e a CBS (federal) e prevê Imposto Seletivo; define transições.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+  },
+  {
+    "year": 2023,
+    "title": "Lei 14.789/2023 – Subvenções/Créditos (PIS/COFINS e IR/CSLL)",
+    "desc": "Altera o tratamento tributário de subvenções para investimento e créditos, com impactos em IRPJ/CSLL e PIS/Cofins.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm"
+  },
+  {
+    "year": 2023,
+    "title": "Lei 14.790/2023 – Apostas/bets (regulação e tributação)",
+    "desc": "Regulamenta e tributa apostas de quota fixa e jogos online (GGR, regras de operação e IR do apostador).",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "new",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"
+  },
+  {
+    "year": 2024,
+    "title": "Regulamentação da Reforma Tributária – PLPs (CBS/IBS/Imposto Seletivo)",
+    "desc": "Aprofunda regras de CBS/IBS, Imposto Seletivo, cashback e regimes diferenciados (2024–2025).",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Projeto/Lei Complementar",
+    "source": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria"
+  },
+  {
+    "year": 2024,
+    "title": "Remessas internacionais até US$ 50 – alíquota de 20% (‘taxa das blusinhas’)",
+    "desc": "Institui tributação federal para compras internacionais de baixo valor, com vigência a partir de 2024/2025.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www12.senado.leg.br/radio/1/noticia/2024/08/14/201ctaxa-das-blusinhas201d-agora-e-lei"
+  },
+  {
+    "year": 2025,
+    "title": "IOF – ajustes em 2025 (decretos e revisão)",
+    "desc": "Tentativas de unificação de alíquota do IOF-câmbio e ajustes setoriais em 2025, com sustação parcial pelo Congresso.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Decreto",
+    "source": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/entenda-como-fica-o-iof-apos-derrubada-de-decreto"
+  }
+]
