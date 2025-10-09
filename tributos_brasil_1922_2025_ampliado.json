@@ -731,12 +731,42 @@
   },
   {
     "year": 2025,
-    "title": "IOF – ajustes em 2025 (decretos e revisão)",
-    "desc": "Tentativas de unificação de alíquota do IOF-câmbio e ajustes setoriais em 2025, com sustação parcial pelo Congresso.",
+    "title": "IOF – aumento proposto (Decreto de maio/2025)",
+    "desc": "O governo editou decreto elevando as alíquotas do IOF sobre crédito, câmbio e seguros, como parte de ajuste fiscal.",
     "president": "Luiz Inácio Lula da Silva",
     "impact": "increase",
     "sphere": "Federal",
     "type": "Decreto",
+    "source": "https://www.reuters.com/world/americas/brazil-lower-house-nixes-lulas-financial-transactions-tax-hike-2025-06-25/"
+  },
+  {
+    "year": 2025,
+    "title": "IOF – derrubada do aumento pelo Congresso",
+    "desc": "O Congresso Nacional sustou os efeitos do decreto que aumentava o IOF, mantendo as alíquotas anteriores.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Ato Legislativo",
+    "source": "https://www.reuters.com/world/americas/brazil-lower-house-nixes-lulas-financial-transactions-tax-hike-2025-06-25/"
+  },
+  {
+    "year": 2025,
+    "title": "IOF – ajustes e unificação da alíquota (3,5%)",
+    "desc": "Após a derrubada do decreto, o governo anunciou revisão técnica e unificação do IOF-câmbio em 3,5%, conforme compromissos internacionais.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Decreto / Regulamentação",
     "source": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/entenda-como-fica-o-iof-apos-derrubada-de-decreto"
+  },
+  {
+    "year": 2025,
+    "title": "MP 1.303/2025 – compensação de perda do IOF",
+    "desc": "Medida Provisória cria ajustes para compensar o impacto fiscal da reversão do aumento do IOF e redefine isenções setoriais.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Medida Provisória",
+    "source": "https://www12.senado.leg.br/noticias/materias/2025/10/07/com-placar-apertado-comissao-mista-aprova-mp-para-compensar-iof"
   }
 ]
