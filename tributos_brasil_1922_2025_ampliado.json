@@ -709,15 +709,45 @@
     "type": "Lei",
     "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"
   },
+   {
+    "year": 2024,
+    "title": "Lei 14.902/2024 — remessas até US$ 50 (II 20%)",
+    "desc": "Traitamento tributário: imposto de importação fixado em 20% para remessas de compras internacionais de até US$ 50.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Lei",
+    "source": "https://www12.senado.leg.br/noticias/materias/2024/06/28/lula-sanciona-taxacao-de-compra-internacional-e-criacao-do-programa-mover"
+  },
   {
     "year": 2024,
-    "title": "Regulamentação da Reforma Tributária – PLPs (CBS/IBS/Imposto Seletivo)",
-    "desc": "Aprofunda regras de CBS/IBS, Imposto Seletivo, cashback e regimes diferenciados (2024–2025).",
+    "title": "IN RFB 2.191/2024 — regulamentação IR em prêmios de bets",
+    "desc": "Regulamenta a tributação de prêmios de apostas (IRPF 15%), conforme lei de apostas de 2023.",
     "president": "Luiz Inácio Lula da Silva",
-    "impact": "adjust",
-    "sphere": "Federal/Estadual/Municipal",
-    "type": "Projeto/Lei Complementar",
-    "source": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria"
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Regulamentação",
+    "source": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2024/maio/receita-regulamenta-tributacao-de-apostas-de-quota-fixa"
+  },
+  {
+    "year": 2024,
+    "title": "Reforma Tributária — início de transição do IVA / CBS / IBS",
+    "desc": "Estabelecimento de cronograma legal para migração gradual de PIS, Cofins, ICMS e ISS para sistema unificado (IBS/IBS-CBS).",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "new",
+    "sphere": "Federal / Estadual / Municipal",
+    "type": "Projeto de Lei / Reforma",
+    "source": "https://www.gov.br/economia/pt-br/assuntos/reforma-tributaria"
+  },
+  {
+    "year": 2024,
+    "title": "Ajustes no II sobre e-commerce internacional (🔻 redução parcial)",
+    "desc": "Após vigência da Lei 14.902/2024, houve ajustes normativos para mitigar impactos sobre remessas pequenas.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Decreto / Ajuste",
+    "source": "https://www.gazetadopovo.com.br/economia/lista-impostos-governo-lula-criou-elevou/"
   },
   {
     "year": 2024,
