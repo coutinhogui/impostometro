@@ -671,8 +671,18 @@
   },
   {
     "year": 2023,
+    "title": "Reoneração de Combustíveis (retorno do PIS/Cofins/CIDE)",
+    "desc": "O governo retomou parcialmente a cobrança de PIS/Cofins e CIDE sobre gasolina, etanol e diesel após período de isenção em 2022.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Decreto / Medida Provisória",
+    "source": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2023/03/governo-anuncia-reoneracao-gradual-dos-combustiveis"
+  },
+  {
+    "year": 2023,
     "title": "Combustíveis – desoneração/reoneração (MPs de 2023)",
-    "desc": "Ajustes temporários de PIS/Cofins e Cide em combustíveis ao longo de 2023, com fases de desoneração e reoneração.",
+    "desc": "Ajustes temporários de PIS/Cofins e CIDE em combustíveis ao longo de 2023, com fases de desoneração e reoneração graduais.",
     "president": "Luiz Inácio Lula da Silva",
     "impact": "adjust",
     "sphere": "Federal",
@@ -681,18 +691,18 @@
   },
   {
     "year": 2023,
-    "title": "EC 132/2023 – Reforma Tributária (IVA dual)",
-    "desc": "Cria o IBS (estadual/municipal) e a CBS (federal) e prevê Imposto Seletivo; define transições.",
+    "title": "Medida Provisória 1.163/2023 – Reoneração parcial do diesel",
+    "desc": "Retomou parte da cobrança de tributos federais sobre diesel e biodiesel de forma escalonada.",
     "president": "Luiz Inácio Lula da Silva",
-    "impact": "adjust",
-    "sphere": "Federal/Estadual/Municipal",
-    "type": "Emenda Constitucional",
-    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Medida Provisória",
+    "source": "https://www12.senado.leg.br/noticias/materias/2023/02/28/medida-provisoria-restabelece-cobranca-de-tributos-sobre-diesel-e-gasolina"
   },
   {
     "year": 2023,
     "title": "Lei 14.789/2023 – Subvenções/Créditos (PIS/COFINS e IR/CSLL)",
-    "desc": "Altera o tratamento tributário de subvenções para investimento e créditos, com impactos em IRPJ/CSLL e PIS/Cofins.",
+    "desc": "Modifica o tratamento de subvenções para investimento e créditos fiscais, impactando IRPJ, CSLL, PIS e Cofins. Busca reduzir brechas de isenção.",
     "president": "Luiz Inácio Lula da Silva",
     "impact": "increase",
     "sphere": "Federal",
@@ -702,12 +712,62 @@
   {
     "year": 2023,
     "title": "Lei 14.790/2023 – Apostas/bets (regulação e tributação)",
-    "desc": "Regulamenta e tributa apostas de quota fixa e jogos online (GGR, regras de operação e IR do apostador).",
+    "desc": "Regulamenta e tributa apostas de quota fixa e jogos online (GGR de 12% sobre operadores e IRPF de 15% sobre prêmios).",
     "president": "Luiz Inácio Lula da Silva",
     "impact": "new",
     "sphere": "Federal",
     "type": "Lei",
     "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm"
+  },
+  {
+    "year": 2023,
+    "title": "EC 132/2023 – Reforma Tributária (IVA dual)",
+    "desc": "Promulga a reforma tributária que cria o IVA dual: IBS (estadual/municipal) e CBS (federal), além do Imposto Seletivo e regras de transição até 2033.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal/Estadual/Municipal",
+    "type": "Emenda Constitucional",
+    "source": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+  },
+  {
+    "year": 2023,
+    "title": "MP 1.184/2023 – Tributação de fundos exclusivos e offshores",
+    "desc": "Governo propôs tributação anual de fundos exclusivos e offshores, buscando equiparar ao regime geral do IR.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "increase",
+    "sphere": "Federal",
+    "type": "Medida Provisória / Reforma Tributária",
+    "source": "https://www.gov.br/economia/pt-br/assuntos/noticias/2023/setembro/governo-envia-projeto-de-lei-para-tributar-fundos-exclusivos-e-offshores"
+  },
+  {
+    "year": 2023,
+    "title": "Isenção de IR até dois salários mínimos",
+    "desc": "Ampliação da faixa de isenção do Imposto de Renda da Pessoa Física de R$ 1.903,98 para R$ 2.640,00 mensais.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "decrease",
+    "sphere": "Federal",
+    "type": "Decreto / Política Fiscal",
+    "source": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2023/05/lula-sanciona-ampliacao-da-isencao-do-imposto-de-renda"
+  },
+  {
+    "year": 2023,
+    "title": "Nova política de preços da Petrobras e impacto tributário",
+    "desc": "Mudanças na política de preços da Petrobras alteraram a base de cálculo de tributos sobre combustíveis, influenciando arrecadação de ICMS e PIS/Cofins.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal / Estadual",
+    "type": "Política econômica",
+    "source": "https://www.gazetadopovo.com.br/economia/lista-impostos-governo-lula-criou-elevou/"
+  },
+  {
+    "year": 2023,
+    "title": "Lei Complementar 199/2023 – regulamenta incentivos da Zona Franca de Manaus",
+    "desc": "Reforça benefícios fiscais e industriais para empresas instaladas na Zona Franca de Manaus e Áreas de Livre Comércio.",
+    "president": "Luiz Inácio Lula da Silva",
+    "impact": "adjust",
+    "sphere": "Federal",
+    "type": "Lei Complementar",
+    "source": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp199.htm"
   },
    {
     "year": 2024,
