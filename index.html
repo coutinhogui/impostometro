@@ -1,40 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Impostômetro — Timeline de Tributos do Brasil</title>
   <meta name="description" content="Timeline interativa de tributos brasileiros (impostos, taxas, contribuições), com filtros, busca, badges de Aumento/Redução/Nova taxa e agrupamento por ano."/>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind dark mode via class
+    tailwind.config = { darkMode: 'class' }
+  </script>
   <style>
-    * { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+    /* scrollbars */
+    * { scrollbar-width: thin; scrollbar-color: #94a3b8 transparent; }
     *::-webkit-scrollbar { height: 8px; width: 8px; }
-    *::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
-    .badge { display: inline-flex; align-items: center; gap: 0.25rem; border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.75rem; font-weight: 600; }
+    *::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 8px; }
+    .badge { display:inline-flex; align-items:center; gap:.25rem; border-radius:9999px; padding:.25rem .75rem; font-size:.75rem; font-weight:600; }
+
+    /* Animations */
+    @keyframes fadeUp { from { opacity:0; transform: translateY(8px) } to { opacity:1; transform: translateY(0) } }
+    .reveal { opacity:0; transform: translateY(8px); }
+    .reveal.visible { animation: fadeUp .5s ease-out forwards; }
+
+    /* Card micro-interaction */
+    .card { transition: transform .15s ease, box-shadow .15s ease, background-color .2s; }
+    .card:hover { transform: translateY(-2px); }
+
+    /* Year header chevron */
+    .chev { transition: transform .2s ease; }
+    .rot-90 { transform: rotate(-90deg); }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100">
   <!-- Header -->
-  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 dark:bg-slate-900/70 border-b border-slate-200/60 dark:border-slate-700/60">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
       <div class="flex items-center gap-3">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-emerald-600"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-emerald-600">
+          <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/>
+        </svg>
         <div>
           <h1 class="text-xl font-bold">Impostômetro — Timeline de Tributos</h1>
-          <p class="text-sm text-slate-500">1922 até hoje • filtros, busca e marcadores de alteração</p>
+          <p class="text-sm text-slate-500 dark:text-slate-400">1922 até hoje • filtros, busca e marcadores de alteração</p>
         </div>
       </div>
 
+      <!-- Controles principais -->
       <div class="flex flex-wrap gap-2 items-center">
-        <input id="q" type="search" placeholder="Buscar por nome, descrição, presidente…" class="w-80 max-w-[70vw] rounded-xl border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
-        <select id="f-esfera" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+        <input id="q" type="search" placeholder="Buscar por nome, descrição, presidente…" class="w-80 max-w-[70vw] rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+        <select id="f-esfera" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todas as esferas</option>
           <option>Federal</option>
           <option>Estadual</option>
           <option>Municipal</option>
           <option>Parafiscal</option>
         </select>
-        <select id="f-tipo" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+        <select id="f-tipo" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todos os tipos</option>
           <option>Imposto</option>
           <option>Taxa</option>
@@ -43,8 +64,9 @@
           <option>Decreto</option>
           <option>Lei Complementar</option>
           <option>Emenda Constitucional</option>
+          <option>Outro</option>
         </select>
-        <select id="f-status" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+        <select id="f-status" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todos os status</option>
           <option value="increase">Aumento (🔺)</option>
           <option value="decrease">Redução (🔻)</option>
@@ -52,11 +74,17 @@
           <option value="end">Extinção (🧹)</option>
           <option value="adjust">Reforma/Regulamentação (⚙️)</option>
         </select>
-        <select id="f-ordenar" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+        <select id="f-ordenar" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="desc">Mais recente → antigo</option>
           <option value="asc">Mais antigo → recente</option>
         </select>
-        <button id="btnReset" class="rounded-xl border border-slate-300 px-3 py-2 text-sm hover:bg-slate-100">Limpar</button>
+
+        <!-- Dark mode toggle -->
+        <button id="toggleTheme" class="rounded-xl border border-slate-300 dark:border-slate-700 px-3 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-800" title="Alternar tema (claro/escuro)">
+          🌙
+        </button>
+
+        <button id="btnReset" class="rounded-xl border border-slate-300 dark:border-slate-700 px-3 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">Limpar</button>
       </div>
     </div>
   </header>
@@ -64,27 +92,53 @@
   <!-- Legenda -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
     <div class="flex flex-wrap items-center gap-2 text-sm">
-      <span class="badge bg-rose-100 text-rose-700">🔺 Aumento</span>
-      <span class="badge bg-sky-100 text-sky-700">🔻 Redução</span>
-      <span class="badge bg-emerald-100 text-emerald-700">🆕 Nova taxa</span>
-      <span class="badge bg-amber-100 text-amber-700">⚙️ Reforma</span>
-      <span class="badge bg-slate-100 text-slate-700">🧹 Extinção</span>
+      <span class="badge bg-rose-100 text-rose-700 dark:bg-rose-200/30 dark:text-rose-300">🔺 Aumento</span>
+      <span class="badge bg-sky-100 text-sky-700 dark:bg-sky-200/30 dark:text-sky-300">🔻 Redução</span>
+      <span class="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-200/30 dark:text-emerald-300">🆕 Nova taxa</span>
+      <span class="badge bg-amber-100 text-amber-700 dark:bg-amber-200/30 dark:text-amber-300">⚙️ Reforma</span>
+      <span class="badge bg-slate-100 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300">🧹 Extinção</span>
     </div>
   </section>
 
+  <!-- Timeline -->
   <main id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-24"></main>
 
   <footer class="fixed bottom-3 right-3">
-    <a href="#" id="backToTop" class="hidden sm:flex items-center gap-2 rounded-full bg-white border border-slate-200 shadow px-3 py-2 text-sm hover:bg-slate-50">⬆️ Topo</a>
+    <a href="#" id="backToTop" class="hidden sm:flex items-center gap-2 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700">⬆️ Topo</a>
   </footer>
 
   <script>
-    async function carregar() {
-      const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
-      let dados = await res.json();
-      render(dados);
+    // --- Tema (escuro automático + toggle persistente)
+    (function initTheme(){
+      const pref = localStorage.getItem('theme');
+      const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (pref === 'dark' || (!pref && sysDark)) document.documentElement.classList.add('dark');
+      document.getElementById('toggleTheme').addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+      });
+    })();
 
-      // Filtros
+    // Back to top show/hide
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 600) backToTop.classList.remove('hidden'); else backToTop.classList.add('hidden');
+    });
+
+    // --- Carregar dados
+    let dadosOriginais = [];
+    document.addEventListener('DOMContentLoaded', async () => {
+      const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
+      dadosOriginais = await res.json();
+      // default sort desc
+      dadosOriginais.sort((a,b)=> b.year - a.year);
+      render(dadosOriginais);
+      wireFilters();
+      revealOnScroll(); // start observer
+    });
+
+    // --- Filtros e busca
+    function wireFilters(){
       const q = document.getElementById('q');
       const esfera = document.getElementById('f-esfera');
       const tipo = document.getElementById('f-tipo');
@@ -92,66 +146,88 @@
       const ordenar = document.getElementById('f-ordenar');
       const reset = document.getElementById('btnReset');
 
-      function aplicar() {
-        let f = dados.filter(x =>
-          (!q.value || (x.title + x.desc + x.president).toLowerCase().includes(q.value.toLowerCase())) &&
-          (!esfera.value || x.sphere.includes(esfera.value)) &&
+      const aplicar = () => {
+        let f = dadosOriginais.filter(x =>
+          (!q.value || (x.title + ' ' + x.desc + ' ' + x.president).toLowerCase().includes(q.value.toLowerCase())) &&
+          (!esfera.value || (x.sphere || '').includes(esfera.value)) &&
           (!tipo.value || x.type === tipo.value) &&
           (!status.value || x.impact === status.value)
         );
-        if (ordenar.value === 'desc') f.sort((a,b)=>b.year - a.year);
-        else f.sort((a,b)=>a.year - b.year);
+        if (ordenar.value === 'desc') f.sort((a,b)=> b.year - a.year);
+        else f.sort((a,b)=> a.year - b.year);
         render(f);
-      }
+      };
 
       [q, esfera, tipo, status, ordenar].forEach(e => e.addEventListener('input', aplicar));
-      reset.onclick = () => { q.value = esfera.value = tipo.value = status.value = ''; ordenar.value = 'desc'; aplicar(); };
-    }
-
-    function render(data) {
-      const container = document.getElementById('timeline');
-      container.innerHTML = '';
-      const grouped = Object.groupBy ? Object.groupBy(data, i => i.year) :
-        data.reduce((acc,i)=>(acc[i.year]=acc[i.year]||[],acc[i.year].push(i),acc),{});
-      Object.keys(grouped).sort((a,b)=>b - a).forEach(year => {
-        const group = document.createElement('section');
-        group.className = "mb-6";
-        group.innerHTML = `<h2 class="text-lg font-bold mb-2 border-b border-slate-200 pb-1 cursor-pointer">${year}</h2>`;
-        const list = document.createElement('div');
-        list.className = "space-y-2";
-        grouped[year].forEach(item => {
-          const badgeMap = {
-            increase: '🔺 Aumento',
-            decrease: '🔻 Redução',
-            new: '🆕 Nova taxa',
-            end: '🧹 Extinção',
-            adjust: '⚙️ Reforma'
-          };
-          const badgeColor = {
-            increase: 'bg-rose-100 text-rose-700',
-            decrease: 'bg-sky-100 text-sky-700',
-            new: 'bg-emerald-100 text-emerald-700',
-            end: 'bg-slate-100 text-slate-700',
-            adjust: 'bg-amber-100 text-amber-700'
-          };
-          list.innerHTML += `
-            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-              <div class="flex flex-wrap justify-between items-start">
-                <h3 class="font-semibold">${item.title}</h3>
-                <span class="badge ${badgeColor[item.impact] || ''}">${badgeMap[item.impact] || ''}</span>
-              </div>
-              <p class="text-sm text-slate-600 mt-1">${item.desc}</p>
-              <p class="text-xs text-slate-500 mt-2">Presidente: ${item.president} • ${item.sphere} • ${item.type}</p>
-              <a href="${item.source}" target="_blank" class="text-xs text-emerald-600 hover:underline mt-1 inline-block">Fonte ↗</a>
-            </div>`;
-        });
-        group.appendChild(list);
-        container.appendChild(group);
-        group.querySelector('h2').onclick = () => list.classList.toggle('hidden');
+      reset.addEventListener('click', () => {
+        q.value = esfera.value = tipo.value = status.value = '';
+        ordenar.value = 'desc';
+        aplicar();
       });
     }
 
-    document.addEventListener('DOMContentLoaded', carregar);
+    // --- Renderização com animações
+    function render(data){
+      const container = document.getElementById('timeline');
+      container.innerHTML = '';
+      const grouped = data.reduce((acc,i)=>((acc[i.year]=acc[i.year]||[]).push(i),acc),{});
+      Object.keys(grouped).sort((a,b)=> b - a).forEach(year => {
+        const group = document.createElement('section');
+        group.className = "mb-6 reveal";
+        group.innerHTML = `
+          <h2 class="flex items-center gap-2 text-lg font-bold mb-2 border-b border-slate-200 dark:border-slate-700 pb-1 cursor-pointer group-h">
+            <span class="chev inline-block transition -rotate-90">▸</span> ${year}
+          </h2>
+        `;
+        const list = document.createElement('div');
+        list.className = "grid md:grid-cols-2 lg:grid-cols-3 gap-3";
+
+        grouped[year].forEach(item => {
+          const badgeMap = { increase:'🔺 Aumento', decrease:'🔻 Redução', new:'🆕 Nova taxa', end:'🧹 Extinção', adjust:'⚙️ Reforma' };
+          const badgeColor = {
+            increase:'bg-rose-100 text-rose-700 dark:bg-rose-200/30 dark:text-rose-300',
+            decrease:'bg-sky-100 text-sky-700 dark:bg-sky-200/30 dark:text-sky-300',
+            new:'bg-emerald-100 text-emerald-700 dark:bg-emerald-200/30 dark:text-emerald-300',
+            end:'bg-slate-100 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300',
+            adjust:'bg-amber-100 text-amber-700 dark:bg-amber-200/30 dark:text-amber-300'
+          };
+          const card = document.createElement('div');
+          card.className = "card bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 reveal";
+          card.innerHTML = `
+            <div class="flex flex-wrap justify-between items-start gap-2">
+              <h3 class="font-semibold leading-snug">${escapeHtml(item.title)}</h3>
+              <span class="badge ${badgeColor[item.impact] || ''}">${badgeMap[item.impact] || ''}</span>
+            </div>
+            <p class="text-sm text-slate-600 dark:text-slate-300 mt-1">${escapeHtml(item.desc || '')}</p>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">Presidente: ${escapeHtml(item.president || '—')} • ${escapeHtml(item.sphere || '—')} • ${escapeHtml(item.type || '—')}</p>
+            ${item.source ? `<a href="${item.source}" target="_blank" rel="noopener" class="text-xs text-emerald-600 dark:text-emerald-400 hover:underline mt-1 inline-block">Fonte ↗</a>` : ''}
+          `;
+          list.appendChild(card);
+        });
+
+        group.appendChild(list);
+        container.appendChild(group);
+
+        // expand/collapse
+        const header = group.querySelector('h2');
+        const chev = header.querySelector('.chev');
+        header.addEventListener('click', () => {
+          list.classList.toggle('hidden');
+          chev.classList.toggle('rot-90');
+        });
+      });
+    }
+
+    // --- Reveal on Scroll (IntersectionObserver)
+    function revealOnScroll(){
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+      }, { rootMargin: '0px 0px -10% 0px' });
+      document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+    }
+
+    // Safe text
+    function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
   </script>
 </body>
 </html>

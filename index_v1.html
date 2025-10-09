@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impostômetro — Timeline de Tributos do Brasil</title>
+  <meta name="description" content="Timeline interativa de tributos brasileiros (impostos, taxas, contribuições), com filtros, busca, badges de Aumento/Redução/Nova taxa e agrupamento por ano."/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+    *::-webkit-scrollbar { height: 8px; width: 8px; }
+    *::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+    .badge { display: inline-flex; align-items: center; gap: 0.25rem; border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.75rem; font-weight: 600; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex items-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-emerald-600"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/></svg>
+        <div>
+          <h1 class="text-xl font-bold">Impostômetro — Timeline de Tributos</h1>
+          <p class="text-sm text-slate-500">1922 até hoje • filtros, busca e marcadores de alteração</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap gap-2 items-center">
+        <input id="q" type="search" placeholder="Buscar por nome, descrição, presidente…" class="w-80 max-w-[70vw] rounded-xl border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+        <select id="f-esfera" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+          <option value="">Todas as esferas</option>
+          <option>Federal</option>
+          <option>Estadual</option>
+          <option>Municipal</option>
+          <option>Parafiscal</option>
+        </select>
+        <select id="f-tipo" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+          <option value="">Todos os tipos</option>
+          <option>Imposto</option>
+          <option>Taxa</option>
+          <option>Contribuição</option>
+          <option>Lei</option>
+          <option>Decreto</option>
+          <option>Lei Complementar</option>
+          <option>Emenda Constitucional</option>
+        </select>
+        <select id="f-status" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+          <option value="">Todos os status</option>
+          <option value="increase">Aumento (🔺)</option>
+          <option value="decrease">Redução (🔻)</option>
+          <option value="new">Nova taxa (🆕)</option>
+          <option value="end">Extinção (🧹)</option>
+          <option value="adjust">Reforma/Regulamentação (⚙️)</option>
+        </select>
+        <select id="f-ordenar" class="rounded-xl border border-slate-300 px-3 py-2 text-sm">
+          <option value="desc">Mais recente → antigo</option>
+          <option value="asc">Mais antigo → recente</option>
+        </select>
+        <button id="btnReset" class="rounded-xl border border-slate-300 px-3 py-2 text-sm hover:bg-slate-100">Limpar</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Legenda -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+    <div class="flex flex-wrap items-center gap-2 text-sm">
+      <span class="badge bg-rose-100 text-rose-700">🔺 Aumento</span>
+      <span class="badge bg-sky-100 text-sky-700">🔻 Redução</span>
+      <span class="badge bg-emerald-100 text-emerald-700">🆕 Nova taxa</span>
+      <span class="badge bg-amber-100 text-amber-700">⚙️ Reforma</span>
+      <span class="badge bg-slate-100 text-slate-700">🧹 Extinção</span>
+    </div>
+  </section>
+
+  <main id="timeline" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-24"></main>
+
+  <footer class="fixed bottom-3 right-3">
+    <a href="#" id="backToTop" class="hidden sm:flex items-center gap-2 rounded-full bg-white border border-slate-200 shadow px-3 py-2 text-sm hover:bg-slate-50">⬆️ Topo</a>
+  </footer>
+
+  <script>
+    async function carregar() {
+      const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
+      let dados = await res.json();
+      render(dados);
+
+      // Filtros
+      const q = document.getElementById('q');
+      const esfera = document.getElementById('f-esfera');
+      const tipo = document.getElementById('f-tipo');
+      const status = document.getElementById('f-status');
+      const ordenar = document.getElementById('f-ordenar');
+      const reset = document.getElementById('btnReset');
+
+      function aplicar() {
+        let f = dados.filter(x =>
+          (!q.value || (x.title + x.desc + x.president).toLowerCase().includes(q.value.toLowerCase())) &&
+          (!esfera.value || x.sphere.includes(esfera.value)) &&
+          (!tipo.value || x.type === tipo.value) &&
+          (!status.value || x.impact === status.value)
+        );
+        if (ordenar.value === 'desc') f.sort((a,b)=>b.year - a.year);
+        else f.sort((a,b)=>a.year - b.year);
+        render(f);
+      }
+
+      [q, esfera, tipo, status, ordenar].forEach(e => e.addEventListener('input', aplicar));
+      reset.onclick = () => { q.value = esfera.value = tipo.value = status.value = ''; ordenar.value = 'desc'; aplicar(); };
+    }
+
+    function render(data) {
+      const container = document.getElementById('timeline');
+      container.innerHTML = '';
+      const grouped = Object.groupBy ? Object.groupBy(data, i => i.year) :
+        data.reduce((acc,i)=>(acc[i.year]=acc[i.year]||[],acc[i.year].push(i),acc),{});
+      Object.keys(grouped).sort((a,b)=>b - a).forEach(year => {
+        const group = document.createElement('section');
+        group.className = "mb-6";
+        group.innerHTML = `<h2 class="text-lg font-bold mb-2 border-b border-slate-200 pb-1 cursor-pointer">${year}</h2>`;
+        const list = document.createElement('div');
+        list.className = "space-y-2";
+        grouped[year].forEach(item => {
+          const badgeMap = {
+            increase: '🔺 Aumento',
+            decrease: '🔻 Redução',
+            new: '🆕 Nova taxa',
+            end: '🧹 Extinção',
+            adjust: '⚙️ Reforma'
+          };
+          const badgeColor = {
+            increase: 'bg-rose-100 text-rose-700',
+            decrease: 'bg-sky-100 text-sky-700',
+            new: 'bg-emerald-100 text-emerald-700',
+            end: 'bg-slate-100 text-slate-700',
+            adjust: 'bg-amber-100 text-amber-700'
+          };
+          list.innerHTML += `
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+              <div class="flex flex-wrap justify-between items-start">
+                <h3 class="font-semibold">${item.title}</h3>
+                <span class="badge ${badgeColor[item.impact] || ''}">${badgeMap[item.impact] || ''}</span>
+              </div>
+              <p class="text-sm text-slate-600 mt-1">${item.desc}</p>
+              <p class="text-xs text-slate-500 mt-2">Presidente: ${item.president} • ${item.sphere} • ${item.type}</p>
+              <a href="${item.source}" target="_blank" class="text-xs text-emerald-600 hover:underline mt-1 inline-block">Fonte ↗</a>
+            </div>`;
+        });
+        group.appendChild(list);
+        container.appendChild(group);
+        group.querySelector('h2').onclick = () => list.classList.toggle('hidden');
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', carregar);
+  </script>
+</body>
+</html>
