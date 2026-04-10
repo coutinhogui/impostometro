@@ -50,29 +50,12 @@
         <input id="q" type="search" placeholder="Buscar por nome, descrição, presidente…" class="w-80 max-w-[70vw] rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
         <select id="f-esfera" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todas as esferas</option>
-          <option>Federal</option>
-          <option>Estadual</option>
-          <option>Municipal</option>
-          <option>Parafiscal</option>
         </select>
         <select id="f-tipo" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todos os tipos</option>
-          <option>Imposto</option>
-          <option>Taxa</option>
-          <option>Contribuição</option>
-          <option>Lei</option>
-          <option>Decreto</option>
-          <option>Lei Complementar</option>
-          <option>Emenda Constitucional</option>
-          <option>Outro</option>
         </select>
         <select id="f-status" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="">Todos os status</option>
-          <option value="increase">Aumento (🔺)</option>
-          <option value="decrease">Redução (🔻)</option>
-          <option value="new">Nova taxa (🆕)</option>
-          <option value="end">Extinção (🧹)</option>
-          <option value="adjust">Reforma/Regulamentação (⚙️)</option>
         </select>
         <select id="f-ordenar" class="rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-2 text-sm">
           <option value="desc">Mais recente → antigo</option>
@@ -92,11 +75,22 @@
   <!-- Legenda -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
     <div class="flex flex-wrap items-center gap-2 text-sm">
-      <span class="badge bg-rose-100 text-rose-700 dark:bg-rose-200/30 dark:text-rose-300">🔺 Aumento</span>
-      <span class="badge bg-sky-100 text-sky-700 dark:bg-sky-200/30 dark:text-sky-300">🔻 Redução</span>
-      <span class="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-200/30 dark:text-emerald-300">🆕 Nova taxa</span>
-      <span class="badge bg-amber-100 text-amber-700 dark:bg-amber-200/30 dark:text-amber-300">⚙️ Reforma</span>
-      <span class="badge bg-slate-100 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300">🧹 Extinção</span>
+      <span class="badge bg-rose-100 text-rose-700 dark:bg-rose-200/30 dark:text-rose-300">🔺 Aumento <span id="count-impact-increase" class="font-semibold text-slate-600 dark:text-slate-300">0</span></span>
+      <span class="badge bg-sky-100 text-sky-700 dark:bg-sky-200/30 dark:text-sky-300">🔻 Redução <span id="count-impact-decrease" class="font-semibold text-slate-600 dark:text-slate-300">0</span></span>
+      <span class="badge bg-emerald-100 text-emerald-700 dark:bg-emerald-200/30 dark:text-emerald-300">🆕 Nova taxa <span id="count-impact-new" class="font-semibold text-slate-600 dark:text-slate-300">0</span></span>
+      <span class="badge bg-amber-100 text-amber-700 dark:bg-amber-200/30 dark:text-amber-300">⚙️ Reforma <span id="count-impact-adjust" class="font-semibold text-slate-600 dark:text-slate-300">0</span></span>
+      <span class="badge bg-slate-100 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300">🧹 Extinção <span id="count-impact-end" class="font-semibold text-slate-600 dark:text-slate-300">0</span></span>
+    </div>
+  </section>
+
+  <!-- Status dos resultados -->
+  <section id="statusBar" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 hidden">
+    <div class="rounded-2xl border border-slate-200/80 bg-slate-100 text-slate-800 dark:border-slate-700/80 dark:bg-slate-950/30 dark:text-slate-100 p-4 flex flex-wrap items-center justify-between gap-2">
+      <p id="statusText" class="text-sm font-medium">Carregando resultados...</p>
+      <div class="flex flex-wrap gap-2 text-xs text-slate-500 dark:text-slate-400">
+        <span class="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 dark:bg-slate-900/90">Dados: <strong id="statusCount">0</strong></span>
+        <span class="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 dark:bg-slate-900/90">Ordenação: <strong id="statusOrder">Mais recente → antigo</strong></span>
+      </div>
     </div>
   </section>
 
@@ -127,14 +121,33 @@
 
     // --- Carregar dados
     let dadosOriginais = [];
+    const statusBar = document.getElementById('statusBar');
+    const statusText = document.getElementById('statusText');
+    const statusCount = document.getElementById('statusCount');
+    const statusOrder = document.getElementById('statusOrder');
+
     document.addEventListener('DOMContentLoaded', async () => {
-      const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
-      dadosOriginais = await res.json();
-      // default sort desc
-      dadosOriginais.sort((a,b)=> b.year - a.year);
-      render(dadosOriginais);
-      wireFilters();
-      revealOnScroll(); // start observer
+      statusBar.classList.remove('hidden');
+      statusText.textContent = 'Carregando resultados…';
+      statusCount.textContent = '0';
+      try {
+        const res = await fetch('tributos_brasil_1922_2025_ampliado.json');
+        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        dadosOriginais = await res.json();
+        // default sort desc
+        dadosOriginais.sort((a,b)=> b.year - a.year);
+        populateFilters(dadosOriginais);
+        render(dadosOriginais);
+        wireFilters();
+      } catch (error) {
+        statusText.textContent = 'Falha ao carregar os dados.';
+        document.getElementById('timeline').innerHTML = `
+          <div class="rounded-2xl border border-rose-200 bg-rose-50 text-rose-700 dark:border-rose-600/40 dark:bg-rose-950/30 dark:text-rose-200 p-6">
+            <strong class="block text-sm font-semibold mb-2">Não foi possível carregar os dados.</strong>
+            <p class="text-sm">Tente usar um servidor local e recarregar a página. Erro: ${escapeHtml(error.message)}</p>
+          </div>
+        `;
+      }
     });
 
     // --- Filtros e busca
@@ -166,10 +179,78 @@
       });
     }
 
+    function getUniqueValues(data, key){
+      return Array.from(new Set(data.map(item => item[key] || '').filter(Boolean))).sort((a,b) => a.localeCompare(b, 'pt-BR', { sensitivity: 'base' }));
+    }
+
+    function formatImpactLabel(value){
+      const map = {
+        increase:'Aumento (🔺)',
+        decrease:'Redução (🔻)',
+        new:'Nova taxa (🆕)',
+        end:'Extinção (🧹)',
+        adjust:'Reforma/Regulamentação (⚙️)'
+      };
+      return map[value] || value;
+    }
+
+    function createOptions(select, values){
+      values.forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function populateFilters(data){
+      const esfera = document.getElementById('f-esfera');
+      const tipo = document.getElementById('f-tipo');
+      const status = document.getElementById('f-status');
+
+      createOptions(esfera, getUniqueValues(data, 'sphere'));
+      createOptions(tipo, getUniqueValues(data, 'type'));
+      const impacts = getUniqueValues(data, 'impact');
+      impacts.forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = formatImpactLabel(value);
+        status.appendChild(option);
+      });
+    }
+
+    function updateLegendCounts(data){
+      ['increase','decrease','new','adjust','end'].forEach(impact => {
+        const count = data.filter(item => item.impact === impact).length;
+        const label = document.getElementById(`count-impact-${impact}`);
+        if (label) label.textContent = count;
+      });
+    }
+
+    function updateStatusBar(data, order){
+      statusText.textContent = data.length ? 'Resultados filtrados' : 'Nenhum resultado encontrado';
+      statusCount.textContent = String(data.length);
+      statusOrder.textContent = order === 'asc' ? 'Mais antigo → recente' : 'Mais recente → antigo';
+    }
+
     // --- Renderização com animações
     function render(data){
       const container = document.getElementById('timeline');
+      const order = document.getElementById('f-ordenar').value;
+      if (!data.length) {
+        updateStatusBar(data, order);
+        updateLegendCounts(data);
+        return container.innerHTML = `
+          <div class="rounded-2xl border border-slate-300/80 bg-slate-100 text-slate-800 dark:border-slate-700/80 dark:bg-slate-900 dark:text-slate-100 p-6 text-center">
+            <p class="text-sm font-medium">Nenhum resultado encontrado para os filtros atuais.</p>
+          </div>
+        `;
+      }
+
       container.innerHTML = '';
+      updateStatusBar(data, order);
+      updateLegendCounts(data);
+
       const grouped = data.reduce((acc,i)=>((acc[i.year]=acc[i.year]||[]).push(i),acc),{});
       Object.keys(grouped).sort((a,b)=> b - a).forEach(year => {
         const group = document.createElement('section');
@@ -216,6 +297,8 @@
           chev.classList.toggle('rot-90');
         });
       });
+
+      revealOnScroll();
     }
 
     // --- Reveal on Scroll (IntersectionObserver)

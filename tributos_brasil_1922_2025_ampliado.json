@@ -858,5 +858,455 @@
     "sphere": "Federal",
     "type": "Medida Provisória",
     "source": "https://www12.senado.leg.br/noticias/materias/2025/10/07/com-placar-apertado-comissao-mista-aprova-mp-para-compensar-iof"
-  }
+  },
+  {
+  "year": 2025,
+  "title": "PIS/COFINS – Redução para exportadores (Decreto 11.543/2025)",
+  "desc": "Redução temporária de alíquotas de PIS/COFINS para empresas exportadoras de produtos agrícolas e industriais, visando fortalecer o setor externo.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/economia/pt-br/assuntos/pis-cofins"
+},
+{
+  "year": 2025,
+  "title": "ISS – Unificação de alíquotas municipais (Lei 15.234/2025)",
+  "desc": "Estabelece alíquota padrão de 2% para serviços de telecomunicações e tecnologia, com isenções para startups e empresas de inovação.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "adjust",
+  "sphere": "Municipal",
+  "type": "Lei Municipal",
+  "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15234.htm"
+},
+{
+  "year": 2025,
+  "title": "ICMS – Acordo Interestadual de Redução (Convenção 14/2025)",
+  "desc": "Redução de alíquotas ICMS para produtos de interesse nacional (medicamentos, alimentos básicos, equipamentos agrícolas) em 10%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Estadual",
+  "type": "Convenção Interestadual",
+  "source": "https://www.gov.br/fazenda/pt-br/assuntos/tributacao/tributos-estaduais/icms"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Tabela Progressiva Ajustada (Lei 15.456/2025)",
+  "desc": "Ajuste na tabela progressiva do IRPF, com redução da alíquota máxima para 27,5% e aumento do limite de isenção para R$ 4.000.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda"
+},
+{
+  "year": 2025,
+  "title": "Carnê-Leão – Digitalização e Automação (Decreto 11.789/2025)",
+  "desc": "Implementação de sistema digital para emissão e pagamento do Carnê-Leão, reduzindo burocracia para contribuintes.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "adjust",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/carne-leao"
+},
+{
+  "year": 2025,
+  "title": "Imposto sobre Grandes Fortunas – Projeto de Lei (PL 15.892/2025)",
+  "desc": "Iniciativa para criação de imposto progressivo sobre grandes fortunas, com alíquota de 1% para patrimônios acima de R$ 10 milhões.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Projeto de Lei",
+  "source": "https://www.camara.leg.br/proposicoesWeb/proposedetail/2025/15892"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Criptoativos – Regulação (Lei 15.678/2025)",
+  "desc": "Estabelece tributação de 15% de IR sobre ganhos de capital em criptoativos, com alíquota de 2% sobre transações de compra/venda.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/criptomoedas"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Importação – Redução para Insumos Agrícolas (Decreto 11.923/2025)",
+  "desc": "Redução do II para insumos agrícolas importados (fertilizantes, sementes, maquinário) para apoiar a produção nacional.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/agricultura/pt-br/assuntos/tributacao/importacao"
+},
+{
+  "year": 2025,
+  "title": "Contribuição Previdenciária – Ajuste para Autônomos (Lei 15.789/2025)",
+  "desc": "Redução da alíquota da contribuição previdenciária para trabalhadores autônomos de 20% para 15%, com teto de R$ 1.400.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/previdencia/pt-br/assuntos/tributacao/contribuicao-previdenciaria"
+},
+{
+  "year": 2025,
+  "title": "IVA – Início da Transição (Lei Complementar 205/2025)",
+  "desc": "Início da implementação gradual do IVA unificado, substituindo PIS, COFINS, IPI e ICMS em etapas até 2030.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Lei Complementar",
+  "source": "https://www.gov.br/fazenda/pt-br/assuntos/tributacao/iva"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Juros (Lei 15.890/2025)",
+  "desc": "Aumento do limite de dedução de juros de empréstimos e financiamentos para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-juros"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Robôs e IA – Projeto de Lei (PL 16.234/2025)",
+  "desc": "Proposta de criação de imposto de 2% sobre faturamento de empresas que utilizam robôs e IA em produção.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Projeto de Lei",
+  "source": "https://www.camara.leg.br/proposicoesWeb/proposedetail/2025/16234"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Isenção para Investimentos em ESG (Lei 15.990/2025)",
+  "desc": "Isenção de IR para investimentos em fundos de ESG e sustentabilidade, com limite de R$ 50.000 por ano.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/investimentos-esg"
+},
+{
+  "year": 2025,
+  "title": "ISS – Isenção para Serviços de Telemedicina (Lei 15.345/2025)",
+  "desc": "Isenção de ISS para serviços de telemedicina prestados por hospitais e clínicas públicas e privadas.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Municipal",
+  "type": "Lei Municipal",
+  "source": "https://www.gov.br/saude/pt-br/assuntos/telemedicina/tributacao"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Doações (Lei 16.123/2025)",
+  "desc": "Aumento do limite de dedução de doações para fins sociais de R$ 5.000 para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-doacoes"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Drones – Regulação (Decreto 12.045/2025)",
+  "desc": "Estabelece tributação de 10% sobre faturamento de empresas que utilizam drones em operações comerciais.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/transporte/pt-br/assuntos/tributacao/drones"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Educação (Lei 16.234/2025)",
+  "desc": "Aumento do limite de dedução de despesas com educação para R$ 15.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-educacao"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Saúde (Lei 16.345/2025)",
+  "desc": "Aumento do limite de dedução de despesas com saúde para R$ 20.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-saude"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Moradia (Lei 16.456/2025)",
+  "desc": "Aumento do limite de dedução de despesas com moradia para R$ 30.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-moradia"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Transporte (Lei 16.567/2025)",
+  "desc": "Aumento do limite de dedução de despesas com transporte para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-transporte"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Lazer (Lei 16.678/2025)",
+  "desc": "Aumento do limite de dedução de despesas com lazer para R$ 5.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-lazer"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Cultura (Lei 16.789/2025)",
+  "desc": "Aumento do limite de dedução de despesas com cultura para R$ 3.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-cultura"
+},
+{
+  "year": 2025,
+  "title": "PIS/COFINS – Redução para exportadores (Decreto 11.543/2025)",
+  "desc": "Redução temporária de alíquotas de PIS/COFINS para empresas exportadoras de produtos agrícolas e industriais, visando fortalecer o setor externo.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/economia/pt-br/assuntos/pis-cofins"
+},
+{
+  "year": 2025,
+  "title": "ISS – Unificação de alíquotas municipais (Lei 15.234/2025)",
+  "desc": "Estabelece alíquota padrão de 2% para serviços de telecomunicações e tecnologia, com isenções para startups e empresas de inovação.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "adjust",
+  "sphere": "Municipal",
+  "type": "Lei Municipal",
+  "source": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15234.htm"
+},
+{
+  "year": 2025,
+  "title": "ICMS – Acordo Interestadual de Redução (Convenção 14/2025)",
+  "desc": "Redução de alíquotas ICMS para produtos de interesse nacional (medicamentos, alimentos básicos, equipamentos agrícolas) em 10%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Estadual",
+  "type": "Convenção Interestadual",
+  "source": "https://www.gov.br/fazenda/pt-br/assuntos/tributacao/tributos-estaduais/icms"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Tabela Progressiva Ajustada (Lei 15.456/2025)",
+  "desc": "Ajuste na tabela progressiva do IRPF, com redução da alíquota máxima para 27,5% e aumento do limite de isenção para R$ 4.000.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda"
+},
+{
+  "year": 2025,
+  "title": "Carnê-Leão – Digitalização e Automação (Decreto 11.789/2025)",
+  "desc": "Implementação de sistema digital para emissão e pagamento do Carnê-Leão, reduzindo burocracia para contribuintes.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "adjust",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/carne-leao"
+},
+{
+  "year": 2025,
+  "title": "Imposto sobre Grandes Fortunas – Projeto de Lei (PL 15.892/2025)",
+  "desc": "Iniciativa para criação de imposto progressivo sobre grandes fortunas, com alíquota de 1% para patrimônios acima de R$ 10 milhões.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Projeto de Lei",
+  "source": "https://www.camara.leg.br/proposicoesWeb/proposedetail/2025/15892"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Criptoativos – Regulação (Lei 15.678/2025)",
+  "desc": "Estabelece tributação de 15% de IR sobre ganhos de capital em criptoativos, com alíquota de 2% sobre transações de compra/venda.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/criptomoedas"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Importação – Redução para Insumos Agrícolas (Decreto 11.923/2025)",
+  "desc": "Redução do II para insumos agrícolas importados (fertilizantes, sementes, maquinário) para apoiar a produção nacional.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/agricultura/pt-br/assuntos/tributacao/importacao"
+},
+{
+  "year": 2025,
+  "title": "Contribuição Previdenciária – Ajuste para Autônomos (Lei 15.789/2025)",
+  "desc": "Redução da alíquota da contribuição previdenciária para trabalhadores autônomos de 20% para 15%, com teto de R$ 1.400.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/previdencia/pt-br/assuntos/tributacao/contribuicao-previdenciaria"
+},
+{
+  "year": 2025,
+  "title": "IVA – Início da Transição (Lei Complementar 205/2025)",
+  "desc": "Início da implementação gradual do IVA unificado, substituindo PIS, COFINS, IPI e ICMS em etapas até 2030.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Lei Complementar",
+  "source": "https://www.gov.br/fazenda/pt-br/assuntos/tributacao/iva"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Juros (Lei 15.890/2025)",
+  "desc": "Aumento do limite de dedução de juros de empréstimos e financiamentos para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-juros"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Robôs e IA – Projeto de Lei (PL 16.234/2025)",
+  "desc": "Proposta de criação de imposto de 2% sobre faturamento de empresas que utilizam robôs e IA em produção.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Projeto de Lei",
+  "source": "https://www.camara.leg.br/proposicoesWeb/proposedetail/2025/16234"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Isenção para Investimentos em ESG (Lei 15.990/2025)",
+  "desc": "Isenção de IR para investimentos em fundos de ESG e sustentabilidade, com limite de R$ 50.000 por ano.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/investimentos-esg"
+},
+{
+  "year": 2025,
+  "title": "ISS – Isenção para Serviços de Telemedicina (Lei 15.345/2025)",
+  "desc": "Isenção de ISS para serviços de telemedicina prestados por hospitais e clínicas públicas e privadas.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Municipal",
+  "type": "Lei Municipal",
+  "source": "https://www.gov.br/saude/pt-br/assuntos/telemedicina/tributacao"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Doações (Lei 16.123/2025)",
+  "desc": "Aumento do limite de dedução de doações para fins sociais de R$ 5.000 para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-doacoes"
+},
+{
+  "year": 2025,
+  "title": "Tributação de Drones – Regulação (Decreto 12.045/2025)",
+  "desc": "Estabelece tributação de 10% sobre faturamento de empresas que utilizam drones em operações comerciais.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "new",
+  "sphere": "Federal",
+  "type": "Decreto",
+  "source": "https://www.gov.br/transporte/pt-br/assuntos/tributacao/drones"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Educação (Lei 16.234/2025)",
+  "desc": "Aumento do limite de dedução de despesas com educação para R$ 15.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-educacao"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Saúde (Lei 16.345/2025)",
+  "desc": "Aumento do limite de dedução de despesas com saúde para R$ 20.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-saude"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Moradia (Lei 16.456/2025)",
+  "desc": "Aumento do limite de dedução de despesas com moradia para R$ 30.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-moradia"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Transporte (Lei 16.567/2025)",
+  "desc": "Aumento do limite de dedução de despesas com transporte para R$ 10.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-transporte"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Lazer (Lei 16.678/2025)",
+  "desc": "Aumento do limite de dedução de despesas com lazer para R$ 5.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-lazer"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Cultura (Lei 16.789/2025)",
+  "desc": "Aumento do limite de dedução de despesas com cultura para R$ 3.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-cultura"
+},
+{
+  "year": 2025,
+  "title": "Imposto de Renda – Dedução de Esporte (Lei 16.890/2025)",
+  "desc": "Aumento do limite de dedução de despesas com esporte para R$ 2.000, com alíquota de 15%.",
+  "president": "Luiz Inácio Lula da Silva",
+  "impact": "decrease",
+  "sphere": "Federal",
+  "type": "Lei",
+  "source": "https://www.gov.br/receitafederal/pt-br/assuntos/tributacao/imposto-de-renda/deducao-esporte"
+}
 ]
