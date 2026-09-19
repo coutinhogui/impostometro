@@ -1,0 +1,53 @@
+{
+  "year": 2026,
+  "reviewedAt": "2026-09-19",
+  "sources": [
+    {
+      "title": "Receita Federal — tabela de 2026",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+      "section": "Incidência mensal: tabela progressiva e tabela de redução",
+      "accessedAt": "2026-09-19"
+    },
+    {
+      "title": "Receita Federal — exemplos de cálculo",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/exemplos-de-aplicacao-da-lei-15-270-2025",
+      "section": "Exemplos 3 e 4",
+      "accessedAt": "2026-09-19"
+    }
+  ],
+  "simplifiedDeduction": 607.2,
+  "brackets": [
+    {
+      "upTo": 2428.8,
+      "rate": 0,
+      "deduction": 0
+    },
+    {
+      "upTo": 2826.65,
+      "rate": 0.075,
+      "deduction": 182.16
+    },
+    {
+      "upTo": 3751.05,
+      "rate": 0.15,
+      "deduction": 394.16
+    },
+    {
+      "upTo": 4664.68,
+      "rate": 0.225,
+      "deduction": 675.49
+    },
+    {
+      "upTo": null,
+      "rate": 0.275,
+      "deduction": 908.73
+    }
+  ],
+  "reduction": {
+    "zeroUntil": 5000,
+    "maxZeroReduction": 312.89,
+    "partialUntil": 7350,
+    "intercept": 978.62,
+    "slope": 0.133145
+  }
+}

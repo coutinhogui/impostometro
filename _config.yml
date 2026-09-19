@@ -1,0 +1,12 @@
+# GitHub Pages já publica a raiz da branch main com Jekyll.
+# Somente HTML, assets/ e data/ fazem parte da consulta pública.
+exclude:
+  - _editorial
+  - AGENTS.md
+  - README.md
+  - package.json
+  - tests
+  - scripts
+  - dist
+  - .github
+  - .gitignore

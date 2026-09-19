@@ -1,0 +1,2425 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-19",
+  "coverage": "Marcos de 1922 a 2026. Seleção documental, sem cobertura exaustiva de normas federais, estaduais e municipais.",
+  "events": [
+    {
+      "id": "defesa-contribuinte-2026",
+      "year": 2026,
+      "title": "Código de Defesa do Contribuinte",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 225/2026",
+      "summary": "A lei estabeleceu normas gerais de direitos, garantias, deveres e procedimentos na relação entre contribuintes e administração tributária.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei estabeleceu normas gerais de direitos, garantias, deveres e procedimentos na relação entre contribuintes e administração tributária.",
+      "affected": "Contribuintes, responsáveis e administrações das três esferas.",
+      "dateNote": "Ano do ato: 2026. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Direitos e procedimentos devem ser lidos com os requisitos e a vigência de cada dispositivo; a ficha não resolve um processo individual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 225/2026 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp225.htm",
+          "section": "Arts. 1º a 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "gestao-ibs-itcmd-2026",
+      "year": 2026,
+      "title": "Gestão do IBS e normas gerais sobre heranças e doações",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 227/2026",
+      "summary": "A lei instituiu o Comitê Gestor do IBS, disciplinou sua administração e distribuição de receita e estabeleceu normas gerais relativas ao ITCMD.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu o Comitê Gestor do IBS, disciplinou sua administração e distribuição de receita e estabeleceu normas gerais relativas ao ITCMD.",
+      "affected": "Entes federativos e contribuintes alcançados pelo IBS ou pelo ITCMD.",
+      "dateNote": "Ano do ato: 2026. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Norma geral de ITCMD não equivale a uma alíquota nacional única sobre heranças e doações; a legislação estadual continua relevante.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 227/2026 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ir-mensal-2026",
+      "year": 2026,
+      "title": "IR mensal: redução para rendimentos até R$ 7.350",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Em aplicação em 2026",
+      "impact": "Redução condicionada",
+      "instrument": "Lei 15.270/2025",
+      "summary": "Desde janeiro de 2026, há redução que zera o imposto até R$ 5 mil de rendimentos tributáveis mensais e diminui gradualmente até R$ 7.350.",
+      "before": "Cálculo pela tabela progressiva, antes desta redução.",
+      "after": "A redução é aplicada depois do cálculo pela tabela.",
+      "affected": "Pessoas físicas com rendimentos sujeitos à tabela mensal.",
+      "dateNote": "Efeitos mensais: janeiro de 2026.",
+      "limitation": "Não equivale ao ajuste anual nem cobre todas as formas de renda.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Receita Federal — tabela de 2026",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+          "section": "Incidência mensal: tabela progressiva e tabela de redução",
+          "accessedAt": "2026-09-19"
+        },
+        {
+          "title": "Receita Federal — exemplos de cálculo",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/exemplos-de-aplicacao-da-lei-15-270-2025",
+          "section": "Exemplos 3 e 4",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "reforma-teste-2026",
+      "year": 2026,
+      "title": "CBS e IBS: 2026 é o ano de teste",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Em transição",
+      "impact": "Impacto depende do caso",
+      "instrument": "Reforma tributária do consumo",
+      "summary": "O teste prevê CBS de 0,9% e IBS de 0,1%, com compensação e dispensa de recolhimento nas condições legais.",
+      "before": "Sistema de tributos sobre consumo em transição.",
+      "after": "Teste de CBS e IBS. Não some automaticamente 1% ao preço da compra.",
+      "affected": "Contribuintes abrangidos pelas regras e consumidores interessados na transição.",
+      "dateNote": "Teste em 2026; transição do ICMS e ISS entre 2029 e 2032; modelo integral previsto para 2033.",
+      "limitation": "A fonte prevê dispensa para quem cumpre obrigações acessórias. O impacto no preço não foi calculado.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Receita Federal — transição da reforma",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/entenda",
+          "section": "Transição: 2026, 2027 e 2028, 2029 a 2032, 2033",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "beneficios-federais-2025",
+      "year": 2025,
+      "title": "Redução e critérios para benefícios federais",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 224/2025",
+      "summary": "A lei tratou da redução e dos critérios de concessão de incentivos e benefícios tributários, financeiros e creditícios no âmbito da União.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei tratou da redução e dos critérios de concessão de incentivos e benefícios tributários, financeiros e creditícios no âmbito da União.",
+      "affected": "Beneficiários e operações alcançados pela lei.",
+      "dateNote": "Ano do ato: 2025. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Há regras, exceções e datas próprias; não se afirma corte igual em todos os benefícios nem alteração automática de incentivos estaduais ou municipais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 224/2025 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ir-tabela-2025",
+      "year": 2025,
+      "title": "Nova faixa inicial da tabela mensal do IR",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 15.191/2025",
+      "summary": "A lei ampliou, a partir de maio de 2025, a primeira faixa da tabela progressiva mensal para base de cálculo até R$ 2.428,80.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei ampliou, a partir de maio de 2025, a primeira faixa da tabela progressiva mensal para base de cálculo até R$ 2.428,80.",
+      "affected": "Pessoas físicas sujeitas à tabela mensal.",
+      "dateNote": "Ano do ato: 2025. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Base de cálculo não é o rendimento bruto. Em 2026 há também a redução de imposto disciplinada pela Lei 15.270/2025.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 15.191/2025 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15191.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "regulamentacao-reforma-2025",
+      "year": 2025,
+      "title": "Instituição do IBS, CBS e Imposto Seletivo",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 214/2025",
+      "summary": "A lei complementar instituiu IBS, CBS e Imposto Seletivo e estabeleceu regras da reforma da tributação do consumo.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei complementar instituiu IBS, CBS e Imposto Seletivo e estabeleceu regras da reforma da tributação do consumo.",
+      "affected": "Consumidores, fornecedores e entes federativos conforme os regimes legais.",
+      "dateNote": "Ano do ato: 2025. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O texto tem datas de produção de efeitos e transição. Não se aplica uma alíquota suposta a todas as compras nem se soma automaticamente o novo sistema ao antigo.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 214/2025 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "folha-transicao-2024",
+      "year": 2024,
+      "title": "Transição da contribuição previdenciária substitutiva",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.973/2024",
+      "summary": "A lei estabeleceu regime de transição para a contribuição substitutiva sobre receita bruta prevista na Lei 12.546/2011.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei estabeleceu regime de transição para a contribuição substitutiva sobre receita bruta prevista na Lei 12.546/2011.",
+      "affected": "Empresas dos setores alcançados pela contribuição substitutiva.",
+      "dateNote": "Ano do ato: 2024. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A transição depende da atividade e do período. Não corresponde a uma mudança uniforme no desconto previdenciário do trabalhador.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.973/2024 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14973.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ir-tabela-2024",
+      "year": 2024,
+      "title": "Atualização da tabela mensal do IR em 2024",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.848/2024",
+      "summary": "A lei alterou a tabela progressiva mensal do IRPF com faixa inicial de base de cálculo até R$ 2.259,20, a partir de fevereiro de 2024.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a tabela progressiva mensal do IRPF com faixa inicial de base de cálculo até R$ 2.259,20, a partir de fevereiro de 2024.",
+      "affected": "Pessoas físicas sujeitas à tabela mensal no período.",
+      "dateNote": "Ano do ato: 2024. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O valor se refere à base de cálculo, após as deduções cabíveis, e não necessariamente ao salário bruto. Não é a tabela atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.848/2024 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14848.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "remessas-importacao-2024",
+      "year": 2024,
+      "title": "Tabela de Imposto de Importação para remessas",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.902/2024",
+      "summary": "A lei incluiu tabela para o regime simplificado de remessas: 20% até US$ 50 e 60% de US$ 50,01 até US$ 3.000, com dedução de US$ 20 nessa segunda faixa.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei incluiu tabela para o regime simplificado de remessas: 20% até US$ 50 e 60% de US$ 50,01 até US$ 3.000, com dedução de US$ 20 nessa segunda faixa.",
+      "affected": "Importações enquadradas no regime e período aplicáveis.",
+      "dateNote": "Ano do ato: 2024. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Registro da alteração legal de 2024. Não é uma calculadora do custo atual: ICMS, base aduaneira, regulamentação e alterações posteriores precisam ser considerados.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.902/2024 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm",
+          "section": "Art. 32, alteração do Decreto-Lei 1.804/1980",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "apostas-regulacao-2023",
+      "year": 2023,
+      "title": "Regras para exploração de apostas de quota fixa",
+      "topic": "Apostas",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.790/2023",
+      "summary": "A lei disciplinou a modalidade de apostas de quota fixa e alterou a legislação relacionada.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei disciplinou a modalidade de apostas de quota fixa e alterou a legislação relacionada.",
+      "affected": "Operadores e apostadores abrangidos pelas regras.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A ficha não apresenta alíquota atual de prêmios ou operadores; valores dependem das regras do período e de alterações posteriores.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.790/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "fundos-exterior-2023",
+      "year": 2023,
+      "title": "Tributação de fundos e rendimentos no exterior",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.754/2023",
+      "summary": "A lei tratou da tributação de fundos no País e de rendimentos de pessoas físicas residentes no Brasil em aplicações financeiras, entidades controladas e trusts no exterior.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei tratou da tributação de fundos no País e de rendimentos de pessoas físicas residentes no Brasil em aplicações financeiras, entidades controladas e trusts no exterior.",
+      "affected": "Investidores nas hipóteses definidas.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Há regimes e exceções específicos. A ficha não afirma que todos os investimentos tenham a mesma tributação.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.754/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm",
+          "section": "Ementa e arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ir-tabela-2023",
+      "year": 2023,
+      "title": "Tabela do IR e desconto simplificado mensal",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.663/2023",
+      "summary": "A lei alterou a tabela mensal do IRPF e previu desconto simplificado mensal alternativo às deduções legais, quando mais benéfico.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a tabela mensal do IRPF e previu desconto simplificado mensal alternativo às deduções legais, quando mais benéfico.",
+      "affected": "Pessoas físicas sujeitas à tabela mensal do IR.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Faixa de base de cálculo e rendimento bruto isento não são a mesma coisa. Para 2026, consulte a simulação e suas limitações.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.663/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm",
+          "section": "Arts. 5º e 6º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "precos-transferencia-2023",
+      "year": 2023,
+      "title": "Novas regras de preços de transferência",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.596/2023",
+      "summary": "A lei disciplinou preços de transferência para determinar bases de IRPJ e CSLL em transações controladas com partes relacionadas no exterior.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei disciplinou preços de transferência para determinar bases de IRPJ e CSLL em transações controladas com partes relacionadas no exterior.",
+      "affected": "Pessoas jurídicas no Brasil que realizam essas transações.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não é tabela de preços de produtos ao consumidor nem imposto geral sobre remessas pessoais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.596/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14596.htm",
+          "section": "Arts. 1º a 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "reforma-constitucional-2023",
+      "year": 2023,
+      "title": "Reforma constitucional da tributação do consumo",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 132/2023",
+      "summary": "A emenda modificou o sistema tributário e estabeleceu a base constitucional do IBS e da CBS, com regras de transição.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda modificou o sistema tributário e estabeleceu a base constitucional do IBS e da CBS, com regras de transição.",
+      "affected": "Consumidores, empresas e entes federativos.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A emenda não significa substituição instantânea dos tributos anteriores nem fixa uma alíquota final única para toda compra.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 132/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+          "section": "Ementa; arts. 156-A e 195, V, incluídos/alterados",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "simplificacao-2023",
+      "year": 2023,
+      "title": "Simplificação das obrigações tributárias",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança administrativa",
+      "instrument": "Lei Complementar 199/2023",
+      "summary": "Institui o Estatuto Nacional de Simplificação de Obrigações Tributárias Acessórias.",
+      "before": "Obrigações e sistemas que a norma busca padronizar.",
+      "after": "Diretrizes para integração de documentos, cadastros e informações fiscais.",
+      "affected": "Contribuintes e administrações tributárias.",
+      "dateNote": "Lei de 1º de agosto de 2023.",
+      "limitation": "Este registro descreve o marco legal; não afirma que toda a implementação foi concluída nem que houve redução de imposto.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Planalto — Lei Complementar 199/2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp199.htm",
+          "section": "Artigos 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "subvencoes-2023",
+      "year": 2023,
+      "title": "Crédito fiscal para subvenções de investimento",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 14.789/2023",
+      "summary": "A lei dispôs sobre crédito fiscal decorrente de subvenção para implantação ou expansão de empreendimento econômico.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre crédito fiscal decorrente de subvenção para implantação ou expansão de empreendimento econômico.",
+      "affected": "Pessoas jurídicas elegíveis às condições legais.",
+      "dateNote": "Ano do ato: 2023. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não significa que toda subvenção seja isenta ou que toda empresa possa obter o crédito automaticamente.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 14.789/2023 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "difal-2022",
+      "year": 2022,
+      "title": "Regulamentação do diferencial de ICMS",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 190/2022",
+      "summary": "A lei alterou a Lei Kandir para regulamentar a cobrança de ICMS em operações e prestações interestaduais destinadas a consumidor final não contribuinte.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a Lei Kandir para regulamentar a cobrança de ICMS em operações e prestações interestaduais destinadas a consumidor final não contribuinte.",
+      "affected": "Remetentes e operações interestaduais abrangidas.",
+      "dateNote": "Ano do ato: 2022. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não representa uma segunda cobrança integral de ICMS. Datas de exigibilidade dependem também das regras constitucionais e decisões aplicáveis.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 190/2022 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp190.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "essencialidade-icms-2022",
+      "year": 2022,
+      "title": "Essencialidade de energia, combustíveis e outros serviços no ICMS",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 194/2022",
+      "summary": "A lei classificou combustíveis, gás natural, energia elétrica, comunicações e transporte coletivo como essenciais para fins de ICMS, vedando alíquota acima da aplicada às operações em geral nas condições do texto.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei classificou combustíveis, gás natural, energia elétrica, comunicações e transporte coletivo como essenciais para fins de ICMS, vedando alíquota acima da aplicada às operações em geral nas condições do texto.",
+      "affected": "Consumidores e cadeias econômicas dos bens e serviços abrangidos.",
+      "dateNote": "Ano do ato: 2022. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não fixa uma alíquota única nacional e não comprova, sozinha, queda efetiva de preço em cada local.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 194/2022 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp194.htm",
+          "section": "Art. 1º, inclusão do art. 18-A no CTN",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "icms-combustiveis-2022",
+      "year": 2022,
+      "title": "ICMS dos combustíveis com incidência em uma etapa",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 192/2022",
+      "summary": "A lei definiu combustíveis sobre os quais o ICMS incidiria uma única vez, nos termos constitucionais e legais.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei definiu combustíveis sobre os quais o ICMS incidiria uma única vez, nos termos constitucionais e legais.",
+      "affected": "Cadeia de combustíveis abrangidos.",
+      "dateNote": "Ano do ato: 2022. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Monofasia significa concentrar a incidência em uma etapa; não significa isenção nem redução garantida do preço ao consumidor.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 192/2022 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp192.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "iof-cambio-2022",
+      "year": 2022,
+      "title": "Um cronograma de redução do IOF sobre câmbio",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Decreto 10.997/2022",
+      "summary": "O decreto estabeleceu reduções e um cronograma para hipóteses de IOF sobre câmbio.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O decreto estabeleceu reduções e um cronograma para hipóteses de IOF sobre câmbio.",
+      "affected": "Pessoas e empresas em operações de câmbio abrangidas.",
+      "dateNote": "Ano do ato: 2022. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O próprio texto registra revogação de vários incisos. Não usar esse cronograma como tabela vigente do IOF.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Decreto 10.997/2022 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2022/Decreto/D10997.htm",
+          "section": "Art. 1º, inclusão do art. 15-C no Decreto 6.306/2007",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "iss-obrigacoes-2020",
+      "year": 2020,
+      "title": "Padrão de obrigações e partilha do ISS em serviços específicos",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 175/2020",
+      "summary": "A lei dispôs sobre padrão nacional de obrigação acessória e transição de partilha do ISS relativo aos serviços que especifica.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre padrão nacional de obrigação acessória e transição de partilha do ISS relativo aos serviços que especifica.",
+      "affected": "Prestadores e municípios envolvidos nos serviços expressamente abrangidos.",
+      "dateNote": "Ano do ato: 2020. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Ficha histórica do texto legislativo; não afirma exigibilidade atual dos dispositivos, que devem ser lidos junto às decisões judiciais aplicáveis.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 175/2020 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp175.htm",
+          "section": "Ementa",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "transacao-tributaria-2020",
+      "year": 2020,
+      "title": "Acordos para resolver litígios sobre dívidas públicas",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 13.988/2020",
+      "summary": "A lei estabeleceu requisitos e condições para transações envolvendo créditos da Fazenda Pública, inclusive tributários.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei estabeleceu requisitos e condições para transações envolvendo créditos da Fazenda Pública, inclusive tributários.",
+      "affected": "Devedores e entes públicos nas hipóteses legais.",
+      "dateNote": "Ano do ato: 2020. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não concede desconto automático nem extingue qualquer dívida sem condições, regulamentação ou acordo aplicável.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 13.988/2020 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13988.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "previdencia-progressiva-2019",
+      "year": 2019,
+      "title": "Contribuição previdenciária por faixas progressivas",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 103/2019",
+      "summary": "A reforma previu alíquotas progressivas para a contribuição do empregado, inclusive doméstico, e do trabalhador avulso, aplicadas a cada faixa do salário de contribuição.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A reforma previu alíquotas progressivas para a contribuição do empregado, inclusive doméstico, e do trabalhador avulso, aplicadas a cada faixa do salário de contribuição.",
+      "affected": "Segurados empregados, domésticos e trabalhadores avulsos do RGPS.",
+      "dateNote": "Ano do ato: 2019. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Os limites monetários das faixas são atualizados. Não aplicar a maior alíquota sobre todo o salário nem usar as faixas monetárias de 2019 como atuais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 103/2019 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+          "section": "Art. 28 e §§ 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "apostas-2018",
+      "year": 2018,
+      "title": "Apostas de quota fixa entram na legislação",
+      "topic": "Apostas",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 13.756/2018",
+      "summary": "A lei tratou da destinação da arrecadação de loterias e criou a modalidade de apostas de quota fixa.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei tratou da destinação da arrecadação de loterias e criou a modalidade de apostas de quota fixa.",
+      "affected": "Operadores e participantes da modalidade legalmente prevista.",
+      "dateNote": "Ano do ato: 2018. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Criação da modalidade não é sinônimo de alíquota atual sobre prêmios. Não é recomendação para apostar.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 13.756/2018 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13756.htm",
+          "section": "Ementa e art. 29",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cprb-alteracoes-2018",
+      "year": 2018,
+      "title": "Mudanças na contribuição previdenciária sobre receita",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 13.670/2018",
+      "summary": "A lei alterou dispositivos da Lei 12.546/2011 relativos à contribuição previdenciária sobre receita bruta.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou dispositivos da Lei 12.546/2011 relativos à contribuição previdenciária sobre receita bruta.",
+      "affected": "Empresas dos setores alcançados pela alteração.",
+      "dateNote": "Ano do ato: 2018. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não se trata de aumento automático da contribuição descontada de todos os empregados.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 13.670/2018 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13670.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "beneficios-icms-2017",
+      "year": 2017,
+      "title": "Regras para regularização de benefícios fiscais de ICMS",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 160/2017",
+      "summary": "A lei disciplinou convênio para remissão de créditos e reinstituição de benefícios de ICMS concedidos sem a observância exigida pela legislação.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei disciplinou convênio para remissão de créditos e reinstituição de benefícios de ICMS concedidos sem a observância exigida pela legislação.",
+      "affected": "Estados e contribuintes dos benefícios abrangidos.",
+      "dateNote": "Ano do ato: 2017. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A lei é de 2017, não de 2019. Não equivale a perdão automático de qualquer dívida de ICMS.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 160/2017 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp160.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "combustiveis-contribuicoes-2017",
+      "year": 2017,
+      "title": "Mudanças no PIS e na Cofins dos combustíveis",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Decreto 9.101/2017",
+      "summary": "O decreto alterou coeficientes de redução e valores específicos relativos a PIS e Cofins sobre combustíveis.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O decreto alterou coeficientes de redução e valores específicos relativos a PIS e Cofins sobre combustíveis.",
+      "affected": "Agentes dos segmentos de combustíveis abrangidos.",
+      "dateNote": "Ano do ato: 2017. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Coeficiente de redução zero não significa tributo zero. Dispositivos foram alterados ou revogados posteriormente.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Decreto 9.101/2017 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9101.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "iss-alteracoes-2016",
+      "year": 2016,
+      "title": "Alterações nas regras do ISS",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 157/2016",
+      "summary": "A lei alterou a LC 116/2003, que disciplina o ISS, incluindo mudanças na legislação nacional de serviços.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a LC 116/2003, que disciplina o ISS, incluindo mudanças na legislação nacional de serviços.",
+      "affected": "Prestadores de serviços e municípios.",
+      "dateNote": "Ano do ato: 2016. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Registro do ato legislativo, sem afirmar validade atual de todos os dispositivos, inclusive os sujeitos a decisões judiciais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 157/2016 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp157.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "simples-calculo-2016",
+      "year": 2016,
+      "title": "Nova metodologia de apuração do Simples Nacional",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 155/2016",
+      "summary": "A lei reorganizou a metodologia de apuração devida pelos optantes do Simples Nacional.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei reorganizou a metodologia de apuração devida pelos optantes do Simples Nacional.",
+      "affected": "Empresas optantes que se enquadram nas regras.",
+      "dateNote": "Ano do ato: 2016. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Há datas de produção de efeitos específicas; não se aplica automaticamente a redação publicada em 2016 a qualquer competência.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 155/2016 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp155.htm",
+          "section": "Ementa e art. 1º, alterações da LC 123/2006",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "difal-constitucional-2015",
+      "year": 2015,
+      "title": "ICMS nas vendas a consumidores de outro estado",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 87/2015",
+      "summary": "A emenda previu a alíquota interestadual e o diferencial destinado ao estado do consumidor final nas operações abrangidas.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda previu a alíquota interestadual e o diferencial destinado ao estado do consumidor final nas operações abrangidas.",
+      "affected": "Vendas e prestações interestaduais a consumidor final.",
+      "dateNote": "Ano do ato: 2015. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Marco constitucional; cobrança, regulamentação e decisões posteriores devem ser consideradas. Consulte também a LC 190/2022.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 87/2015 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc87.htm",
+          "section": "Art. 1º, alteração do art. 155, § 2º, VII e VIII",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "importacoes-2015",
+      "year": 2015,
+      "title": "Mudança nas alíquotas de PIS e Cofins de importação",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 13.137/2015",
+      "summary": "A lei elevou alíquotas de PIS/Pasep-Importação e Cofins-Importação e alterou outros dispositivos tributários.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei elevou alíquotas de PIS/Pasep-Importação e Cofins-Importação e alterou outros dispositivos tributários.",
+      "affected": "Importadores nas hipóteses alcançadas.",
+      "dateNote": "Ano do ato: 2015. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A norma é de 2015, não de 2014. Produtos e regimes têm tratamentos específicos; não há percentual único nesta ficha.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 13.137/2015 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13137.htm",
+          "section": "Ementa",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "simples-domestico-2015",
+      "year": 2015,
+      "title": "Pagamento unificado de encargos do trabalho doméstico",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 150/2015",
+      "summary": "A lei instituiu o Simples Doméstico para unificar o pagamento de tributos, contribuições e demais encargos do empregador doméstico.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu o Simples Doméstico para unificar o pagamento de tributos, contribuições e demais encargos do empregador doméstico.",
+      "affected": "Empregadores e trabalhadores domésticos abrangidos.",
+      "dateNote": "Ano do ato: 2015. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Nem todo encargo do documento é imposto. A ficha não calcula folha nem verbas trabalhistas.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 150/2015 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm",
+          "section": "Arts. 31 a 33",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "fim-rtt-2014",
+      "year": 2014,
+      "title": "Mudanças na tributação empresarial e fim do RTT",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 12.973/2014",
+      "summary": "A lei alterou IRPJ, CSLL, PIS e Cofins e revogou o Regime Tributário de Transição, o RTT.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou IRPJ, CSLL, PIS e Cofins e revogou o Regime Tributário de Transição, o RTT.",
+      "affected": "Pessoas jurídicas afetadas pelas regras contábeis e tributárias.",
+      "dateNote": "Ano do ato: 2014. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A ficha resume o objeto da lei; não demonstra aumento ou redução uniforme para todas as empresas.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 12.973/2014 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12973.htm",
+          "section": "Ementa",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "transparencia-nota-2012",
+      "year": 2012,
+      "title": "O imposto informado na nota é aproximado",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Transparência",
+      "instrument": "Lei 12.741/2012",
+      "summary": "A lei estabelece informação aproximada dos tributos que influem no preço de produtos e serviços ao consumidor.",
+      "before": "Situação anterior à obrigação criada por esta lei.",
+      "after": "Informação dos valores aproximados na forma prevista pela norma.",
+      "affected": "Consumidores e estabelecimentos que vendem produtos e serviços.",
+      "dateNote": "Lei de 8 de dezembro de 2012.",
+      "limitation": "O valor aproximado não é comprovante de quanto o vendedor efetivamente recolheu. Não deve ser somado novamente ao preço.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Planalto — Lei 12.741/2012",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12741.htm",
+          "section": "Artigos 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cprb-2011",
+      "year": 2011,
+      "title": "Contribuição sobre receita em substituição à folha",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 12.546/2011",
+      "summary": "A lei previu para empresas de TI e TIC nela abrangidas contribuição sobre receita bruta em substituição às contribuições sobre folha indicadas no dispositivo.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei previu para empresas de TI e TIC nela abrangidas contribuição sobre receita bruta em substituição às contribuições sobre folha indicadas no dispositivo.",
+      "affected": "Empresas dos setores alcançados na época.",
+      "dateNote": "Ano do ato: 2011. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O regime sofreu ampliações e mudanças posteriores; não significa desoneração universal de empregadores ou salários.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 12.546/2011 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12546.htm",
+          "section": "Art. 7º, redação original",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "mei-2008",
+      "year": 2008,
+      "title": "O microempreendedor individual ganha regime próprio",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 128/2008",
+      "summary": "A lei criou tratamento específico para o MEI no Simples Nacional, prevendo recolhimento em valores fixos mensais nas condições legais.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei criou tratamento específico para o MEI no Simples Nacional, prevendo recolhimento em valores fixos mensais nas condições legais.",
+      "affected": "Empreendedores que atendem aos critérios do MEI.",
+      "dateNote": "Ano do ato: 2008. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Limites, ocupações permitidas e valores de contribuição mudam; não usar os valores originais como guia atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 128/2008 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm",
+          "section": "Inclusão do art. 18-A na LC 123/2006",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "fim-cpmf-2007",
+      "year": 2007,
+      "title": "Senado rejeita a prorrogação da CPMF",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Rejeição da PEC 89/2007 pelo Senado",
+      "summary": "O Senado rejeitou a proposta de prorrogação da CPMF. A notícia oficial registrou que a cobrança deixaria de ocorrer a partir de 1º de janeiro de 2008.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O Senado rejeitou a proposta de prorrogação da CPMF. A notícia oficial registrou que a cobrança deixaria de ocorrer a partir de 1º de janeiro de 2008.",
+      "affected": "Pessoas e empresas que realizavam operações alcançadas pela contribuição.",
+      "dateNote": "Ano do ato: 2007. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Este registro descreve a decisão de 2007, não uma proposta de recriação do tributo.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Rejeição da PEC 89/2007 pelo Senado — fonte oficial",
+          "url": "https://www12.senado.leg.br/noticias/materias/2007/12/13/senado-rejeita-prorrogacao-da-cpmf",
+          "section": "Notícia da Agência Senado de 13/12/2007, resultado da votação",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "simples-nacional-2006",
+      "year": 2006,
+      "title": "Criação do Simples Nacional",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 123/2006",
+      "summary": "A lei instituiu regime unificado de arrecadação de tributos e contribuições para microempresas e empresas de pequeno porte.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu regime unificado de arrecadação de tributos e contribuições para microempresas e empresas de pequeno porte.",
+      "affected": "Negócios que atendem aos requisitos de opção.",
+      "dateNote": "Ano do ato: 2006. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O documento único não reúne necessariamente todas as obrigações de uma empresa. Enquadramento e cálculo dependem da atividade e da receita.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 123/2006 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+          "section": "Arts. 12 e 13",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "itr-municipios-2005",
+      "year": 2005,
+      "title": "Municípios podem assumir fiscalização e cobrança do ITR",
+      "topic": "Patrimônio",
+      "spheres": [
+        "Federal",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 11.250/2005",
+      "summary": "A lei autorizou convênios para delegar a municípios e Distrito Federal atribuições de fiscalização, lançamento e cobrança do ITR.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei autorizou convênios para delegar a municípios e Distrito Federal atribuições de fiscalização, lançamento e cobrança do ITR.",
+      "affected": "Entes conveniados e contribuintes do ITR nos locais abrangidos.",
+      "dateNote": "Ano do ato: 2005. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A delegação administrativa não transforma o ITR em imposto municipal.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 11.250/2005 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Lei/L11250.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "contribuicoes-importacao-2004",
+      "year": 2004,
+      "title": "PIS e Cofins sobre importações",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.865/2004",
+      "summary": "A lei instituiu PIS/Pasep-Importação e Cofins-Importação sobre importação de bens e serviços, nos termos previstos.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu PIS/Pasep-Importação e Cofins-Importação sobre importação de bens e serviços, nos termos previstos.",
+      "affected": "Importadores e responsáveis definidos na lei.",
+      "dateNote": "Ano do ato: 2004. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não confundir essas contribuições com Imposto de Importação ou ICMS; cada cobrança tem regras próprias.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.865/2004 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.865.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cofins-nao-cumulativa-2003",
+      "year": 2003,
+      "title": "Cofins: regime não cumulativo",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.833/2003",
+      "summary": "A lei disciplinou a cobrança não cumulativa da Cofins para as hipóteses abrangidas.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei disciplinou a cobrança não cumulativa da Cofins para as hipóteses abrangidas.",
+      "affected": "Pessoas jurídicas enquadradas nesse regime.",
+      "dateNote": "Ano do ato: 2003. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Nem toda empresa está nesse regime e nem toda despesa gera crédito.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.833/2003 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+          "section": "Capítulo I, art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "iss-2003",
+      "year": 2003,
+      "title": "Lista nacional e normas gerais do ISS",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 116/2003",
+      "summary": "A lei dispôs sobre o ISS municipal e do Distrito Federal, com incidência sobre os serviços da lista anexa.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre o ISS municipal e do Distrito Federal, com incidência sobre os serviços da lista anexa.",
+      "affected": "Prestadores dos serviços abrangidos e entes competentes.",
+      "dateNote": "Ano do ato: 2003. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O enquadramento e a cobrança dependem das regras aplicáveis; a ficha não calcula ISS de qualquer serviço.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 116/2003 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+          "section": "Art. 1º e lista anexa",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "parcelamento-2003",
+      "year": 2003,
+      "title": "Parcelamento de débitos tributários federais",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.684/2003",
+      "summary": "A lei permitiu parcelamento de débitos nos termos e limites ali definidos, incluindo débitos perante a Receita Federal e a Procuradoria-Geral da Fazenda Nacional.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei permitiu parcelamento de débitos nos termos e limites ali definidos, incluindo débitos perante a Receita Federal e a Procuradoria-Geral da Fazenda Nacional.",
+      "affected": "Devedores que atendiam às condições do programa.",
+      "dateNote": "Ano do ato: 2003. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A lei é de 2003, não de 2002. O registro não informa que haja adesão aberta atualmente.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.684/2003 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/L10.684.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "iluminacao-publica-2002",
+      "year": 2002,
+      "title": "Autorização para a contribuição de iluminação pública",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 39/2002",
+      "summary": "A emenda permitiu que municípios e Distrito Federal instituíssem contribuição para custear iluminação pública e autorizou sua cobrança na fatura de energia.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda permitiu que municípios e Distrito Federal instituíssem contribuição para custear iluminação pública e autorizou sua cobrança na fatura de energia.",
+      "affected": "Contribuintes dos locais que instituíram a contribuição.",
+      "dateNote": "Ano do ato: 2002. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O valor depende de lei local. A emenda não fixou uma contribuição nacional igual para todos.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 39/2002 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc39.htm",
+          "section": "Art. 149-A incluído na Constituição",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "pis-nao-cumulativo-2002",
+      "year": 2002,
+      "title": "PIS: criação de regime não cumulativo",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.637/2002",
+      "summary": "A lei dispôs sobre a não cumulatividade da contribuição ao PIS/Pasep para os contribuintes alcançados.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre a não cumulatividade da contribuição ao PIS/Pasep para os contribuintes alcançados.",
+      "affected": "Empresas abrangidas pelo regime.",
+      "dateNote": "Ano do ato: 2002. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não cumulatividade não significa isenção; créditos, exclusões e enquadramento dependem da lei.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.637/2002 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm",
+          "section": "Ementa e capítulo I",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cide-combustiveis-2001",
+      "year": 2001,
+      "title": "Criação da Cide sobre combustíveis",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.336/2001",
+      "summary": "A lei instituiu a Cide sobre importação e comercialização de petróleo e derivados, gás natural e derivados e álcool etílico combustível.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu a Cide sobre importação e comercialização de petróleo e derivados, gás natural e derivados e álcool etílico combustível.",
+      "affected": "Importadores e agentes sujeitos às hipóteses legais.",
+      "dateNote": "Ano do ato: 2001. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Incidência, alíquotas e reduções exigem consulta às regras do período; não há estimativa de efeito no preço da bomba nesta ficha.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.336/2001 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10336.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cide-tecnologia-2000",
+      "year": 2000,
+      "title": "Contribuição ligada à tecnologia e a contratos com o exterior",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.168/2000",
+      "summary": "A lei instituiu contribuição de intervenção no domínio econômico vinculada ao financiamento do programa de estímulo à interação universidade-empresa, com hipóteses ligadas a tecnologia e contratos com o exterior.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu contribuição de intervenção no domínio econômico vinculada ao financiamento do programa de estímulo à interação universidade-empresa, com hipóteses ligadas a tecnologia e contratos com o exterior.",
+      "affected": "Pessoas jurídicas enquadradas nas hipóteses da lei.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Incidência depende da operação; não é uma cobrança sobre qualquer remessa internacional.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.168/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l10168.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "funttel-2000",
+      "year": 2000,
+      "title": "Financiamento do desenvolvimento tecnológico das telecomunicações",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.052/2000",
+      "summary": "A lei do Funttel estabeleceu contribuições relacionadas à receita de prestadoras e à arrecadação de eventos participativos por telefone.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei do Funttel estabeleceu contribuições relacionadas à receita de prestadoras e à arrecadação de eventos participativos por telefone.",
+      "affected": "Prestadoras e instituições nas hipóteses legais.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Contribuições setoriais; não representam a carga tributária total dos serviços de telefonia.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.052/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l10052.htm",
+          "section": "Art. 4º, incisos III e IV",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "fust-2000",
+      "year": 2000,
+      "title": "Contribuição para universalização das telecomunicações",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.998/2000",
+      "summary": "A lei do Fust incluiu contribuição sobre receita de serviços de telecomunicações entre as fontes do fundo.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei do Fust incluiu contribuição sobre receita de serviços de telecomunicações entre as fontes do fundo.",
+      "affected": "Prestadoras de serviços de telecomunicações.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A base legal contém exclusões; não equivale a um percentual que o consumidor deva acrescentar à sua fatura.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.998/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9998.htm",
+          "section": "Art. 6º, inciso IV",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "refis-2000",
+      "year": 2000,
+      "title": "Programa de recuperação de débitos fiscais",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.964/2000",
+      "summary": "A lei instituiu o Refis para regularização de débitos de pessoas jurídicas relativos a tributos e contribuições administrados pelos órgãos indicados.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu o Refis para regularização de débitos de pessoas jurídicas relativos a tributos e contribuições administrados pelos órgãos indicados.",
+      "affected": "Pessoas jurídicas e débitos que atendiam às condições legais.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Programa histórico com condições e períodos próprios; não significa adesão aberta hoje.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.964/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9964.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "taxa-saude-2000",
+      "year": 2000,
+      "title": "Taxa de fiscalização da saúde suplementar",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.961/2000",
+      "summary": "A lei instituiu a Taxa de Saúde Suplementar, relacionada ao exercício do poder de polícia da ANS.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu a Taxa de Saúde Suplementar, relacionada ao exercício do poder de polícia da ANS.",
+      "affected": "Operadoras e entidades legalmente enquadradas.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não é uma taxa que a lei imponha diretamente a todo paciente ou beneficiário de plano.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.961/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9961.htm",
+          "section": "Arts. 18 e 19",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "tcfa-2000",
+      "year": 2000,
+      "title": "Taxa de controle e fiscalização ambiental",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 10.165/2000",
+      "summary": "A lei instituiu a TCFA, vinculada à fiscalização do Ibama sobre atividades potencialmente poluidoras e utilizadoras de recursos naturais.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu a TCFA, vinculada à fiscalização do Ibama sobre atividades potencialmente poluidoras e utilizadoras de recursos naturais.",
+      "affected": "Atividades enquadradas na legislação ambiental.",
+      "dateNote": "Ano do ato: 2000. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não é uma taxa geral para todo cidadão ou para qualquer empresa, independentemente da atividade.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 10.165/2000 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l10165.htm",
+          "section": "Art. 17-B inserido na Lei 6.938/1981",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "pis-cofins-1998",
+      "year": 1998,
+      "title": "Mudanças nas contribuições PIS e Cofins",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.718/1998",
+      "summary": "A lei alterou a legislação tributária federal, disciplinando a apuração das contribuições PIS/Pasep e Cofins.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a legislação tributária federal, disciplinando a apuração das contribuições PIS/Pasep e Cofins.",
+      "affected": "Pessoas jurídicas abrangidas pelas contribuições.",
+      "dateNote": "Ano do ato: 1998. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O texto recebeu alterações e foi objeto de controvérsias; não se atribui validade atual a toda a redação original.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.718/1998 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm",
+          "section": "Ementa e art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "fistel-lgt-1997",
+      "year": 1997,
+      "title": "A Lei Geral de Telecomunicações altera regras do Fistel",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.472/1997",
+      "summary": "A Lei Geral de Telecomunicações alterou dispositivos relativos ao Fundo de Fiscalização das Telecomunicações.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A Lei Geral de Telecomunicações alterou dispositivos relativos ao Fundo de Fiscalização das Telecomunicações.",
+      "affected": "Agentes do setor de telecomunicações abrangidos.",
+      "dateNote": "Ano do ato: 1997. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O Fistel já existia: não foi criado em 1997. A ficha não converte a arrecadação do fundo em imposto individual sobre a conta.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.472/1997 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9472.htm",
+          "section": "Art. 51, alterações à Lei 5.070/1966",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "apuracao-irpj-1996",
+      "year": 1996,
+      "title": "Períodos de apuração do IR das empresas",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.430/1996",
+      "summary": "A lei estabeleceu, a partir de 1997, períodos trimestrais de apuração do IRPJ nas hipóteses descritas no artigo, observadas as demais regras da lei.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei estabeleceu, a partir de 1997, períodos trimestrais de apuração do IRPJ nas hipóteses descritas no artigo, observadas as demais regras da lei.",
+      "affected": "Empresas sujeitas à apuração ali disciplinada.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Existem outras formas de apuração e disposições posteriores; não se afirma que toda empresa recolhe somente por trimestre.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.430/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9430.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "autorizacao-cpmf-1996",
+      "year": 1996,
+      "title": "Autorização constitucional para a CPMF",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 12/1996",
+      "summary": "A emenda autorizou a instituição de contribuição provisória sobre movimentação ou transmissão de valores e de créditos e direitos de natureza financeira.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda autorizou a instituição de contribuição provisória sobre movimentação ou transmissão de valores e de créditos e direitos de natureza financeira.",
+      "affected": "Operações financeiras que viessem a ser abrangidas.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Marco constitucional distinto da lei de instituição e das prorrogações posteriores.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 12/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc12.htm",
+          "section": "Art. 74 do ADCT, incluído pela emenda",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cpmf-1996",
+      "year": 1996,
+      "title": "Instituição da CPMF",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.311/1996",
+      "summary": "A lei instituiu a Contribuição Provisória sobre Movimentação Financeira e definiu as operações alcançadas.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu a Contribuição Provisória sobre Movimentação Financeira e definiu as operações alcançadas.",
+      "affected": "Titulares das operações descritas na lei.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Cobrança histórica. A ficha de 2007 registra a rejeição da prorrogação, sem sugerir cobrança atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.311/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9311.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "itr-1996",
+      "year": 1996,
+      "title": "Regras para o imposto sobre a propriedade rural",
+      "topic": "Patrimônio",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.393/1996",
+      "summary": "A lei dispôs sobre o ITR, com fato gerador relacionado à propriedade, domínio útil ou posse de imóvel situado fora da zona urbana.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre o ITR, com fato gerador relacionado à propriedade, domínio útil ou posse de imóvel situado fora da zona urbana.",
+      "affected": "Proprietários, titulares do domínio útil e possuidores nas hipóteses legais.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Há imunidades, isenções e regras de cálculo; esta ficha não calcula o imposto de um imóvel específico.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.393/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9393.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "lei-kandir-1996",
+      "year": 1996,
+      "title": "Lei Kandir: normas nacionais sobre o ICMS",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 87/1996",
+      "summary": "A lei dispôs sobre o ICMS dos estados e do Distrito Federal, incluindo circulação de mercadorias, transporte interestadual e intermunicipal e comunicação.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei dispôs sobre o ICMS dos estados e do Distrito Federal, incluindo circulação de mercadorias, transporte interestadual e intermunicipal e comunicação.",
+      "affected": "Comércio e prestadores dos serviços abrangidos.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não estabelece um preço final nacional nem uma única alíquota para todas as operações.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 87/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm",
+          "section": "Ementa e arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "taxa-energia-1996",
+      "year": 1996,
+      "title": "Fiscalização do setor elétrico e sua taxa",
+      "topic": "Contas e combustíveis",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.427/1996",
+      "summary": "A lei instituiu a Taxa de Fiscalização de Serviços de Energia Elétrica, ligada ao serviço concedido, permitido ou autorizado.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu a Taxa de Fiscalização de Serviços de Energia Elétrica, ligada ao serviço concedido, permitido ou autorizado.",
+      "affected": "Agentes do setor elétrico abrangidos.",
+      "dateNote": "Ano do ato: 1996. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não é uma alíquota cobrada diretamente de toda família sobre a conta de luz; tarifas e tributos da conta são componentes diferentes.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.427/1996 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9427cons.htm",
+          "section": "Art. 12",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "irpf-reais-1995",
+      "year": 1995,
+      "title": "O IR das pessoas físicas em reais",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.250/1995",
+      "summary": "A lei estabeleceu mudanças no IRPF a partir de janeiro de 1996 e converteu valores antes expressos em UFIR para reais.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei estabeleceu mudanças no IRPF a partir de janeiro de 1996 e converteu valores antes expressos em UFIR para reais.",
+      "affected": "Pessoas físicas sujeitas ao Imposto de Renda.",
+      "dateNote": "Ano do ato: 1995. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A tabela original de 1996 não é a tabela atual. O texto compilado contém alterações de outros anos.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.250/1995 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9250.htm",
+          "section": "Arts. 1º a 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "irpj-csll-1995",
+      "year": 1995,
+      "title": "Mudanças no IR das empresas e na contribuição sobre o lucro",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 9.249/1995",
+      "summary": "A lei alterou a legislação do IR das pessoas jurídicas e da CSLL, incluindo regras para a alíquota do IRPJ e seu adicional.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei alterou a legislação do IR das pessoas jurídicas e da CSLL, incluindo regras para a alíquota do IRPJ e seu adicional.",
+      "affected": "Pessoas jurídicas sujeitas aos regimes alcançados.",
+      "dateNote": "Ano do ato: 1995. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A ficha não resume todas as regras de lucro, dividendos e adicionais nem substitui a legislação posterior.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 9.249/1995 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm",
+          "section": "Ementa e art. 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "autorizacao-ipmf-1993",
+      "year": 1993,
+      "title": "Autorização constitucional para o IPMF",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 3/1993",
+      "summary": "A emenda autorizou a União a instituir imposto provisório sobre movimentação financeira, delimitando o instrumento legal e seu período.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda autorizou a União a instituir imposto provisório sobre movimentação financeira, delimitando o instrumento legal e seu período.",
+      "affected": "Titulares de operações que viessem a ser abrangidas.",
+      "dateNote": "Ano do ato: 1993. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Autorização constitucional não é, sozinha, a criação operacional da cobrança; consulte também a LC 77/1993.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 3/1993 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc03.htm",
+          "section": "Art. 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ipmf-1993",
+      "year": 1993,
+      "title": "Instituição do imposto provisório sobre movimentação financeira",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 77/1993",
+      "summary": "A lei complementar instituiu o IPMF e descreveu fatos geradores ligados à movimentação e transmissão de valores.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei complementar instituiu o IPMF e descreveu fatos geradores ligados à movimentação e transmissão de valores.",
+      "affected": "Titulares das operações financeiras definidas na lei.",
+      "dateNote": "Ano do ato: 1993. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Tributo histórico; não deve ser apresentado como cobrança atual nem confundido com a posterior CPMF.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 77/1993 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp77.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "cofins-1991",
+      "year": 1991,
+      "title": "Criação da Cofins",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 70/1991",
+      "summary": "A lei instituiu contribuição para o financiamento da seguridade social, conhecida como Cofins.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu contribuição para o financiamento da seguridade social, conhecida como Cofins.",
+      "affected": "Pessoas jurídicas e equiparadas abrangidas pela lei.",
+      "dateNote": "Ano do ato: 1991. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Regimes, bases e alíquotas posteriores não podem ser deduzidos apenas da lei de criação.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 70/1991 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp70.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "custeio-previdencia-1991",
+      "year": 1991,
+      "title": "Organização do custeio da seguridade social",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 8.212/1991",
+      "summary": "A lei organizou o custeio da seguridade social, incluindo contribuições de empresas e segurados.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei organizou o custeio da seguridade social, incluindo contribuições de empresas e segurados.",
+      "affected": "Trabalhadores, empregadores e outros contribuintes previstos na lei.",
+      "dateNote": "Ano do ato: 1991. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A ficha não fornece a tabela atual do INSS; limites e valores são atualizados e variam conforme o enquadramento.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 8.212/1991 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+          "section": "Ementa e título VI — Do financiamento da seguridade social",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "taxa-cvm-1989",
+      "year": 1989,
+      "title": "Taxa de fiscalização do mercado de valores mobiliários",
+      "topic": "Investimentos",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 7.940/1989",
+      "summary": "A lei instituiu taxa de fiscalização dos mercados de títulos e valores mobiliários, relacionada ao poder de polícia da CVM.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu taxa de fiscalização dos mercados de títulos e valores mobiliários, relacionada ao poder de polícia da CVM.",
+      "affected": "Participantes sujeitos à fiscalização e ao enquadramento legal.",
+      "dateNote": "Ano do ato: 1989. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não confundir essa taxa regulatória com o Imposto de Renda sobre ganhos de investidores.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 7.940/1989 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l7940.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "constituicao-1988",
+      "year": 1988,
+      "title": "A base constitucional do sistema tributário",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Constituição Federal de 1988",
+      "summary": "A Constituição organiza o sistema tributário e estabelece limitações ao poder de tributar, como a exigência de lei para instituir ou aumentar tributos.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A Constituição organiza o sistema tributário e estabelece limitações ao poder de tributar, como a exigência de lei para instituir ou aumentar tributos.",
+      "affected": "Toda a população e as administrações tributárias.",
+      "dateNote": "Ano do ato: 1988. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O link é para texto atualizado, que inclui emendas posteriores a 1988. Exceções e regras específicas exigem leitura dos dispositivos completos.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Constituição Federal de 1988 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "section": "Título VI, capítulo I; arts. 145 e 150",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "csll-1988",
+      "year": 1988,
+      "title": "Criação da contribuição sobre o lucro das empresas",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 7.689/1988",
+      "summary": "A lei instituiu contribuição social sobre o lucro das pessoas jurídicas destinada ao financiamento da seguridade social: a CSLL.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu contribuição social sobre o lucro das pessoas jurídicas destinada ao financiamento da seguridade social: a CSLL.",
+      "affected": "Pessoas jurídicas abrangidas.",
+      "dateNote": "Ano do ato: 1988. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não é um desconto geral sobre o salário das pessoas físicas; a apuração depende do regime da empresa.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 7.689/1988 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/L7689.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ipva-1985",
+      "year": 1985,
+      "title": "O IPVA entra na Constituição",
+      "topic": "Patrimônio",
+      "spheres": [
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 27/1985",
+      "summary": "A emenda atribuiu aos estados o imposto sobre a propriedade de veículos automotores, com repartição de receita com municípios.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda atribuiu aos estados o imposto sobre a propriedade de veículos automotores, com repartição de receita com municípios.",
+      "affected": "Proprietários de veículos e entes arrecadadores.",
+      "dateNote": "Ano do ato: 1985. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A alíquota e as isenções dependem da legislação estadual; não há uma alíquota única nacional nesta ficha.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 27/1985 — fonte oficial",
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-27-28-novembro-1985-364973-publicacaooriginal-1-pl.html",
+          "section": "Alteração do art. 23, inciso III e § 13",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "convenios-icm-1975",
+      "year": 1975,
+      "title": "Benefícios de ICM passam pelo acordo entre estados",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Estadual"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 24/1975",
+      "summary": "A lei disciplinou convênios entre estados e Distrito Federal para conceder ou revogar isenções e outros benefícios do imposto sobre circulação de mercadorias.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei disciplinou convênios entre estados e Distrito Federal para conceder ou revogar isenções e outros benefícios do imposto sobre circulação de mercadorias.",
+      "affected": "Estados, Distrito Federal e contribuintes beneficiados.",
+      "dateNote": "Ano do ato: 1975. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A existência da lei não concede benefício individual; é preciso identificar o convênio e a legislação aplicáveis.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 24/1975 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp24.htm",
+          "section": "Arts. 1º a 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "pasep-1970",
+      "year": 1970,
+      "title": "Formação do patrimônio do servidor público",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 8/1970",
+      "summary": "A lei instituiu o programa de formação do patrimônio do servidor público e previu contribuições dos entes públicos.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu o programa de formação do patrimônio do servidor público e previu contribuições dos entes públicos.",
+      "affected": "Servidores e órgãos públicos abrangidos.",
+      "dateNote": "Ano do ato: 1970. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Marco de criação do Pasep; não é orientação sobre abono, saques ou contribuição atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 8/1970 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp08.htm",
+          "section": "Arts. 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "pis-1970",
+      "year": 1970,
+      "title": "Criação do Programa de Integração Social",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei Complementar 7/1970",
+      "summary": "A lei instituiu o PIS, destinado a promover a integração do empregado na vida e no desenvolvimento das empresas.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A lei instituiu o PIS, destinado a promover a integração do empregado na vida e no desenvolvimento das empresas.",
+      "affected": "Empregados e empresas sujeitos ao regime da época.",
+      "dateNote": "Ano do ato: 1970. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O programa e sua forma de financiamento sofreram mudanças posteriores; não usar percentuais originais como atuais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei Complementar 7/1970 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp07.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "icm-iss-1968",
+      "year": 1968,
+      "title": "Normas gerais para ICM e ISS",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Decreto-Lei 406/1968",
+      "summary": "O decreto-lei estabeleceu normas gerais sobre o imposto estadual de circulação de mercadorias e o imposto municipal sobre serviços.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O decreto-lei estabeleceu normas gerais sobre o imposto estadual de circulação de mercadorias e o imposto municipal sobre serviços.",
+      "affected": "Comércio, prestadores de serviços e entes arrecadadores.",
+      "dateNote": "Ano do ato: 1968. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "O texto passou por alterações e revogações; a ficha não descreve integralmente o ICMS ou ISS atuais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Decreto-Lei 406/1968 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0406.htm",
+          "section": "Ementa e arts. 1º e 8º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "zona-franca-1967",
+      "year": 1967,
+      "title": "Incentivos para a Zona Franca de Manaus",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Decreto-Lei 288/1967",
+      "summary": "O decreto-lei reformulou a Zona Franca de Manaus como área de livre comércio de importação e exportação e de incentivos fiscais especiais.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O decreto-lei reformulou a Zona Franca de Manaus como área de livre comércio de importação e exportação e de incentivos fiscais especiais.",
+      "affected": "Atividades econômicas enquadradas na Zona Franca.",
+      "dateNote": "Ano do ato: 1967. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não significa isenção de todos os tributos nem benefício automático a qualquer operação em Manaus.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Decreto-Lei 288/1967 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0288.htm",
+          "section": "Art. 1º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "ctn-1966",
+      "year": 1966,
+      "title": "As regras gerais que organizam os tributos",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Lei 5.172/1966 — CTN",
+      "summary": "O Código Tributário Nacional estabeleceu normas gerais de direito tributário e definiu tributo como prestação compulsória prevista em lei, distinta de penalidade por ato ilícito.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O Código Tributário Nacional estabeleceu normas gerais de direito tributário e definiu tributo como prestação compulsória prevista em lei, distinta de penalidade por ato ilícito.",
+      "affected": "Contribuintes e administrações tributárias das três esferas.",
+      "dateNote": "Ano do ato: 1966. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "A ficha explica o marco legal; situações concretas também dependem da Constituição e de legislação específica.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Lei 5.172/1966 — CTN — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+          "section": "Ementa e arts. 1º a 3º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "reforma-1965",
+      "year": 1965,
+      "title": "A reforma do sistema tributário de 1965",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Emenda Constitucional 18/1965",
+      "summary": "A emenda reorganizou o sistema tributário nacional e as competências dos entes federativos.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A emenda reorganizou o sistema tributário nacional e as competências dos entes federativos.",
+      "affected": "Contribuintes e administrações tributárias.",
+      "dateNote": "Ano do ato: 1965. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Marco anterior ao CTN e à Constituição de 1988; não é uma tabela de alíquotas atuais.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Emenda Constitucional 18/1965 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc18-65.htm",
+          "section": "Art. 1º e capítulos sobre os impostos",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "constituicao-1946",
+      "year": 1946,
+      "title": "Uma nova organização das competências tributárias",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Constituição de 1946",
+      "summary": "A Constituição de 1946 definiu impostos atribuídos à União, aos estados e aos municípios.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A Constituição de 1946 definiu impostos atribuídos à União, aos estados e aos municípios.",
+      "affected": "Contribuintes e entes federativos da época.",
+      "dateNote": "Ano do ato: 1946. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não representa o sistema constitucional atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Constituição de 1946 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+          "section": "Arts. 15, 19 e 29",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "constituicao-1934",
+      "year": 1934,
+      "title": "A divisão dos impostos na Constituição de 1934",
+      "topic": "Sistema e direitos",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Constituição de 1934",
+      "summary": "A Constituição distribuiu competências tributárias entre União, estados e municípios.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "A Constituição distribuiu competências tributárias entre União, estados e municípios.",
+      "affected": "Contribuintes e administrações dos entes federativos da época.",
+      "dateNote": "Ano do ato: 1934. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Constituição histórica; a distribuição atual deve ser consultada na Constituição de 1988 e em suas emendas.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Constituição de 1934 — fonte oficial",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm",
+          "section": "Arts. 6º, 8º e 13",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "regulamento-ir-1924",
+      "year": 1924,
+      "title": "Regulamentação do Imposto de Renda em 1924",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança legislativa",
+      "instrument": "Decreto 16.581/1924",
+      "summary": "O decreto aprovou o regulamento do Imposto sobre a Renda, dando forma à aplicação do tributo criado em 1922.",
+      "before": "Esta ficha registra o marco documentado; não reconstrói integralmente o regime anterior.",
+      "after": "O decreto aprovou o regulamento do Imposto sobre a Renda, dando forma à aplicação do tributo criado em 1922.",
+      "affected": "Contribuintes sujeitos ao IR na época.",
+      "dateNote": "Ano do ato: 1924. A publicação e o início de cada efeito podem ter datas diferentes; consulte os dispositivos de vigência da fonte.",
+      "limitation": "Não usar o regulamento de 1924 para calcular o IR atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Decreto 16.581/1924 — fonte oficial",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/1920-1929/decreto-16581-4-setembro-1924-512544-publicacaooriginal-1-pe.html",
+          "section": "Ato de aprovação do regulamento",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "criacao-ir-1922",
+      "year": 1922,
+      "title": "A criação do Imposto de Renda no Brasil",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Criação histórica",
+      "instrument": "Lei 4.625/1922, artigo 31",
+      "summary": "A lei instituiu o imposto geral sobre a renda. O texto foi assinado por Arthur Bernardes.",
+      "before": "Antes da instituição do imposto geral sobre a renda por essa lei.",
+      "after": "Criação do imposto, com regras históricas próprias.",
+      "affected": "Pessoas abrangidas pela legislação da época.",
+      "dateNote": "Lei de 31 de dezembro de 1922.",
+      "limitation": "Registro histórico: as regras de 1922 não servem para calcular o imposto atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Câmara — Lei 4.625/1922",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1920-1929/lei-4625-31-dezembro-1922-566495-republicacao-90061-pl.html",
+          "section": "Artigo 31 e assinatura",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    }
+  ]
+}
