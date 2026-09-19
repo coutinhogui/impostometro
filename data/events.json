@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-19",
+  "coverage": "Seleção inicial de marcos conferidos entre 1922 e 2026. Não é um levantamento completo.",
+  "events": [
+    {
+      "id": "ir-mensal-2026",
+      "year": 2026,
+      "title": "IR mensal: redução para rendimentos até R$ 7.350",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Em aplicação em 2026",
+      "impact": "Redução condicionada",
+      "instrument": "Lei 15.270/2025",
+      "summary": "Desde janeiro de 2026, há redução que zera o imposto até R$ 5 mil de rendimentos tributáveis mensais e diminui gradualmente até R$ 7.350.",
+      "before": "Cálculo pela tabela progressiva, antes desta redução.",
+      "after": "A redução é aplicada depois do cálculo pela tabela.",
+      "affected": "Pessoas físicas com rendimentos sujeitos à tabela mensal.",
+      "dateNote": "Efeitos mensais: janeiro de 2026.",
+      "limitation": "Não equivale ao ajuste anual nem cobre todas as formas de renda.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Receita Federal — tabela de 2026",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+          "section": "Incidência mensal: tabela progressiva e tabela de redução",
+          "accessedAt": "2026-09-19"
+        },
+        {
+          "title": "Receita Federal — exemplos de cálculo",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/exemplos-de-aplicacao-da-lei-15-270-2025",
+          "section": "Exemplos 3 e 4",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "reforma-teste-2026",
+      "year": 2026,
+      "title": "CBS e IBS: 2026 é o ano de teste",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Em transição",
+      "impact": "Impacto depende do caso",
+      "instrument": "Reforma tributária do consumo",
+      "summary": "O teste prevê CBS de 0,9% e IBS de 0,1%, com compensação e dispensa de recolhimento nas condições legais.",
+      "before": "Sistema de tributos sobre consumo em transição.",
+      "after": "Teste de CBS e IBS. Não some automaticamente 1% ao preço da compra.",
+      "affected": "Contribuintes abrangidos pelas regras e consumidores interessados na transição.",
+      "dateNote": "Teste em 2026; transição do ICMS e ISS entre 2029 e 2032; modelo integral previsto para 2033.",
+      "limitation": "A fonte prevê dispensa para quem cumpre obrigações acessórias. O impacto no preço não foi calculado.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Receita Federal — transição da reforma",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/entenda",
+          "section": "Transição: 2026, 2027 e 2028, 2029 a 2032, 2033",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "simplificacao-2023",
+      "year": 2023,
+      "title": "Simplificação das obrigações tributárias",
+      "topic": "Trabalho e negócios",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Mudança administrativa",
+      "instrument": "Lei Complementar 199/2023",
+      "summary": "Institui o Estatuto Nacional de Simplificação de Obrigações Tributárias Acessórias.",
+      "before": "Obrigações e sistemas que a norma busca padronizar.",
+      "after": "Diretrizes para integração de documentos, cadastros e informações fiscais.",
+      "affected": "Contribuintes e administrações tributárias.",
+      "dateNote": "Lei de 1º de agosto de 2023.",
+      "limitation": "Este registro descreve o marco legal; não afirma que toda a implementação foi concluída nem que houve redução de imposto.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Planalto — Lei Complementar 199/2023",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp199.htm",
+          "section": "Artigos 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "transparencia-nota-2012",
+      "year": 2012,
+      "title": "O imposto informado na nota é aproximado",
+      "topic": "Compras e consumo",
+      "spheres": [
+        "Federal",
+        "Estadual",
+        "Municipal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Transparência",
+      "instrument": "Lei 12.741/2012",
+      "summary": "A lei estabelece informação aproximada dos tributos que influem no preço de produtos e serviços ao consumidor.",
+      "before": "Situação anterior à obrigação criada por esta lei.",
+      "after": "Informação dos valores aproximados na forma prevista pela norma.",
+      "affected": "Consumidores e estabelecimentos que vendem produtos e serviços.",
+      "dateNote": "Lei de 8 de dezembro de 2012.",
+      "limitation": "O valor aproximado não é comprovante de quanto o vendedor efetivamente recolheu. Não deve ser somado novamente ao preço.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Planalto — Lei 12.741/2012",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12741.htm",
+          "section": "Artigos 1º e 2º",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "criacao-ir-1922",
+      "year": 1922,
+      "title": "A criação do Imposto de Renda no Brasil",
+      "topic": "Salário e renda",
+      "spheres": [
+        "Federal"
+      ],
+      "legalStatus": "Marco histórico",
+      "impact": "Criação histórica",
+      "instrument": "Lei 4.625/1922, artigo 31",
+      "summary": "A lei instituiu o imposto geral sobre a renda. O texto foi assinado por Arthur Bernardes.",
+      "before": "Antes da instituição do imposto geral sobre a renda por essa lei.",
+      "after": "Criação do imposto, com regras históricas próprias.",
+      "affected": "Pessoas abrangidas pela legislação da época.",
+      "dateNote": "Lei de 31 de dezembro de 1922.",
+      "limitation": "Registro histórico: as regras de 1922 não servem para calcular o imposto atual.",
+      "verificationStatus": "verified",
+      "reviewedAt": "2026-09-19",
+      "reviewMethod": "Conferência documental assistida por IA; sem revisão independente de especialista.",
+      "sources": [
+        {
+          "title": "Câmara — Lei 4.625/1922",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1920-1929/lei-4625-31-dezembro-1922-566495-republicacao-90061-pl.html",
+          "section": "Artigo 31 e assinatura",
+          "accessedAt": "2026-09-19"
+        }
+      ]
+    }
+  ]
+}

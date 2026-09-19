@@ -1,0 +1,791 @@
+{
+  "reviewedAt": "2026-09-19",
+  "records": [
+    {
+      "legacyIndex": 1,
+      "title": "Imposto Geral sobre a Renda (IR)",
+      "status": "replaced",
+      "note": "Autoria corrigida em criacao-ir-1922."
+    },
+    {
+      "legacyIndex": 2,
+      "title": "Regulamento do Imposto de Renda",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 3,
+      "title": "Constituição de 1934 – Sistema Tributário",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 4,
+      "title": "Constituição de 1946 – Sistema Tributário",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 5,
+      "title": "Lei 4.502/1964 – IPI",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 6,
+      "title": "EC 18/1965 – Reforma Tributária",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 7,
+      "title": "Lei 5.107/1966 – FGTS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 8,
+      "title": "Lei 5.172/1966 – Código Tributário Nacional (CTN)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 9,
+      "title": "Decreto-Lei 288/1967 – Zona Franca de Manaus",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 10,
+      "title": "Decreto-Lei 406/1968 – Normas gerais do ICM e ISS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 11,
+      "title": "LC 7/1970 – PIS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 12,
+      "title": "LC 8/1970 – PASEP",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 13,
+      "title": "EC 27/1985 – IPVA",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 14,
+      "title": "Constituição Federal de 1988 – Sistema Tributário (arts. 145–162)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 15,
+      "title": "Convênio ICMS 66/1988 – Normas gerais transitórias do ICMS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 16,
+      "title": "Lei 7.689/1988 – CSLL",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 17,
+      "title": "Lei 7.940/1989 – Taxa de Fiscalização CVM",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 18,
+      "title": "Lei 8.036/1990 – FGTS (novo marco)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 19,
+      "title": "LC 70/1991 – COFINS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 20,
+      "title": "Leis 8.212 e 8.213/1991 – Contribuições Previdenciárias",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 21,
+      "title": "EC 3/1993 – Autoriza o IPMF",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 22,
+      "title": "LC 77/1993 – IPMF",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 23,
+      "title": "Lei 9.249/1995 – IRPJ/CSLL (lucro presumido e isenção de lucros/dividendos)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 24,
+      "title": "EC 12/1996 – CPMF no ADCT",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 25,
+      "title": "LC 87/1996 – Lei Kandir (ICMS)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 26,
+      "title": "Lei 9.311/1996 – CPMF",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 27,
+      "title": "Lei 9.393/1996 – ITR (novo marco)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 28,
+      "title": "Lei 9.427/1996 – ANEEL (TFSEE)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 29,
+      "title": "Lei 9.430/1996 – IRPJ/CSLL (ajustes, multas e preços de transferência)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 30,
+      "title": "Lei 9.472/1997 – LGT/ANATEL (TFI/TFF)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 31,
+      "title": "Lei 9.478/1997 – ANP (Taxas de Fiscalização)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 32,
+      "title": "Lei 9.718/1998 – Base de cálculo do PIS/COFINS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 33,
+      "title": "Lei 10.165/2000 – TCFA (IBAMA)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 34,
+      "title": "Lei 10.168/2000 – CIDE-Royalties",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 35,
+      "title": "Lei 9.961/2000 – ANS (Taxa de Saúde Suplementar)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 36,
+      "title": "Lei 9.964/2000 – REFIS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 37,
+      "title": "Lei 10.233/2001 – ANTT/ANTAQ (Taxas de Fiscalização)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 38,
+      "title": "Lei 10.336/2001 – CIDE-Combustíveis",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 39,
+      "title": "EC 39/2002 – COSIP/CIP",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 40,
+      "title": "Lei 10.637/2002 – PIS não cumulativo",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 41,
+      "title": "Lei 10.684/2003 – PAES/Parcelamentos e PIS/COFINS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 42,
+      "title": "LC 116/2003 – ISS (lista de serviços)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 43,
+      "title": "Lei 10.833/2003 – COFINS não cumulativa",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 44,
+      "title": "Lei 10.865/2004 – PIS/COFINS-Importação",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 45,
+      "title": "Lei 11.250/2005 – Delegação de fiscalização do ITR a Municípios",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 46,
+      "title": "Convênios ICMS – Substituição Tributária (ST) ampliada",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 47,
+      "title": "LC 123/2006 – Simples Nacional (Supersimples)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 48,
+      "title": "Fim da CPMF (não prorrogação)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 49,
+      "title": "ICMS – Protocolos/Convênios (eletrônicos, bebidas, autopeças)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 50,
+      "title": "LC 128/2008 – MEI",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 51,
+      "title": "Lei 11.907/2009 – Taxas ANTT/ANTAQ (ajustes)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 52,
+      "title": "Lei 12.546/2011 – Desoneração/CPRB",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 53,
+      "title": "Lei 12.741/2012 – Transparência (‘de olho no imposto’)",
+      "status": "replaced",
+      "note": "Ano e descrição corrigidos em transparencia-nota-2012."
+    },
+    {
+      "legacyIndex": 54,
+      "title": "Lei 12.973/2014 – IRPJ/CSLL (fim do RTT)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 55,
+      "title": "Lei 13.137/2015 – PIS/COFINS (retenções e base)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 56,
+      "title": "Convênio ICMS 93/2015 – DIFAL e-commerce",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 57,
+      "title": "LC 157/2016 – ISS (anti-guerra fiscal)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 58,
+      "title": "Decreto 9.101/2017 – PIS/COFINS sobre combustíveis",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 59,
+      "title": "Lei 13.670/2018 – Compensação tributária/PIS-COFINS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 60,
+      "title": "Lei 13.756/2018 – Apostas de quota fixa (esportivas)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 61,
+      "title": "LC 160/2017 e Convênio 190/2017 – Benefícios fiscais do ICMS (convalidação)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 62,
+      "title": "Lei 13.848/2019 – Lei das Agências Reguladoras",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 63,
+      "title": "LC 175/2020 – Local de incidência do ISS (cartões/planos/consórcios)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 64,
+      "title": "Decreto 10.997/2022 – Cronograma de redução do IOF-câmbio",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 65,
+      "title": "LC 190/2022 – DIFAL pós-EC 87/2015",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 66,
+      "title": "LC 192/2022 – Combustíveis (monofasia e essencialidade)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 67,
+      "title": "LC 194/2022 – Essencialidade (energia, telecom, combustíveis)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 68,
+      "title": "Reoneração de Combustíveis (retorno do PIS/Cofins/CIDE)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 69,
+      "title": "Combustíveis – desoneração/reoneração (MPs de 2023)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 70,
+      "title": "Medida Provisória 1.163/2023 – Reoneração parcial do diesel",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 71,
+      "title": "Lei 14.789/2023 – Subvenções/Créditos (PIS/COFINS e IR/CSLL)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 72,
+      "title": "Lei 14.790/2023 – Apostas/bets (regulação e tributação)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 73,
+      "title": "EC 132/2023 – Reforma Tributária (IVA dual)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 74,
+      "title": "MP 1.184/2023 – Tributação de fundos exclusivos e offshores",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 75,
+      "title": "Isenção de IR até dois salários mínimos",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 76,
+      "title": "Nova política de preços da Petrobras e impacto tributário",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 77,
+      "title": "Lei Complementar 199/2023 – regulamenta incentivos da Zona Franca de Manaus",
+      "status": "replaced",
+      "note": "Assunto corrigido em simplificacao-2023."
+    },
+    {
+      "legacyIndex": 78,
+      "title": "Lei 14.902/2024 — remessas até US$ 50 (II 20%)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 79,
+      "title": "IN RFB 2.191/2024 — regulamentação IR em prêmios de bets",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 80,
+      "title": "Reforma Tributária — início de transição do IVA / CBS / IBS",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 81,
+      "title": "Ajustes no II sobre e-commerce internacional (🔻 redução parcial)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 82,
+      "title": "Remessas internacionais até US$ 50 – alíquota de 20% (‘taxa das blusinhas’)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 83,
+      "title": "IOF – aumento proposto (Decreto de maio/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 84,
+      "title": "IOF – derrubada do aumento pelo Congresso",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 85,
+      "title": "IOF – ajustes e unificação da alíquota (3,5%)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 86,
+      "title": "MP 1.303/2025 – compensação de perda do IOF",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 87,
+      "title": "PIS/COFINS – Redução para exportadores (Decreto 11.543/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 88,
+      "title": "ISS – Unificação de alíquotas municipais (Lei 15.234/2025)",
+      "status": "contradicted",
+      "note": "A lei federal citada trata do ECA, não de ISS."
+    },
+    {
+      "legacyIndex": 89,
+      "title": "ICMS – Acordo Interestadual de Redução (Convenção 14/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 90,
+      "title": "Imposto de Renda – Tabela Progressiva Ajustada (Lei 15.456/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 91,
+      "title": "Carnê-Leão – Digitalização e Automação (Decreto 11.789/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 92,
+      "title": "Imposto sobre Grandes Fortunas – Projeto de Lei (PL 15.892/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 93,
+      "title": "Tributação de Criptoativos – Regulação (Lei 15.678/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 94,
+      "title": "Imposto de Importação – Redução para Insumos Agrícolas (Decreto 11.923/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 95,
+      "title": "Contribuição Previdenciária – Ajuste para Autônomos (Lei 15.789/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 96,
+      "title": "IVA – Início da Transição (Lei Complementar 205/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 97,
+      "title": "Imposto de Renda – Dedução de Juros (Lei 15.890/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 98,
+      "title": "Tributação de Robôs e IA – Projeto de Lei (PL 16.234/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 99,
+      "title": "Imposto de Renda – Isenção para Investimentos em ESG (Lei 15.990/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 100,
+      "title": "ISS – Isenção para Serviços de Telemedicina (Lei 15.345/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 101,
+      "title": "Imposto de Renda – Dedução de Doações (Lei 16.123/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 102,
+      "title": "Tributação de Drones – Regulação (Decreto 12.045/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 103,
+      "title": "Imposto de Renda – Dedução de Educação (Lei 16.234/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 104,
+      "title": "Imposto de Renda – Dedução de Saúde (Lei 16.345/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 105,
+      "title": "Imposto de Renda – Dedução de Moradia (Lei 16.456/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 106,
+      "title": "Imposto de Renda – Dedução de Transporte (Lei 16.567/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 107,
+      "title": "Imposto de Renda – Dedução de Lazer (Lei 16.678/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 108,
+      "title": "Imposto de Renda – Dedução de Cultura (Lei 16.789/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    },
+    {
+      "legacyIndex": 109,
+      "title": "PIS/COFINS – Redução para exportadores (Decreto 11.543/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 87."
+    },
+    {
+      "legacyIndex": 110,
+      "title": "ISS – Unificação de alíquotas municipais (Lei 15.234/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 88."
+    },
+    {
+      "legacyIndex": 111,
+      "title": "ICMS – Acordo Interestadual de Redução (Convenção 14/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 89."
+    },
+    {
+      "legacyIndex": 112,
+      "title": "Imposto de Renda – Tabela Progressiva Ajustada (Lei 15.456/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 90."
+    },
+    {
+      "legacyIndex": 113,
+      "title": "Carnê-Leão – Digitalização e Automação (Decreto 11.789/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 91."
+    },
+    {
+      "legacyIndex": 114,
+      "title": "Imposto sobre Grandes Fortunas – Projeto de Lei (PL 15.892/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 92."
+    },
+    {
+      "legacyIndex": 115,
+      "title": "Tributação de Criptoativos – Regulação (Lei 15.678/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 93."
+    },
+    {
+      "legacyIndex": 116,
+      "title": "Imposto de Importação – Redução para Insumos Agrícolas (Decreto 11.923/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 94."
+    },
+    {
+      "legacyIndex": 117,
+      "title": "Contribuição Previdenciária – Ajuste para Autônomos (Lei 15.789/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 95."
+    },
+    {
+      "legacyIndex": 118,
+      "title": "IVA – Início da Transição (Lei Complementar 205/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 96."
+    },
+    {
+      "legacyIndex": 119,
+      "title": "Imposto de Renda – Dedução de Juros (Lei 15.890/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 97."
+    },
+    {
+      "legacyIndex": 120,
+      "title": "Tributação de Robôs e IA – Projeto de Lei (PL 16.234/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 98."
+    },
+    {
+      "legacyIndex": 121,
+      "title": "Imposto de Renda – Isenção para Investimentos em ESG (Lei 15.990/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 99."
+    },
+    {
+      "legacyIndex": 122,
+      "title": "ISS – Isenção para Serviços de Telemedicina (Lei 15.345/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 100."
+    },
+    {
+      "legacyIndex": 123,
+      "title": "Imposto de Renda – Dedução de Doações (Lei 16.123/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 101."
+    },
+    {
+      "legacyIndex": 124,
+      "title": "Tributação de Drones – Regulação (Decreto 12.045/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 102."
+    },
+    {
+      "legacyIndex": 125,
+      "title": "Imposto de Renda – Dedução de Educação (Lei 16.234/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 103."
+    },
+    {
+      "legacyIndex": 126,
+      "title": "Imposto de Renda – Dedução de Saúde (Lei 16.345/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 104."
+    },
+    {
+      "legacyIndex": 127,
+      "title": "Imposto de Renda – Dedução de Moradia (Lei 16.456/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 105."
+    },
+    {
+      "legacyIndex": 128,
+      "title": "Imposto de Renda – Dedução de Transporte (Lei 16.567/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 106."
+    },
+    {
+      "legacyIndex": 129,
+      "title": "Imposto de Renda – Dedução de Lazer (Lei 16.678/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 107."
+    },
+    {
+      "legacyIndex": 130,
+      "title": "Imposto de Renda – Dedução de Cultura (Lei 16.789/2025)",
+      "status": "duplicate",
+      "note": "Repetição exata do registro 108."
+    },
+    {
+      "legacyIndex": 131,
+      "title": "Imposto de Renda – Dedução de Esporte (Lei 16.890/2025)",
+      "status": "pending",
+      "note": "Não conferido integralmente; não publicar como fato."
+    }
+  ]
+}
