@@ -15,8 +15,8 @@ export function validateEvents(data) {
   }
   return data.events;
 }
-export function filterEvents(events, {q='', topic='', sphere='', status='', order='desc'}={}) {
-  return events.filter(e => e.verificationStatus === 'verified' && (!topic || e.topic === topic) && (!sphere || e.spheres.includes(sphere)) && (!status || e.legalStatus === status) && normalize([e.title,e.summary,e.instrument,e.before,e.after,e.affected,e.topic].join(' ')).includes(normalize(q)))
+export function filterEvents(events, {q='', topic='', sphere='', status='', year='', order='desc'}={}) {
+  return events.filter(e => e.verificationStatus === 'verified' && (!year || e.year === Number(year)) && (!topic || e.topic === topic) && (!sphere || e.spheres.includes(sphere)) && (!status || e.legalStatus === status) && normalize([e.title,e.summary,e.instrument,e.before,e.after,e.affected,e.topic].join(' ')).includes(normalize(q)))
     .sort((a,b) => (order === 'asc' ? a.year-b.year : b.year-a.year) || a.id.localeCompare(b.id));
 }
 export function validateRules(r) {

@@ -1,3 +1,10 @@
 dist/
 __pycache__/
 .DS_Store
+
+# Cópias integrais de consulta ficam locais; escopo e hashes estão no registro editorial.
+_editorial/evidencias/
+_editorial/fontes-consultadas.json
+_editorial/fontes-novas-consultadas.json
+_editorial/fontes-adicionais-consultadas.json
+_editorial/novas-fontes.json

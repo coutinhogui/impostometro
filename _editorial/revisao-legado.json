@@ -10,20 +10,23 @@
     {
       "legacyIndex": 2,
       "title": "Regulamento do Imposto de Renda",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "regulamento-ir-1924"
     },
     {
       "legacyIndex": 3,
       "title": "Constituição de 1934 – Sistema Tributário",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "constituicao-1934"
     },
     {
       "legacyIndex": 4,
       "title": "Constituição de 1946 – Sistema Tributário",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "constituicao-1946"
     },
     {
       "legacyIndex": 5,
@@ -34,8 +37,9 @@
     {
       "legacyIndex": 6,
       "title": "EC 18/1965 – Reforma Tributária",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "reforma-1965"
     },
     {
       "legacyIndex": 7,
@@ -46,44 +50,51 @@
     {
       "legacyIndex": 8,
       "title": "Lei 5.172/1966 – Código Tributário Nacional (CTN)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "ctn-1966"
     },
     {
       "legacyIndex": 9,
       "title": "Decreto-Lei 288/1967 – Zona Franca de Manaus",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "zona-franca-1967"
     },
     {
       "legacyIndex": 10,
       "title": "Decreto-Lei 406/1968 – Normas gerais do ICM e ISS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "icm-iss-1968"
     },
     {
       "legacyIndex": 11,
       "title": "LC 7/1970 – PIS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "pis-1970"
     },
     {
       "legacyIndex": 12,
       "title": "LC 8/1970 – PASEP",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "pasep-1970"
     },
     {
       "legacyIndex": 13,
       "title": "EC 27/1985 – IPVA",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "ipva-1985"
     },
     {
       "legacyIndex": 14,
       "title": "Constituição Federal de 1988 – Sistema Tributário (arts. 145–162)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "constituicao-1988"
     },
     {
       "legacyIndex": 15,
@@ -94,14 +105,16 @@
     {
       "legacyIndex": 16,
       "title": "Lei 7.689/1988 – CSLL",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "csll-1988"
     },
     {
       "legacyIndex": 17,
       "title": "Lei 7.940/1989 – Taxa de Fiscalização CVM",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "taxa-cvm-1989"
     },
     {
       "legacyIndex": 18,
@@ -112,74 +125,86 @@
     {
       "legacyIndex": 19,
       "title": "LC 70/1991 – COFINS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cofins-1991"
     },
     {
       "legacyIndex": 20,
       "title": "Leis 8.212 e 8.213/1991 – Contribuições Previdenciárias",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "custeio-previdencia-1991"
     },
     {
       "legacyIndex": 21,
       "title": "EC 3/1993 – Autoriza o IPMF",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "autorizacao-ipmf-1993"
     },
     {
       "legacyIndex": 22,
       "title": "LC 77/1993 – IPMF",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "ipmf-1993"
     },
     {
       "legacyIndex": 23,
       "title": "Lei 9.249/1995 – IRPJ/CSLL (lucro presumido e isenção de lucros/dividendos)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "irpj-csll-1995"
     },
     {
       "legacyIndex": 24,
       "title": "EC 12/1996 – CPMF no ADCT",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "autorizacao-cpmf-1996"
     },
     {
       "legacyIndex": 25,
       "title": "LC 87/1996 – Lei Kandir (ICMS)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "lei-kandir-1996"
     },
     {
       "legacyIndex": 26,
       "title": "Lei 9.311/1996 – CPMF",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cpmf-1996"
     },
     {
       "legacyIndex": 27,
       "title": "Lei 9.393/1996 – ITR (novo marco)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "itr-1996"
     },
     {
       "legacyIndex": 28,
       "title": "Lei 9.427/1996 – ANEEL (TFSEE)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "taxa-energia-1996"
     },
     {
       "legacyIndex": 29,
       "title": "Lei 9.430/1996 – IRPJ/CSLL (ajustes, multas e preços de transferência)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "apuracao-irpj-1996"
     },
     {
       "legacyIndex": 30,
       "title": "Lei 9.472/1997 – LGT/ANATEL (TFI/TFF)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "fistel-lgt-1997"
     },
     {
       "legacyIndex": 31,
@@ -190,32 +215,37 @@
     {
       "legacyIndex": 32,
       "title": "Lei 9.718/1998 – Base de cálculo do PIS/COFINS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "pis-cofins-1998"
     },
     {
       "legacyIndex": 33,
       "title": "Lei 10.165/2000 – TCFA (IBAMA)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "tcfa-2000"
     },
     {
       "legacyIndex": 34,
       "title": "Lei 10.168/2000 – CIDE-Royalties",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cide-tecnologia-2000"
     },
     {
       "legacyIndex": 35,
       "title": "Lei 9.961/2000 – ANS (Taxa de Saúde Suplementar)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "taxa-saude-2000"
     },
     {
       "legacyIndex": 36,
       "title": "Lei 9.964/2000 – REFIS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "refis-2000"
     },
     {
       "legacyIndex": 37,
@@ -226,50 +256,58 @@
     {
       "legacyIndex": 38,
       "title": "Lei 10.336/2001 – CIDE-Combustíveis",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cide-combustiveis-2001"
     },
     {
       "legacyIndex": 39,
       "title": "EC 39/2002 – COSIP/CIP",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "iluminacao-publica-2002"
     },
     {
       "legacyIndex": 40,
       "title": "Lei 10.637/2002 – PIS não cumulativo",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "pis-nao-cumulativo-2002"
     },
     {
       "legacyIndex": 41,
       "title": "Lei 10.684/2003 – PAES/Parcelamentos e PIS/COFINS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "parcelamento-2003"
     },
     {
       "legacyIndex": 42,
       "title": "LC 116/2003 – ISS (lista de serviços)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "iss-2003"
     },
     {
       "legacyIndex": 43,
       "title": "Lei 10.833/2003 – COFINS não cumulativa",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cofins-nao-cumulativa-2003"
     },
     {
       "legacyIndex": 44,
       "title": "Lei 10.865/2004 – PIS/COFINS-Importação",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "contribuicoes-importacao-2004"
     },
     {
       "legacyIndex": 45,
       "title": "Lei 11.250/2005 – Delegação de fiscalização do ITR a Municípios",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "itr-municipios-2005"
     },
     {
       "legacyIndex": 46,
@@ -280,14 +318,16 @@
     {
       "legacyIndex": 47,
       "title": "LC 123/2006 – Simples Nacional (Supersimples)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "simples-nacional-2006"
     },
     {
       "legacyIndex": 48,
       "title": "Fim da CPMF (não prorrogação)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "fim-cpmf-2007"
     },
     {
       "legacyIndex": 49,
@@ -298,8 +338,9 @@
     {
       "legacyIndex": 50,
       "title": "LC 128/2008 – MEI",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "mei-2008"
     },
     {
       "legacyIndex": 51,
@@ -310,8 +351,9 @@
     {
       "legacyIndex": 52,
       "title": "Lei 12.546/2011 – Desoneração/CPRB",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cprb-2011"
     },
     {
       "legacyIndex": 53,
@@ -322,50 +364,58 @@
     {
       "legacyIndex": 54,
       "title": "Lei 12.973/2014 – IRPJ/CSLL (fim do RTT)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "fim-rtt-2014"
     },
     {
       "legacyIndex": 55,
       "title": "Lei 13.137/2015 – PIS/COFINS (retenções e base)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "importacoes-2015"
     },
     {
       "legacyIndex": 56,
       "title": "Convênio ICMS 93/2015 – DIFAL e-commerce",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "difal-constitucional-2015"
     },
     {
       "legacyIndex": 57,
       "title": "LC 157/2016 – ISS (anti-guerra fiscal)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "iss-alteracoes-2016"
     },
     {
       "legacyIndex": 58,
       "title": "Decreto 9.101/2017 – PIS/COFINS sobre combustíveis",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "combustiveis-contribuicoes-2017"
     },
     {
       "legacyIndex": 59,
       "title": "Lei 13.670/2018 – Compensação tributária/PIS-COFINS",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "cprb-alteracoes-2018"
     },
     {
       "legacyIndex": 60,
       "title": "Lei 13.756/2018 – Apostas de quota fixa (esportivas)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "apostas-2018"
     },
     {
       "legacyIndex": 61,
       "title": "LC 160/2017 e Convênio 190/2017 – Benefícios fiscais do ICMS (convalidação)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "beneficios-icms-2017"
     },
     {
       "legacyIndex": 62,
@@ -376,32 +426,37 @@
     {
       "legacyIndex": 63,
       "title": "LC 175/2020 – Local de incidência do ISS (cartões/planos/consórcios)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "iss-obrigacoes-2020"
     },
     {
       "legacyIndex": 64,
       "title": "Decreto 10.997/2022 – Cronograma de redução do IOF-câmbio",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "iof-cambio-2022"
     },
     {
       "legacyIndex": 65,
       "title": "LC 190/2022 – DIFAL pós-EC 87/2015",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "difal-2022"
     },
     {
       "legacyIndex": 66,
       "title": "LC 192/2022 – Combustíveis (monofasia e essencialidade)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "icms-combustiveis-2022"
     },
     {
       "legacyIndex": 67,
       "title": "LC 194/2022 – Essencialidade (energia, telecom, combustíveis)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "essencialidade-icms-2022"
     },
     {
       "legacyIndex": 68,
@@ -424,32 +479,37 @@
     {
       "legacyIndex": 71,
       "title": "Lei 14.789/2023 – Subvenções/Créditos (PIS/COFINS e IR/CSLL)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "subvencoes-2023"
     },
     {
       "legacyIndex": 72,
       "title": "Lei 14.790/2023 – Apostas/bets (regulação e tributação)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "apostas-regulacao-2023"
     },
     {
       "legacyIndex": 73,
       "title": "EC 132/2023 – Reforma Tributária (IVA dual)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Descrição original substituída por ficha limitada aos dispositivos efetivamente consultados. A substituição não valida outras alegações do original.",
+      "replacementId": "reforma-constitucional-2023"
     },
     {
       "legacyIndex": 74,
       "title": "MP 1.184/2023 – Tributação de fundos exclusivos e offshores",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "fundos-exterior-2023"
     },
     {
       "legacyIndex": 75,
       "title": "Isenção de IR até dois salários mínimos",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "ir-tabela-2023"
     },
     {
       "legacyIndex": 76,
@@ -466,8 +526,9 @@
     {
       "legacyIndex": 78,
       "title": "Lei 14.902/2024 — remessas até US$ 50 (II 20%)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "remessas-importacao-2024"
     },
     {
       "legacyIndex": 79,
@@ -490,8 +551,9 @@
     {
       "legacyIndex": 82,
       "title": "Remessas internacionais até US$ 50 – alíquota de 20% (‘taxa das blusinhas’)",
-      "status": "pending",
-      "note": "Não conferido integralmente; não publicar como fato."
+      "status": "replaced",
+      "note": "Substituído por ficha com fonte legal específica; alegações adicionais do original não foram incorporadas.",
+      "replacementId": "remessas-importacao-2024"
     },
     {
       "legacyIndex": 83,

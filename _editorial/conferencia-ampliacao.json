@@ -1,0 +1,695 @@
+[
+  {
+    "eventId": "regulamento-ir-1924",
+    "sourceKey": "legacy-2",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1920-1929/decreto-16581-4-setembro-1924-512544-publicacaooriginal-1-pe.html",
+    "section": "Ato de aprovação do regulamento",
+    "claim": "O decreto aprovou o regulamento do Imposto sobre a Renda, dando forma à aplicação do tributo criado em 1922.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "874eb743d526bb52d81c84b5354a0f79845f1a174d7e0539a95fedc3835baba2"
+  },
+  {
+    "eventId": "constituicao-1934",
+    "sourceKey": "legacy-3",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm",
+    "section": "Arts. 6º, 8º e 13",
+    "claim": "A Constituição distribuiu competências tributárias entre União, estados e municípios.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "8f050dad8d4c75c09d3e6ece2f6b1c4a7fdb9e879fb1b7ac218aeb0b907cbbfc"
+  },
+  {
+    "eventId": "constituicao-1946",
+    "sourceKey": "legacy-4",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+    "section": "Arts. 15, 19 e 29",
+    "claim": "A Constituição de 1946 definiu impostos atribuídos à União, aos estados e aos municípios.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "d623e453720b31af2e3ee2a0268ab14b74aa5b9842d15c57c741401d84211b8a"
+  },
+  {
+    "eventId": "reforma-1965",
+    "sourceKey": "legacy-6",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc18-65.htm",
+    "section": "Art. 1º e capítulos sobre os impostos",
+    "claim": "A emenda reorganizou o sistema tributário nacional e as competências dos entes federativos.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "a79adff159bf7f0329b39ba0bb3bd8042bceff95527f785beff0ab02d6442101"
+  },
+  {
+    "eventId": "ctn-1966",
+    "sourceKey": "legacy-8",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+    "section": "Ementa e arts. 1º a 3º",
+    "claim": "O Código Tributário Nacional estabeleceu normas gerais de direito tributário e definiu tributo como prestação compulsória prevista em lei, distinta de penalidade por ato ilícito.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "9bccbc52501fa3fead026e956cc36e0be539ef2eb8113e485f0d2423a72807f4"
+  },
+  {
+    "eventId": "zona-franca-1967",
+    "sourceKey": "legacy-9",
+    "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0288.htm",
+    "section": "Art. 1º",
+    "claim": "O decreto-lei reformulou a Zona Franca de Manaus como área de livre comércio de importação e exportação e de incentivos fiscais especiais.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "0ad8d03bc598a3d1b7c5a1bfd49bb007fb629026e76ece20c5ef295cdf0f384c"
+  },
+  {
+    "eventId": "icm-iss-1968",
+    "sourceKey": "legacy-10",
+    "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0406.htm",
+    "section": "Ementa e arts. 1º e 8º",
+    "claim": "O decreto-lei estabeleceu normas gerais sobre o imposto estadual de circulação de mercadorias e o imposto municipal sobre serviços.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "be2ff76ecd828761eacfcdfe17748384528068db3eeae9b75a40929443f1ac15"
+  },
+  {
+    "eventId": "pis-1970",
+    "sourceKey": "legacy-11",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp07.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu o PIS, destinado a promover a integração do empregado na vida e no desenvolvimento das empresas.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "803182e2b6c65943baf2003a00d43a2e95a9651e5545b81be15fb4060af497d0"
+  },
+  {
+    "eventId": "pasep-1970",
+    "sourceKey": "legacy-12",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp08.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei instituiu o programa de formação do patrimônio do servidor público e previu contribuições dos entes públicos.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "1024fe972cedc76a6ff63b17a71a9f3c6f1432b493510267ba53b67a8429d0fe"
+  },
+  {
+    "eventId": "convenios-icm-1975",
+    "sourceKey": "lc24",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp24.htm",
+    "section": "Arts. 1º a 3º",
+    "claim": "A lei disciplinou convênios entre estados e Distrito Federal para conceder ou revogar isenções e outros benefícios do imposto sobre circulação de mercadorias.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "2a1b23d340093d18fc77ef0540bbf61c01f14360d25a4ef257ad9af52cb83b23"
+  },
+  {
+    "eventId": "ipva-1985",
+    "sourceKey": "legacy-13",
+    "url": "https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-27-28-novembro-1985-364973-publicacaooriginal-1-pl.html",
+    "section": "Alteração do art. 23, inciso III e § 13",
+    "claim": "A emenda atribuiu aos estados o imposto sobre a propriedade de veículos automotores, com repartição de receita com municípios.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "48dbe8792d9845e729dac9e34ddc768db2417f011290bd95684cb9adeb24cc79"
+  },
+  {
+    "eventId": "constituicao-1988",
+    "sourceKey": "legacy-14",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+    "section": "Título VI, capítulo I; arts. 145 e 150",
+    "claim": "A Constituição organiza o sistema tributário e estabelece limitações ao poder de tributar, como a exigência de lei para instituir ou aumentar tributos.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "bcbe95af516de1e2c7276fcd6d8e59cfe8f7bd541452dafdb306c70eec0a1445"
+  },
+  {
+    "eventId": "csll-1988",
+    "sourceKey": "legacy-16",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/L7689.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu contribuição social sobre o lucro das pessoas jurídicas destinada ao financiamento da seguridade social: a CSLL.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6c2bbe1d666382e8eeaa8119a91cc74152a9012207e181e333477ec7326feb98"
+  },
+  {
+    "eventId": "taxa-cvm-1989",
+    "sourceKey": "legacy-17",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l7940.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei instituiu taxa de fiscalização dos mercados de títulos e valores mobiliários, relacionada ao poder de polícia da CVM.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "0bd3a62acef580a69f16c9fac2a1a159c5f82f10292b52369e8e0d852ce9dd16"
+  },
+  {
+    "eventId": "cofins-1991",
+    "sourceKey": "legacy-19",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp70.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu contribuição para o financiamento da seguridade social, conhecida como Cofins.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6f8b075b77ca7c9f9f1eee9f337b251e46b785e9cde498de589786c599c09869"
+  },
+  {
+    "eventId": "custeio-previdencia-1991",
+    "sourceKey": "legacy-20",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+    "section": "Ementa e título VI — Do financiamento da seguridade social",
+    "claim": "A lei organizou o custeio da seguridade social, incluindo contribuições de empresas e segurados.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "c385580f5b4b552794f08cb3f383832f2fe1ed703729864194265324ab8a7d95"
+  },
+  {
+    "eventId": "autorizacao-ipmf-1993",
+    "sourceKey": "legacy-21",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc03.htm",
+    "section": "Art. 2º",
+    "claim": "A emenda autorizou a União a instituir imposto provisório sobre movimentação financeira, delimitando o instrumento legal e seu período.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "ce286ad19ca154af4a17154b0b3f0360a4035965f6b0d74c5c23bce7a3f2203f"
+  },
+  {
+    "eventId": "ipmf-1993",
+    "sourceKey": "legacy-22",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp77.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei complementar instituiu o IPMF e descreveu fatos geradores ligados à movimentação e transmissão de valores.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "d6c1900bdbb76eafb314e967048aa41dc76ab9070ce55eb740627f427e4e06dc"
+  },
+  {
+    "eventId": "irpj-csll-1995",
+    "sourceKey": "legacy-23",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9249.htm",
+    "section": "Ementa e art. 3º",
+    "claim": "A lei alterou a legislação do IR das pessoas jurídicas e da CSLL, incluindo regras para a alíquota do IRPJ e seu adicional.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "2143b692b105695c3accb71d742e5dac7b0533b05dac8b25b050e382a51d2393"
+  },
+  {
+    "eventId": "irpf-reais-1995",
+    "sourceKey": "l9250",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9250.htm",
+    "section": "Arts. 1º a 3º",
+    "claim": "A lei estabeleceu mudanças no IRPF a partir de janeiro de 1996 e converteu valores antes expressos em UFIR para reais.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "f24ca3a5b3836587536a62d15cbf2db11e62119a2745eceee70826559f630800"
+  },
+  {
+    "eventId": "autorizacao-cpmf-1996",
+    "sourceKey": "legacy-24",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc12.htm",
+    "section": "Art. 74 do ADCT, incluído pela emenda",
+    "claim": "A emenda autorizou a instituição de contribuição provisória sobre movimentação ou transmissão de valores e de créditos e direitos de natureza financeira.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "a3b32eba453ee7aa83b61259207cbfbcd588fc42bd4f53fde3ba179fb252756b"
+  },
+  {
+    "eventId": "lei-kandir-1996",
+    "sourceKey": "legacy-25",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm",
+    "section": "Ementa e arts. 1º e 2º",
+    "claim": "A lei dispôs sobre o ICMS dos estados e do Distrito Federal, incluindo circulação de mercadorias, transporte interestadual e intermunicipal e comunicação.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "9f65684b25e6b201646a4ed534707dddf35127787b296e85f122258ffb3bf6ff"
+  },
+  {
+    "eventId": "cpmf-1996",
+    "sourceKey": "legacy-26",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9311.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei instituiu a Contribuição Provisória sobre Movimentação Financeira e definiu as operações alcançadas.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "22e0e3bd02a5d9eb944b087e4500d5acba98e3fb9e771a9a0da41ff7128c7d7b"
+  },
+  {
+    "eventId": "itr-1996",
+    "sourceKey": "legacy-27",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9393.htm",
+    "section": "Art. 1º",
+    "claim": "A lei dispôs sobre o ITR, com fato gerador relacionado à propriedade, domínio útil ou posse de imóvel situado fora da zona urbana.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "e2e923a0c9ef0e6c763bb963c88a9042b3e0a65135416e9aa58853a15e0cacbf"
+  },
+  {
+    "eventId": "taxa-energia-1996",
+    "sourceKey": "l9427",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9427cons.htm",
+    "section": "Art. 12",
+    "claim": "A lei instituiu a Taxa de Fiscalização de Serviços de Energia Elétrica, ligada ao serviço concedido, permitido ou autorizado.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "29c0d80372bc8276ca54ce083fb9b38a1c7ed6b9f668dcfd6c4a977f13dde139"
+  },
+  {
+    "eventId": "apuracao-irpj-1996",
+    "sourceKey": "legacy-29",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9430.htm",
+    "section": "Art. 1º",
+    "claim": "A lei estabeleceu, a partir de 1997, períodos trimestrais de apuração do IRPJ nas hipóteses descritas no artigo, observadas as demais regras da lei.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "1977671a1790e03414b13011a7b286ce91bf85f4d2e9f1d9af1b3d7ee3d175f3"
+  },
+  {
+    "eventId": "fistel-lgt-1997",
+    "sourceKey": "legacy-30",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9472.htm",
+    "section": "Art. 51, alterações à Lei 5.070/1966",
+    "claim": "A Lei Geral de Telecomunicações alterou dispositivos relativos ao Fundo de Fiscalização das Telecomunicações.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "a77a988607b26b159e09143c293f3cdc1e792a0d79bc2a9ab16a88edc656e318"
+  },
+  {
+    "eventId": "pis-cofins-1998",
+    "sourceKey": "legacy-32",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9718.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei alterou a legislação tributária federal, disciplinando a apuração das contribuições PIS/Pasep e Cofins.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "616ab36b2ce8980d63d80e4e1c7905a2d68727ff5e710ef1df30899ccdbaed54"
+  },
+  {
+    "eventId": "tcfa-2000",
+    "sourceKey": "legacy-33",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l10165.htm",
+    "section": "Art. 17-B inserido na Lei 6.938/1981",
+    "claim": "A lei instituiu a TCFA, vinculada à fiscalização do Ibama sobre atividades potencialmente poluidoras e utilizadoras de recursos naturais.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "459b975bb79c60587cc1ef054282c751f2fd39e256309c6aae50b4e312278cd0"
+  },
+  {
+    "eventId": "cide-tecnologia-2000",
+    "sourceKey": "legacy-34",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l10168.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei instituiu contribuição de intervenção no domínio econômico vinculada ao financiamento do programa de estímulo à interação universidade-empresa, com hipóteses ligadas a tecnologia e contratos com o exterior.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "d4ca140013e8dafc97df5ef2d36744fc51042cdf8e6ef56958675aefd5571a02"
+  },
+  {
+    "eventId": "taxa-saude-2000",
+    "sourceKey": "legacy-35",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9961.htm",
+    "section": "Arts. 18 e 19",
+    "claim": "A lei instituiu a Taxa de Saúde Suplementar, relacionada ao exercício do poder de polícia da ANS.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "ccb2b2275cab2572178ec04dd3473aa4643fb2c8d97377e404128af314745fe8"
+  },
+  {
+    "eventId": "refis-2000",
+    "sourceKey": "legacy-36",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9964.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu o Refis para regularização de débitos de pessoas jurídicas relativos a tributos e contribuições administrados pelos órgãos indicados.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "3e0b1669600b838c2a95a34ed84ff14f3b7a187a3454e2ae0436253ac76a50ac"
+  },
+  {
+    "eventId": "fust-2000",
+    "sourceKey": "l9998",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9998.htm",
+    "section": "Art. 6º, inciso IV",
+    "claim": "A lei do Fust incluiu contribuição sobre receita de serviços de telecomunicações entre as fontes do fundo.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "dfb5b1dc21175377b47ade43581a061ce596777f001c095b7711894e5127d7d2"
+  },
+  {
+    "eventId": "funttel-2000",
+    "sourceKey": "l10052",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l10052.htm",
+    "section": "Art. 4º, incisos III e IV",
+    "claim": "A lei do Funttel estabeleceu contribuições relacionadas à receita de prestadoras e à arrecadação de eventos participativos por telefone.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "96ea6f131f26a2b57d2006ff7d70ea9bd36147e3d8d4adcc7424d7c6babe98a6"
+  },
+  {
+    "eventId": "cide-combustiveis-2001",
+    "sourceKey": "legacy-38",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10336.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu a Cide sobre importação e comercialização de petróleo e derivados, gás natural e derivados e álcool etílico combustível.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "4bd8aca3d464f922611dbe3040dde92c45716aa46ee1c5a737f52c7e5df71657"
+  },
+  {
+    "eventId": "iluminacao-publica-2002",
+    "sourceKey": "legacy-39",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc39.htm",
+    "section": "Art. 149-A incluído na Constituição",
+    "claim": "A emenda permitiu que municípios e Distrito Federal instituíssem contribuição para custear iluminação pública e autorizou sua cobrança na fatura de energia.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6d09708deec490e37a6f1cc3fff5e6e4779b04b6aeb11c8b9bdc4f0aafd1d5ca"
+  },
+  {
+    "eventId": "pis-nao-cumulativo-2002",
+    "sourceKey": "legacy-40",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10637.htm",
+    "section": "Ementa e capítulo I",
+    "claim": "A lei dispôs sobre a não cumulatividade da contribuição ao PIS/Pasep para os contribuintes alcançados.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "4283ef6b097792e125768c0007164123fc5b1051a630054675b7c9fc1df1fe05"
+  },
+  {
+    "eventId": "parcelamento-2003",
+    "sourceKey": "legacy-41",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/L10.684.htm",
+    "section": "Art. 1º",
+    "claim": "A lei permitiu parcelamento de débitos nos termos e limites ali definidos, incluindo débitos perante a Receita Federal e a Procuradoria-Geral da Fazenda Nacional.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "45d883b19c689a6d05531b4ced4f4e4bbe154798d42ceb9f84310071f1bc71ce"
+  },
+  {
+    "eventId": "iss-2003",
+    "sourceKey": "legacy-42",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+    "section": "Art. 1º e lista anexa",
+    "claim": "A lei dispôs sobre o ISS municipal e do Distrito Federal, com incidência sobre os serviços da lista anexa.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "7afcacf8fad67ed716b615363a0e9a8b4ad832cbb8edbf52e9912662d9f05779"
+  },
+  {
+    "eventId": "cofins-nao-cumulativa-2003",
+    "sourceKey": "legacy-43",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.833.htm",
+    "section": "Capítulo I, art. 1º",
+    "claim": "A lei disciplinou a cobrança não cumulativa da Cofins para as hipóteses abrangidas.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "34ec16b533783b72d8eb4c558a4fcf400c46f597aec712234e6ee1f43cae127f"
+  },
+  {
+    "eventId": "contribuicoes-importacao-2004",
+    "sourceKey": "legacy-44",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.865.htm",
+    "section": "Art. 1º",
+    "claim": "A lei instituiu PIS/Pasep-Importação e Cofins-Importação sobre importação de bens e serviços, nos termos previstos.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "16391f04fbe01e8ce7cbed219197fff0cc563d421e58c03f382534f22b63fcb9"
+  },
+  {
+    "eventId": "itr-municipios-2005",
+    "sourceKey": "legacy-45",
+    "url": "https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Lei/L11250.htm",
+    "section": "Art. 1º",
+    "claim": "A lei autorizou convênios para delegar a municípios e Distrito Federal atribuições de fiscalização, lançamento e cobrança do ITR.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "762d881a11cbe92a82df2805b8f6bfb369b95120c527c509a69fe0f450943c5a"
+  },
+  {
+    "eventId": "simples-nacional-2006",
+    "sourceKey": "legacy-47",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+    "section": "Arts. 12 e 13",
+    "claim": "A lei instituiu regime unificado de arrecadação de tributos e contribuições para microempresas e empresas de pequeno porte.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "2e0a71086ba470c4ec6bdccad9e3de3ffbd714691e6a0151e0466fce58c651d9"
+  },
+  {
+    "eventId": "fim-cpmf-2007",
+    "sourceKey": "legacy-48",
+    "url": "https://www12.senado.leg.br/noticias/materias/2007/12/13/senado-rejeita-prorrogacao-da-cpmf",
+    "section": "Notícia da Agência Senado de 13/12/2007, resultado da votação",
+    "claim": "O Senado rejeitou a proposta de prorrogação da CPMF. A notícia oficial registrou que a cobrança deixaria de ocorrer a partir de 1º de janeiro de 2008.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "fcce73fee7f10a42bba95639375b74d6bf4d6ec7f0698924805f62376b52722a"
+  },
+  {
+    "eventId": "mei-2008",
+    "sourceKey": "legacy-50",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm",
+    "section": "Inclusão do art. 18-A na LC 123/2006",
+    "claim": "A lei criou tratamento específico para o MEI no Simples Nacional, prevendo recolhimento em valores fixos mensais nas condições legais.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "7d171f83523a87e0fbe12185953fbe5be4a02aba238ddc6d26cb6bdee364fd4a"
+  },
+  {
+    "eventId": "cprb-2011",
+    "sourceKey": "legacy-52",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12546.htm",
+    "section": "Art. 7º, redação original",
+    "claim": "A lei previu para empresas de TI e TIC nela abrangidas contribuição sobre receita bruta em substituição às contribuições sobre folha indicadas no dispositivo.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "32c3362d5da980790f8b52043953d16a632f773bd753dbc346ff7ffef0c9a34f"
+  },
+  {
+    "eventId": "fim-rtt-2014",
+    "sourceKey": "legacy-54",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12973.htm",
+    "section": "Ementa",
+    "claim": "A lei alterou IRPJ, CSLL, PIS e Cofins e revogou o Regime Tributário de Transição, o RTT.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "d271819ba02bf2bd2208ac3a13eaa89f175934a580f933f43e66f76022f1dc0b"
+  },
+  {
+    "eventId": "importacoes-2015",
+    "sourceKey": "legacy-55",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13137.htm",
+    "section": "Ementa",
+    "claim": "A lei elevou alíquotas de PIS/Pasep-Importação e Cofins-Importação e alterou outros dispositivos tributários.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "c35758a60d1d5510181ca4c11925f5194312865f257b39eb3f69572b4f6f2967"
+  },
+  {
+    "eventId": "difal-constitucional-2015",
+    "sourceKey": "ec87",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc87.htm",
+    "section": "Art. 1º, alteração do art. 155, § 2º, VII e VIII",
+    "claim": "A emenda previu a alíquota interestadual e o diferencial destinado ao estado do consumidor final nas operações abrangidas.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6153bb01a92521c24f81a1658ebd58bd66ed357c79b5238e66f32c95def190fe"
+  },
+  {
+    "eventId": "simples-domestico-2015",
+    "sourceKey": "lc150",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm",
+    "section": "Arts. 31 a 33",
+    "claim": "A lei instituiu o Simples Doméstico para unificar o pagamento de tributos, contribuições e demais encargos do empregador doméstico.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "7bc6b145eab8528943c80cfe5bd12dc449a19ea54291c34aa0d926631e947901"
+  },
+  {
+    "eventId": "simples-calculo-2016",
+    "sourceKey": "lc155",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp155.htm",
+    "section": "Ementa e art. 1º, alterações da LC 123/2006",
+    "claim": "A lei reorganizou a metodologia de apuração devida pelos optantes do Simples Nacional.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "a914f5311a10b1e981a41ca6659898d5eaa432a69ec42afac1d964a9b3afc997"
+  },
+  {
+    "eventId": "iss-alteracoes-2016",
+    "sourceKey": "legacy-57",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp157.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei alterou a LC 116/2003, que disciplina o ISS, incluindo mudanças na legislação nacional de serviços.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "df234792963a593337f4d5adf7f5f370e88459e317df4b2db84f52f84e7a4e5f"
+  },
+  {
+    "eventId": "combustiveis-contribuicoes-2017",
+    "sourceKey": "legacy-58",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9101.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "O decreto alterou coeficientes de redução e valores específicos relativos a PIS e Cofins sobre combustíveis.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "b1932be72f989516bedfb46dbbe2fc62fabada06e89f82321304e28001197bc2"
+  },
+  {
+    "eventId": "beneficios-icms-2017",
+    "sourceKey": "legacy-61",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp160.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei disciplinou convênio para remissão de créditos e reinstituição de benefícios de ICMS concedidos sem a observância exigida pela legislação.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "8a085543a34cbc17490b89b0e37d6c442331194d02bcc18832dc02e903d5b0b3"
+  },
+  {
+    "eventId": "cprb-alteracoes-2018",
+    "sourceKey": "legacy-59",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13670.htm",
+    "section": "Art. 1º",
+    "claim": "A lei alterou dispositivos da Lei 12.546/2011 relativos à contribuição previdenciária sobre receita bruta.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "a27d76bb98a5839a5186b7a2392b941c4bb0c6f1a27eb9e0c54f84ca3598446f"
+  },
+  {
+    "eventId": "apostas-2018",
+    "sourceKey": "legacy-60",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13756.htm",
+    "section": "Ementa e art. 29",
+    "claim": "A lei tratou da destinação da arrecadação de loterias e criou a modalidade de apostas de quota fixa.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "81f24f6d9ce64389985da284f2d9051854caa23f47a0e62eb0bca686da57ee1d"
+  },
+  {
+    "eventId": "previdencia-progressiva-2019",
+    "sourceKey": "ec103",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+    "section": "Art. 28 e §§ 1º e 2º",
+    "claim": "A reforma previu alíquotas progressivas para a contribuição do empregado, inclusive doméstico, e do trabalhador avulso, aplicadas a cada faixa do salário de contribuição.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "5251aa6b0b9e1269167367a49d30d0d27f37c5483d665cae51799c8ed2a86a51"
+  },
+  {
+    "eventId": "transacao-tributaria-2020",
+    "sourceKey": "l13988",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13988.htm",
+    "section": "Art. 1º",
+    "claim": "A lei estabeleceu requisitos e condições para transações envolvendo créditos da Fazenda Pública, inclusive tributários.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "64eba473263524ed2474e33d4eb60b0eb613e97a22d5030cf2f6db457a7dbeb2"
+  },
+  {
+    "eventId": "iss-obrigacoes-2020",
+    "sourceKey": "legacy-63",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp175.htm",
+    "section": "Ementa",
+    "claim": "A lei dispôs sobre padrão nacional de obrigação acessória e transição de partilha do ISS relativo aos serviços que especifica.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "18dfbd1a61976248a721875785cd5bbbda93c9766799bb6d80a7c7fe65679743"
+  },
+  {
+    "eventId": "iof-cambio-2022",
+    "sourceKey": "legacy-64",
+    "url": "https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2022/Decreto/D10997.htm",
+    "section": "Art. 1º, inclusão do art. 15-C no Decreto 6.306/2007",
+    "claim": "O decreto estabeleceu reduções e um cronograma para hipóteses de IOF sobre câmbio.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "7860beaead6ccda713736aefdb55979a8afd1ce322001320252eac1026c25b5b"
+  },
+  {
+    "eventId": "difal-2022",
+    "sourceKey": "legacy-65",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp190.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei alterou a Lei Kandir para regulamentar a cobrança de ICMS em operações e prestações interestaduais destinadas a consumidor final não contribuinte.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "17c44a366bdfb106e12a775be04662d6e8196b8f070f6ebaaa45593ef522cbf1"
+  },
+  {
+    "eventId": "icms-combustiveis-2022",
+    "sourceKey": "legacy-66",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp192.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei definiu combustíveis sobre os quais o ICMS incidiria uma única vez, nos termos constitucionais e legais.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "cb4e17570fb7cb2f1cfd39729f16165f42385b1b810cf6cbfd213bb1fed91dbb"
+  },
+  {
+    "eventId": "essencialidade-icms-2022",
+    "sourceKey": "legacy-67",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp194.htm",
+    "section": "Art. 1º, inclusão do art. 18-A no CTN",
+    "claim": "A lei classificou combustíveis, gás natural, energia elétrica, comunicações e transporte coletivo como essenciais para fins de ICMS, vedando alíquota acima da aplicada às operações em geral nas condições do texto.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "2085e393fb5e77a3d39bb16808cb7bc69f7a613b80cd9d0c717566af3619dea1"
+  },
+  {
+    "eventId": "subvencoes-2023",
+    "sourceKey": "legacy-71",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14789.htm",
+    "section": "Art. 1º",
+    "claim": "A lei dispôs sobre crédito fiscal decorrente de subvenção para implantação ou expansão de empreendimento econômico.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "505ca7662bd82fedc53bb88dc0d758277ed6ea9b36f77e576508c14a2b1f8b1d"
+  },
+  {
+    "eventId": "apostas-regulacao-2023",
+    "sourceKey": "legacy-72",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei disciplinou a modalidade de apostas de quota fixa e alterou a legislação relacionada.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "7af8e93c97c7b09bbc53d589d92bcf25ab242216af0e3ac5c8c3b3963b72bd84"
+  },
+  {
+    "eventId": "reforma-constitucional-2023",
+    "sourceKey": "legacy-73",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "section": "Ementa; arts. 156-A e 195, V, incluídos/alterados",
+    "claim": "A emenda modificou o sistema tributário e estabeleceu a base constitucional do IBS e da CBS, com regras de transição.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6255ccb5423cacbeb29c39cf594eef0fe538d410bbaa18deccebbbd825d4fb5a"
+  },
+  {
+    "eventId": "precos-transferencia-2023",
+    "sourceKey": "l14596",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14596.htm",
+    "section": "Arts. 1º a 3º",
+    "claim": "A lei disciplinou preços de transferência para determinar bases de IRPJ e CSLL em transações controladas com partes relacionadas no exterior.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "c94c874d6283d911788776c2e27b0db5e149dce0bfe75e794faceadbb1294c78"
+  },
+  {
+    "eventId": "fundos-exterior-2023",
+    "sourceKey": "l14754",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm",
+    "section": "Ementa e arts. 1º e 2º",
+    "claim": "A lei tratou da tributação de fundos no País e de rendimentos de pessoas físicas residentes no Brasil em aplicações financeiras, entidades controladas e trusts no exterior.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "6837643bc40bc8d85a00a18ec8539ee1d2eacbb98dfd3c55aa248aec38470f50"
+  },
+  {
+    "eventId": "ir-tabela-2023",
+    "sourceKey": "l14663",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm",
+    "section": "Arts. 5º e 6º",
+    "claim": "A lei alterou a tabela mensal do IRPF e previu desconto simplificado mensal alternativo às deduções legais, quando mais benéfico.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "f20f059e40890042c965deb3eb93c680f3e3c0f08c49c832c6c7bd96895358e2"
+  },
+  {
+    "eventId": "ir-tabela-2024",
+    "sourceKey": "l14848",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14848.htm",
+    "section": "Art. 1º",
+    "claim": "A lei alterou a tabela progressiva mensal do IRPF com faixa inicial de base de cálculo até R$ 2.259,20, a partir de fevereiro de 2024.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "5e59e149c8bcdd6e4620c706e149d043e5dcae40527f25a886c985dd20f69136"
+  },
+  {
+    "eventId": "remessas-importacao-2024",
+    "sourceKey": "l14902",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm",
+    "section": "Art. 32, alteração do Decreto-Lei 1.804/1980",
+    "claim": "A lei incluiu tabela para o regime simplificado de remessas: 20% até US$ 50 e 60% de US$ 50,01 até US$ 3.000, com dedução de US$ 20 nessa segunda faixa.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "5f2c6bada9c8e9e7e869ea633bdd9ae63073bb468bc7df475971c5e6493ca8b4"
+  },
+  {
+    "eventId": "folha-transicao-2024",
+    "sourceKey": "l14973",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14973.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei estabeleceu regime de transição para a contribuição substitutiva sobre receita bruta prevista na Lei 12.546/2011.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "cb86c22201dc61fbfd8c5fde9ed7b6c498c98c93c1c1e75aa43571f7d5a5fccf"
+  },
+  {
+    "eventId": "ir-tabela-2025",
+    "sourceKey": "l15191",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15191.htm",
+    "section": "Arts. 1º e 2º",
+    "claim": "A lei ampliou, a partir de maio de 2025, a primeira faixa da tabela progressiva mensal para base de cálculo até R$ 2.428,80.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "b368f655cdc84bc21b1647bf52e9393fcae59e8bdc717f2a7c8cfd78c213a76b"
+  },
+  {
+    "eventId": "regulamentacao-reforma-2025",
+    "sourceKey": "lc214",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei complementar instituiu IBS, CBS e Imposto Seletivo e estabeleceu regras da reforma da tributação do consumo.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "5c7d59b3c49e5b7c066c2ad28bedf32791193a676ec1a163bec14bea5fa2f680"
+  },
+  {
+    "eventId": "beneficios-federais-2025",
+    "sourceKey": "lc224",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei tratou da redução e dos critérios de concessão de incentivos e benefícios tributários, financeiros e creditícios no âmbito da União.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "be2932a9978297cf037ec489eae020975ccbeb7de0974adb3de6751276b2336a"
+  },
+  {
+    "eventId": "defesa-contribuinte-2026",
+    "sourceKey": "lc225",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp225.htm",
+    "section": "Arts. 1º a 3º",
+    "claim": "A lei estabeleceu normas gerais de direitos, garantias, deveres e procedimentos na relação entre contribuintes e administração tributária.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "4c6ae43b6a8d18e5c2a182445b425374ca0632e601b308c37c3d5b4ab69d6b13"
+  },
+  {
+    "eventId": "gestao-ibs-itcmd-2026",
+    "sourceKey": "lc227",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "section": "Ementa e art. 1º",
+    "claim": "A lei instituiu o Comitê Gestor do IBS, disciplinou sua administração e distribuição de receita e estabeleceu normas gerais relativas ao ITCMD.",
+    "retrievedAt": "2026-09-19",
+    "sourceHtmlSha256": "4175167fdfa317c29b622f9c766602625f620fa621318f15cfeab3a2bc31b81c"
+  }
+]

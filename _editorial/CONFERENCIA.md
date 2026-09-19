@@ -21,3 +21,15 @@ Os 131 objetos originais foram preservados sem alteração. Cada posição tem u
 ## Verificação técnica
 
 Testes: esquema e evidências obrigatórias, bloqueio de pendentes, duplicação, URLs seguras, busca sem acentos, ordenação, exemplos de IR, limites de faixas e dados de entrada inválidos. Inspeção da interface em 390 × 844 e 1440 × 1000, temas claro/escuro, filtros, resultado vazio, persistência da pesquisa na URL e link individual. Sem erros de console observados. Esses testes não substituem revisão jurídica.
+
+## Ampliação da seleção: 82 marcos
+
+Foram acrescentadas 77 fichas, documentadas individualmente em `conferencia-ampliacao.json`. A leitura abrange os dispositivos citados, não certifica todas as disposições da norma nem toda sua jurisprudência. Textos compilados foram usados com atenção às marcações de alteração; as fichas históricas não apresentam as alíquotas originais como atuais. Os resumos foram reescritos, não aprovados em lote a partir das descrições legadas.
+
+Correções adicionais: Lei 10.684 é de 2003; Lei 13.137 é de 2015; LC 160 é de 2017; Fistel não foi criado pela LGT de 1997; a LC 192/2022 disciplina monofasia do ICMS. LC 199/2023 não trata de incentivo da Zona Franca. A suposta notícia de tributação de remessas foi substituída pelo art. 32 da Lei 14.902/2024, com limite explícito de aplicação histórica. As mudanças de 2025/2026 acrescentadas se restringem ao objeto documentado, sem inventar alíquotas ou efeitos sobre preços.
+
+Cobertura: seleção de normas nacionais/federais e marcos constitucionais; não há inventário completo de legislação estadual, distrital e municipal. Permanecem pendentes 43 itens da base antiga. Não apresentar a contagem como número de impostos, de aumentos ou como carga tributária.
+
+Publicação: utilizar o Pages existente a partir de `main`, com exclusões explícitas em `_config.yml`. O fluxo separado de publicação proposto antes foi removido para não disputar a publicação com o fluxo já configurado. O arquivo editorial permanece acessível no repositório para auditoria, mas não no site.
+
+Validação desta ampliação: 10 testes automatizados passaram; paginação 12→24, filtro de ano 2024 (3 resultados), busca sem acento (1 resultado), link de 1922 fora do primeiro bloco e exemplo de IR de R$ 382,88 conferidos no navegador. Em 390 × 844, largura de conteúdo igual à janela, sem transbordamento horizontal; nenhum erro de console observado.
